@@ -1,0 +1,59 @@
+{% extends "society_main/base.html" %}
+
+{% block content %}
+
+
+
+<main>
+
+  <div class="container pt-4 pb-4">
+
+    <h1 class="text-center">Контакты</h1>
+
+    <div class="row">
+
+<div class="col-md-6">
+
+  <h3 class="mt-4"><span class="fw-bold">Адрес:</span></h3>
+  <p class="ms-4">г. Новороссийск, ул. Ленина, д. 5, офис 123</p>
+
+  <h4 class="mt-4"><span class="fw-bold">Директор:</span></h4>
+  <p class="ms-4 fs-5 fw-bold">Авдеев Валентин</p>
+  <p class="ms-4"><span class="fw-bold">Телефон:</span> +7 (495) 123-45-67</p>
+  <p class="ms-4"><span class="fw-bold">Email:</span> info@company.com</p>
+
+</div>
+
+      <div class="col-md-6">
+
+        <h3 class="mt-4">Напишите нам:</h3>
+
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Ваше имя</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Сообщение</label>
+            <textarea class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+
+
+
+
+{% endblock %}
