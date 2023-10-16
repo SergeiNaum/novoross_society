@@ -1,31 +1,79 @@
 {% extends "society_main/base.html" %}
+{% load static %}
 
 {% block content %}
 
 
+ <main>
 
+    <div class="container pt-5">
 
-<main>
+      <h1 class="display-4 text-center">
+        Добро пожаловать в сообщество <br>
+        неунывающих людей <br>
+        <span class="animate-text">
+          <span>О</span>
+          <span>п</span>
+          <span>т</span>
+          <span>и</span>
+          <span>м</span>
+          <span>и</span>
+          <span>с</span>
+          <span>т</span>
+          <span> </span>
+          <span>Н</span>
+          <span>о</span>
+          <span>в</span>
+          <span>о</span>
+          <span>р</span>
+          <span>о</span>
+          <span>с</span>
+          <span>с</span>
+          <span>и</span>
+          <span>й</span>
+          <span>с</span>
+          <span>к</span>
 
-  <div class="container">
-
-    <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5" style="background-image: url('img.jpg');">
-      <h1 class="mb-3 h2">С Оптимизмом по жизни!</h1>
-
-      <p class="mb-3 lead">
-        Мы верим что каждый инвалид - это Личность с большой буквы!
-      </p>
+        </span>
+        <span class="static-text">Оптимист Новороссийск</span>
+      </h1>
     </div>
 
-    <!-- Остальной контент -->
+    <div id="carouselIndicators" class="carousel slide carousel" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
 
-  </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{% static 'society_main/images/Оптимист_квадрат.jpg' %}" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="{% static 'society_main/images/image_(5).jpg' %}" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
 
-</main>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
 
 
-
-
+  </main>
 
 
 {% endblock %}

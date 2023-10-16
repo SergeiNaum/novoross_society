@@ -1,0 +1,106 @@
+
+
+/* Стили для body */
+body {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Стили для header */
+header {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%) !important;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.nav-link {
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-link.selected {
+  color: #fff;
+}
+
+/* Стили для анимации текста */
+
+.static-text {
+  display: none;
+}
+
+.animate-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.animate-text span {
+  display: inline-block;
+  animation: fall 2s ease-in-out forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100%);
+  }
+  60% {
+    transform: translateY(20px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Стили для footer */
+footer {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%) !important;
+  opacity: 0.8;
+}
+
+.carousel {
+  width: 66.666667%;
+  margin: 0 auto;
+}
+
+.carousel-inner,
+.carousel-item {
+  height: 500px; /* высота слайдов */
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .carousel {
+    width: 100%;
+  }
+}
+
+/* Подключаем шрифт Montserrat из папки fonts */
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype"),
+       url("../fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype"),
+       url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
