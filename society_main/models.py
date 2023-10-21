@@ -65,10 +65,10 @@ class Post(TimestampedModel):
         ]
 
 
-
 class Category(models.Model):
     name = models.CharField(max_length=100, db_index=True, verbose_name="Категория")
     slug = models.SlugField(max_length=255, unique=True, db_index=True)
+    # slug = models.SlugField(max_length=255, db_index=True, blank=True, default='')
     icon = models.CharField(max_length=100)
 
     class Meta:

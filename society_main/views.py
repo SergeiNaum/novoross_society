@@ -56,12 +56,12 @@ class ContactsView(View):
 
 
 class NewsView(View):
-    posts = Post.published.filter(is_published=1)
-    def get(self, request, *args, **kwargs):
 
+    def get(self, request, *args, **kwargs):
+        posts = Post.objects.filter(is_published=1)
         data = {
             'title': 'Новости',
-            'posts': self.posts,
+            'posts': posts,
             'cat_selected': 0,
         }
 
@@ -89,7 +89,7 @@ def show_category(request, cat_slug):
         'cat_selected': category.pk,
     }
 
-    return render(request, 'society_main/index.html', context=data)
+    return render(request, 'society_main/news.html', context=data)
 
 
 def page_not_found(request, exception):
