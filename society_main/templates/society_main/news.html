@@ -1,13 +1,13 @@
 {% extends "society_main/base.html" %}
 
+
+
 {% block content %}
+<div class="content-wrapper">
+{% include "society_main/components/sidebar.html" %}
 
-
-
-<h1>Новости Оптимистичных людей</h1>
-
-
-
-
-
+ <div class="articles-content">
+{% include "society_main/components/dashboard.html" %}
+ </div>
+</div>
 {% endblock %}

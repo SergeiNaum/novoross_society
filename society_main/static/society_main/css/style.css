@@ -6,17 +6,46 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Стили для img */
+
+
+img.img-article-left {
+	max-width: 300px;
+	height: auto;
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+img.img-article-left.thumb {
+	max-width: 150px;
+	height: auto;
+}
+
 /* Стили для header */
 header {
   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%) !important;
+
 }
 
-.navbar-brand img {
-  height: 50px;
+.navbar-brand {
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease-in;
+  box-shadow: 0 4px 6px rgba(255,177,80 .2);
+
+}
+
+.navbar-brand:hover {
+    color: #ff4500;
+    box-shadow: 0 9px 9px rgba(255,177,80 .5);
+
+
 }
 
 .nav-link {
-  transition: color 0.3s;
+  transition: color 0.3s ease-in;
 }
 
 .nav-link:hover {
@@ -103,4 +132,56 @@ footer {
        url("../fonts/Montserrat-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+}
+
+ /* div строки формы */
+
+.form-group {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.form-style {
+    padding: 9px 10px;
+
+}
+
+label {
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    cursor: text;
+    transition: top 0.3s ease;
+}
+
+ /* для js поднимает label */
+.label-up {
+    top: -26px;
+    color: #800000;
+}
+
+ul.list-articles {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.list-articles li {
+	border-bottom: 1px solid #ccc;
+}
+
+div.article-panel {
+    background: #eee;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #555;
+}
+div.article-panel p.first {
+    margin: 0;
+    float: left;
+}
+div.article-panel p.last {
+    margin: 0;
+    float: right;
 }
