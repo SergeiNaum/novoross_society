@@ -1,0 +1,23 @@
+{% if tags %}
+    Теги:
+    <ul class="list-unstyled px-2">
+        <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block">
+            Тэги:</a></li>
+        {% for t in tags %}
+        <li><a href="{{t.get_absolute_url}}" class="text-decoration-none px-3 py-2 d-block">
+            <i class="{{ t.icon }}"></i> {{ t.tag }}</a></li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+<!--            <ul class="list-unstyled px-2">-->
+
+<!--                    {% for tag in post.tags.all %}-->
+<!--                <li class=""><a href="{% url 'posts_by_tag' tag.slug %}" class="text-decoration-none px-3 py-2 d-block"><i class="fa-solid fa-tree"></i>-->
+<!--                        Отдых </a></li>-->
+<!--                {% endfor %}-->
+
+<!--                <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fa-solid fa-circle-exclamation"></i>-->
+<!--                        Важно </a></li>-->
+
+<!--            </ul>-->

@@ -3,9 +3,10 @@ from django.http import HttpResponse, HttpResponseNotFound
 from django.urls import reverse
 from django.contrib import messages
 from django.views import View
+from django.views.generic import ListView
 
 from society_main.forms import ContactForm
-from society_main.models import Post, Category
+from society_main.models import Post, Category, TagPost
 
 cats_db = [
     {'id': 1, 'name': 'Досуг+'},
@@ -58,7 +59,7 @@ class ContactsView(View):
 class NewsView(View):
 
     def get(self, request, *args, **kwargs):
-        posts = Post.objects.filter(is_published=1)
+        posts = Post.published.all()
         data = {
             'title': 'Новости',
             'posts': posts,
@@ -66,6 +67,18 @@ class NewsView(View):
         }
 
         return render(request, 'society_main/news.html', context=data)
+
+
+def show_tag_postlist(request, tag_slug):
+    tag = get_object_or_404(TagPost, slug=tag_slug)
+    posts = tag.tags.filter(is_published=Post.Status.PUBLISHED)
+    data = {
+        'title': f'Тег: {tag.tag}',
+        'posts': posts,
+        'cat_selected': None,
+    }
+
+    return render(request, 'society_main/news.html', context=data)
 
 
 def show_post(request, post_slug):

@@ -1,6 +1,9 @@
 from django.db import models
 from django.urls import reverse
-from django.utils import timezone
+
+from taggit.managers import TaggableManager
+from taggit.models import TagBase
+
 
 def translit_to_eng(s: str) -> str:
     d = {'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd',
@@ -43,9 +46,10 @@ class Post(TimestampedModel):
     # slug = models.SlugField(max_length=255, db_index=True, blank=True, default='')
     photo = models.ImageField(upload_to="photos/%Y/%m/%d/", default=None, verbose_name="Фото")
     content = models.TextField(blank=True, verbose_name="Текст статьи")
-    # tags = models.ManyToManyField('TagPost', blank=True, related_name='tags', verbose_name="Теги")
+    tags = models.ManyToManyField('TagPost', blank=True, related_name='tags', verbose_name="Теги")
     is_published = models.BooleanField(choices=tuple(map(lambda x: (bool(x[0]), x[1]), Status.choices)),                                       default=Status.DRAFT, verbose_name="Статус")
     cat = models.ForeignKey('Category', on_delete=models.PROTECT, verbose_name="Категории")
+
 
     objects = models.Manager()
     published = PublishedManager()
@@ -80,14 +84,15 @@ class Category(models.Model):
 
     def get_absolute_url(self):
         return reverse('category', kwargs={'cat_slug': self.slug})
-#
-#
-# class TagPost(models.Model):
-#     tag = models.CharField(max_length=100, db_index=True)
-#     slug = models.SlugField(max_length=255, unique=True, db_index=True)
-#
-#     def __str__(self):
-#         return self.tag
-#
-#     def get_absolute_url(self):
-#         return reverse('tag', kwargs={'tag_slug': self.slug})
+
+
+class TagPost(models.Model):
+    tag = models.CharField(max_length=100, db_index=True)
+    slug = models.SlugField(max_length=255, unique=True, db_index=True)
+    icon = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.tag
+
+    def get_absolute_url(self):
+        return reverse('tag', kwargs={'tag_slug': self.slug})
