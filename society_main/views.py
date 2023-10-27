@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse, HttpResponseNotFound
-from django.urls import reverse
+from django.urls import reverse, reverse_lazy
 from django.contrib import messages
 from django.views import View
 from django.views.generic import ListView, FormView
@@ -28,39 +28,16 @@ class AboutView(View):
         })
 
 
-# class ContactsView(View):
-#
-#     def get(self, request, *args, **kwargs):
-#         title = 'Контакты'
-#
-#         return render(request, 'society_main/contacts.html', context={
-#             'title': title, 'active_page': 'contacts',
-#         })
-#
-#     def post(self, request, *args, **kwargs):
-#         title = 'Контакты'
-#         form = ContactForm(request.POST)
-#         if form.is_valid():
-#             name = form.cleaned_data.get('name')
-#             email = form.cleaned_data.get('email')
-#             message = form.cleaned_data.get('message')
-#             form.save()
-#             messages.success(request, 'Форма была успешно отправлена.')
-#             indx = reverse('index')
-#             return redirect(indx)
-#         return render(request, 'society_main/contacts.html', context={
-#             'title': title, 'form': form
-#         })
-
-
-
 class ContactsView(FormView):
     form_class = ContactForm
     template_name = 'society_main/contacts.html'
-    success_url = '/'
+    success_url = reverse_lazy('index')
+    extra_context = {
+        'title': 'Контакты',
+        'active_page': 'contacts'
+    }
 
     def form_valid(self, form):
-        # Обработка валидной формы
         form.save()
         return super().form_valid(form)
 

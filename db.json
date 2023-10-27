@@ -527,66 +527,8 @@
     "model": "tagpost"
   }
 },
-{
-  "model": "society_main.contactformmodel",
-  "pk": 1,
-  "fields": {
-    "time_create": "2023-10-27T11:06:30.412Z",
-    "time_update": "2023-10-27T11:06:30.412Z",
-    "name": "sss",
-    "email": "Sergey@google.com",
-    "message": "sssss",
-    "checkbox": false
-  }
-},
-{
-  "model": "society_main.contactformmodel",
-  "pk": 2,
-  "fields": {
-    "time_create": "2023-10-27T14:09:41.461Z",
-    "time_update": "2023-10-27T14:09:41.461Z",
-    "name": "w",
-    "email": "w@mail.ru",
-    "message": "w",
-    "checkbox": false
-  }
-},
-{
-  "model": "society_main.contactformmodel",
-  "pk": 3,
-  "fields": {
-    "time_create": "2023-10-27T14:11:10.584Z",
-    "time_update": "2023-10-27T14:11:10.584Z",
-    "name": "s",
-    "email": "s@mail.com",
-    "message": "ss",
-    "checkbox": false
-  }
-},
-{
-  "model": "society_main.contactformmodel",
-  "pk": 4,
-  "fields": {
-    "time_create": "2023-10-27T14:15:58.266Z",
-    "time_update": "2023-10-27T14:15:58.266Z",
-    "name": "ss",
-    "email": "rr@mail.com",
-    "message": "qsa",
-    "checkbox": false
-  }
-},
-{
-  "model": "society_main.contactformmodel",
-  "pk": 5,
-  "fields": {
-    "time_create": "2023-10-27T14:16:28.578Z",
-    "time_update": "2023-10-27T14:16:28.578Z",
-    "name": "sas",
-    "email": "aewe@mail.com",
-    "message": "ssasds",
-    "checkbox": false
-  }
-},
+
+
 {
   "model": "society_main.post",
   "pk": 1,
