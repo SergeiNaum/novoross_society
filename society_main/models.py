@@ -34,6 +34,10 @@ class ContactFormModel(TimestampedModel):
     name = models.CharField(max_length=100)
     email = models.EmailField(unique=True, max_length=200)
     message = models.TextField(verbose_name="Текст обращения")
+    checkbox = models.BooleanField(default=False)
+
+
+
 
 
 class Post(TimestampedModel):

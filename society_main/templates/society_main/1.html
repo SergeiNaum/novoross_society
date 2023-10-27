@@ -1,4 +1,39 @@
-<li><div class="article-panel">
-         <p class="first">Категория: {{p.cat}}</p>
-         <p class="last">Дата: {{p.time_update|date:"d-m-Y H:i:s"}}</p>
-</div>
+
+
+<form action="" method="POST">
+
+  {% csrf_token %}
+  <div class="form-error">{{ form.non_field_errors }}</div>
+
+  <div class="mb-3 form-group">
+    <input type="text" id="name-input" class="form-control form-style" name="{{ form.name.name }}" value="{{ form.name.value|default_if_none:'' }}" required>
+    <label for="name-input" id="name-label" class="form-label">Ваше имя</label>
+  </div>
+  <div class="form-error">{{ form.name.errors }}</div>
+
+  <br>
+  <div class="mb-3 form-group">
+    <input type="email" id="email-input"  class="form-control form-style " name="{{ form.email.name }}" value="{{ form.email.value|default_if_none:'' }}" required>
+    <label for="email-input" id="email-label" class="form-label">Email</label>
+    <div class="form-error">{{ form.email.errors }}</div>
+
+
+  </div>
+
+
+  <br>
+  <div class="mb-3 form-group">
+    <textarea id="message-input" class="form-control form-style" name="{{ form.message.name }}">{{ form.message.value|default_if_none:'' }}</textarea>
+    <label for="message-input" id="message-label" class="form-label">Сообщение</label>
+  </div>
+  <div class="form-error">{{ form.message.errors }}</div>
+  <div class="mb-3  form-group">
+    <label for="accept_tos" class="custom-checkbox">
+      <input type="checkbox" class="chechbox_in" id="accept_tos" required>
+      <p class="chechbox_p"> Я даю своё согласие на обработку персональных данных в соответствии с политикой в отношении обработки персональных данных НГО «Оптимист»</p>
+    </label>
+  </div>
+
+
+  <button type="submit" class="btn btn-primary mt-4">Отправить</button>
+</form>
