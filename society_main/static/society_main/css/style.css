@@ -257,3 +257,24 @@ ul.tags-list li a {
 	font-size: 16px;
 	border: 1px solid #aaa;
 }
+
+.social-icons {
+  display: inline-block;;
+  justify-content: center;
+}
+
+
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2);
+}
