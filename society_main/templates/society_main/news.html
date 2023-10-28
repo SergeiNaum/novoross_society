@@ -27,8 +27,10 @@
                     {% autoescape off %}
                     {{p.content|linebreaks|truncatewords:50}}
                     {% endautoescape %}
-                    <div class="d-flex"></div>
-                    <p class="btn btn-primary ms-auto" onclick="location.href='{{ p.get_absolute_url }}'">Читать</p>
+                    <div class="d-flex">
+                    <p class="btn btn-primary ms-auto me-4" onclick="location.href='{{ p.get_absolute_url }}'">
+                        <i class="fa-brands fa-readme"></i>  Читать</p>
+                        </div>
                     </li>
                 {% endif %}
             {% endfor %}
