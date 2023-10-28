@@ -34,7 +34,7 @@ class ContactFormModel(TimestampedModel):
     name = models.CharField(max_length=100, verbose_name='Имя')
     email = models.EmailField(unique=True, max_length=200, verbose_name='email')
     message = models.TextField(verbose_name="Текст обращения")
-    # checkbox = models.BooleanField(default=False)
+    checkbox = models.BooleanField(default=False)
 
 
 

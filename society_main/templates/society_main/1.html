@@ -1,32 +1,48 @@
+{% extends "society_main/base.html" %}
 
 
-<form action="" method="POST">
+{% block content %}
+
+
+
+<main>
+
+  <div class="container pt-4 pb-4">
+
+    <h1 class="text-center">Контакты</h1>
+
+    <div class="row">
+
+<div class="col-md-6">
+
+  <h3 class="mt-4"><span class="fw-bold">Адрес:</span></h3>
+  <p class="ms-4">г. Новороссийск, ул. Ленина, д. 5, офис 123</p>
+
+  <h4 class="mt-4"><span class="fw-bold">Директор:</span></h4>
+  <p class="ms-4 fs-5 fw-bold">Авдеев Валентин</p>
+  <p class="ms-4"><span class="fw-bold">Телефон:</span> +7 (495) 123-45-67</p>
+  <p class="ms-4"><span class="fw-bold">Email:</span> optimistnovoross2018@gmail.com</p>
+
+</div>
+
+      <div class="col-md-6">
+        <h3 class="mt-4">Напишите нам:</h3>
+        <br>
+
+<form action="" method="POST" id="contactForm">
 
   {% csrf_token %}
   <div class="form-error">{{ form.non_field_errors }}</div>
 
+  {% for f in form %}
   <div class="mb-3 form-group">
-    <input type="text" id="name-input" class="form-control form-style" name="{{ form.name.name }}" value="{{ form.name.value|default_if_none:'' }}" required>
-    <label for="name-input" id="name-label" class="form-label">Ваше имя</label>
+<label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>
+    {{ f }}
   </div>
-  <div class="form-error">{{ form.name.errors }}</div>
-
+  <div class="form-error">{{ f.errors }}</div>
   <br>
-  <div class="mb-3 form-group">
-    <input type="email" id="email-input"  class="form-control form-style " name="{{ form.email.name }}" value="{{ form.email.value|default_if_none:'' }}" required>
-    <label for="email-input" id="email-label" class="form-label">Email</label>
-    <div class="form-error">{{ form.email.errors }}</div>
+    {% endfor %}
 
-
-  </div>
-
-
-  <br>
-  <div class="mb-3 form-group">
-    <textarea id="message-input" class="form-control form-style" name="{{ form.message.name }}">{{ form.message.value|default_if_none:'' }}</textarea>
-    <label for="message-input" id="message-label" class="form-label">Сообщение</label>
-  </div>
-  <div class="form-error">{{ form.message.errors }}</div>
   <div class="mb-3  form-group">
     <label for="accept_tos" class="custom-checkbox">
       <input type="checkbox" class="chechbox_in" id="accept_tos" required>
@@ -34,6 +50,37 @@
     </label>
   </div>
 
-
-  <button type="submit" class="btn btn-primary mt-4">Отправить</button>
+  <button type="submit" class="btn btn-primary mt-2">
+    <i class="fa-sharp fa-solid fa-paper-plane"></i>  Отправить
+  </button>
 </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  const form = document.getElementById("contactForm");
+
+  form.addEventListener("input", function(event) {
+
+    const field = event.target;
+
+    const label = form.querySelector(`label[for="${field.id}"]`);
+
+    if(field.value !== '') {
+      label.classList.add('label-up');
+    } else {
+      label.classList.remove('label-up');
+    }
+
+  });
+
+});
+</script>
+
+{% endblock %}

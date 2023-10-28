@@ -29,35 +29,35 @@
         <h3 class="mt-4">Напишите нам:</h3>
         <br>
 
-<form action="" method="POST" id="contactForm">
-
+<form action="" method="POST" class="" id="contactForm">
   {% csrf_token %}
   <div class="form-error">{{ form.non_field_errors }}</div>
-
-  {% for f in form %}
   <div class="mb-3 form-group">
-<label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>
-    {{ f }}
+    {{ form.name.label_tag }}
+    {{ form.name }} <br>
   </div>
-  <div class="form-error">{{ f.errors }}</div>
-  <br>
-    {% endfor %}
-
-  <div class="mb-3  form-group">
-    <label for="accept_tos" class="custom-checkbox">
-      <input type="checkbox" class="chechbox_in" id="accept_tos" required>
-      <p class="chechbox_p"> Я даю своё согласие на обработку персональных данных в соответствии с политикой в отношении обработки персональных данных НГО «Оптимист»</p>
+  <div class="mb-3 form-group">
+    {{ form.email.label_tag }}
+    {{ form.email }} <br>
+  </div>
+  <div class="mb-3 form-group">
+    {{ form.message.label_tag }}
+    {{ form.message }} <br>
+  </div>
+  <div class="mb-3 form-group d-flex align-items-start">
+    <label for="{{ form.checkbox.id_for_label }}" class="custom-checkbox ps-3">
+      {{ form.checkbox }}
+      <p class=" mt-2 ps-3"> Я даю своё согласие на обработку персональных данных в соответствии с политикой в отношении обработки персональных данных НГО «Оптимист»</p>
     </label>
   </div>
-
-  <button type="submit" class="btn btn-primary mt-2">
-    <i class="fa-sharp fa-solid fa-paper-plane"></i>  Отправить</button>
+  <button type="submit" class="btn btn-primary mt-2 ">
+    <i class="fa fa-solid fa-paper-plane"></i> Отправить
+  </button>
 </form>
       </div>
     </div>
   </div>
 </main>
-
 
 
 <script>
