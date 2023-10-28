@@ -1,6 +1,6 @@
 from django.forms import ModelForm
 from django import forms
-from django.forms import CheckboxInput
+
 
 from society_main.models import ContactFormModel
 

@@ -13,16 +13,16 @@
 <div class="articles-content px-3 pt-4">
     <h2 class="fs-5 fw-bold"> Статьи </h2>
     <hr class="text-white">
-        <ul class="list-articles">
+        <ul class="list-group list-articles">
             {% for p in posts %}
                 {% if p.is_published %}
                 <li><div class="article-panel">
              <p class="first">Категория: {{ p.cat.name }}</p>
              <p class="last">Дата: {{p.time_update|date:"d-m-Y H:i:s"}}</p>
     </div>
-                    <li><h2>{{p.title}}</h2>
+                    <li class="list-group-item-action "><h2 class="text-bold">{{p.title}}</h2>
                 {% if post.photo %}
-                    <p ><img class="img-article-left" src="{{post.photo.url}}"></p>
+                    <p><img class="img-article-left" src="{{post.photo.url}}"></p>
                 {% endif %}
                     {% autoescape off %}
                     {{p.content|linebreaks|truncatewords:50}}

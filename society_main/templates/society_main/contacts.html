@@ -47,7 +47,9 @@
   <div class="mb-3 form-group d-flex align-items-start">
     <label for="{{ form.checkbox.id_for_label }}" class="custom-checkbox ps-3">
       {{ form.checkbox }}
+      <a class="no-underline " href="{% url 'policy' %}">
       <p class=" mt-2 ps-3"> Я даю своё согласие на обработку персональных данных в соответствии с политикой в отношении обработки персональных данных НГО «Оптимист»</p>
+      </a>
     </label>
   </div>
   <button type="submit" class="btn btn-primary mt-2 ">

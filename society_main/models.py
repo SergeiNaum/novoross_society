@@ -20,6 +20,7 @@ class TimestampedModel(models.Model):
 
     time_create = models.DateTimeField(auto_now_add=True, verbose_name="Время создания")
     time_update = models.DateTimeField(auto_now=True, verbose_name="Время изменения")
+
     class Meta:
         abstract = True
 
@@ -37,9 +38,6 @@ class ContactFormModel(TimestampedModel):
     checkbox = models.BooleanField(default=False)
 
 
-
-
-
 class Post(TimestampedModel):
     class Status(models.IntegerChoices):
         DRAFT = 0, 'Черновик'
@@ -51,9 +49,9 @@ class Post(TimestampedModel):
     photo = models.ImageField(upload_to="photos/%Y/%m/%d/", default=None, verbose_name="Фото")
     content = models.TextField(blank=True, verbose_name="Текст статьи")
     tags = models.ManyToManyField('TagPost', blank=True, related_name='tags', verbose_name="Теги")
-    is_published = models.BooleanField(choices=tuple(map(lambda x: (bool(x[0]), x[1]), Status.choices)),                                       default=Status.DRAFT, verbose_name="Статус")
+    is_published = models.BooleanField(choices=tuple(map(lambda x: (bool(x[0]), x[1]), Status.choices)),
+                                       default=Status.DRAFT, verbose_name="Статус")
     cat = models.ForeignKey('Category', on_delete=models.PROTECT, verbose_name="Категории")
-
 
     objects = models.Manager()
     published = PublishedManager()

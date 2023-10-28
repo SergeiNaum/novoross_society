@@ -28,6 +28,15 @@ class AboutView(View):
         })
 
 
+class PolicyView(View):
+
+    def get(self, request, *args, **kwargs):
+        title = 'Политика обработки персональных данных'
+        return render(request, 'society_main/policy.html', context={
+            'title': title,
+        })
+
+
 class ContactsView(FormView):
     form_class = ContactForm
     template_name = 'society_main/contacts.html'
@@ -93,4 +102,3 @@ def show_category(request, cat_slug):
 
 def page_not_found(request, exception):
     return HttpResponseNotFound("<h1>Страница не найдена</h1>")
-

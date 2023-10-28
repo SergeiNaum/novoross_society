@@ -13,15 +13,15 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='TagPost',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('tag', models.CharField(db_index=True, max_length=100)),
-                ('slug', models.SlugField(max_length=255, unique=True)),
-                ('icon', models.CharField(max_length=100)),
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),  # noqa E501
+                ('tag', models.CharField(db_index=True, max_length=100)), # noqa E501
+                ('slug', models.SlugField(max_length=255, unique=True)), # noqa E501
+                ('icon', models.CharField(max_length=100)), # noqa E501
             ],
         ),
         migrations.AddField(
             model_name='post',
             name='tags',
-            field=models.ManyToManyField(blank=True, related_name='tags', to='society_main.tagpost', verbose_name='Теги'),
+            field=models.ManyToManyField(blank=True, related_name='tags', to='society_main.tagpost', verbose_name='Теги'), # noqa E501
         ),
     ]
