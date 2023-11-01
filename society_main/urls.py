@@ -7,9 +7,9 @@ from society_main.views import (
     AboutView,
     ContactsView,
     NewsView,
-    show_post,
-    show_category,
-    show_tag_postlist,
+    ShowPost,
+    NewsCatsView,
+    NewsTagsView,
     PolicyView
 )
 urlpatterns = [
@@ -17,9 +17,9 @@ urlpatterns = [
     path('about/', AboutView.as_view(), name='about'),
     path('contacts/', ContactsView.as_view(), name='contacts'),
     path('news/', NewsView.as_view(), name='news'),
-    path('news/post/<slug:post_slug>/', show_post, name='post'),
-    path('category/<slug:cat_slug>/', show_category, name='category'),
-    path('tags/<slug:tag_slug>/', show_tag_postlist, name='tag'),
+    path('news/post/<slug:slug>/', ShowPost.as_view(), name='post'),
+    path('category/<slug:cat_slug>/', NewsCatsView.as_view(), name='category'),
+    path('tags/<slug:tag_slug>/', NewsTagsView.as_view(), name='tag'),
     path('policy/', PolicyView.as_view(), name='policy'),
 
 ]

@@ -20,15 +20,15 @@
              <p class="first">Категория: {{ p.cat.name }}</p>
              <p class="last">Дата: {{p.time_update|date:"d-m-Y H:i:s"}}</p>
     </div>
-                    <li class="list-group-item-action "><h2 class="text-bold">{{p.title}}</h2>
-                {% if post.photo %}
-                    <p><img class="img-article-left" src="{{post.photo.url}}"></p>
+                    <li class="list-group-item-action"><h2 class="text-bold">{{p.title}}</h2>
+                {% if p.photo %}
+                    <p><img class="mx-auto img-fluid img-article-left thumb rounded" src="{{p.photo.url}}"></p>
                 {% endif %}
                     {% autoescape off %}
-                    {{p.content|linebreaks|truncatewords:50}}
+                    {{ p.content|linebreaks|truncatewords:50 }}
                     {% endautoescape %}
                     <div class="d-flex">
-                    <p class="btn btn-primary ms-auto me-4" onclick="location.href='{{ p.get_absolute_url }}'">
+                    <p class="btn btn-lg btn-primary ms-auto me-4" onclick="location.href='{{ p.get_absolute_url }}'">
                         <i class="fa-brands fa-readme"></i>  Читать</p>
                         </div>
                     </li>

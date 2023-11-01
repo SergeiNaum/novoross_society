@@ -1,4 +1,4 @@
-<script>
+
   ["name", "email", "message"].forEach(function (field) {
     document.getElementById(`${field}-input`).addEventListener("input", function (event) {
       const label = document.getElementById(`${field}-label`);
@@ -9,5 +9,5 @@
       }
     });
   });
-</script>
+
 

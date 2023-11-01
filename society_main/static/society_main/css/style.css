@@ -238,6 +238,16 @@ div.article-panel p.last {
     float: right;
 }
 
+img.img-article-left.thumb {
+	max-width: 150px;
+	height: auto;
+}
+
+.article-img {
+  max-width: auto;
+  height: 750px;
+}
+
 ul.tags-list {
     width: 100%;
 	margin: 0;

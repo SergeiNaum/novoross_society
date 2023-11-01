@@ -4,22 +4,45 @@
 <!-- Теги -->
 {% with post.tags.all as tags %}
 {% if tags %}
-<ul class="tags-list">
-    <li>Теги:</li>
-    {% for t in tags %}
-    <li><a href="{{t.get_absolute_url}}">{{t.tag}}</a></li>
-    {% endfor %}
-</ul>
+<div class="container mt-3">
+  <div class="row">
+      <div class="col-sm-12, col-md-6, col-lg-4, col-12">
+  <ul class="list-group">
+    <li class="list-group-item active">Теги:</li>
+      {% for t in tags %}
+      <li class="list-group-item"><a href="{{t.get_absolute_url}}">{{t.tag}}</a></li>
+      {% endfor %}
+  </ul>
+</div>
 {% endif %}
 {% endwith %}
 {% endblock %}
+    </div>
+  </div>
 
 {% block content %}
-<h1>{{post.title}}</h1>
- 
-{% if post.photo %}
-<p ><img class="img-article-left" src="{{post.photo.url}}"></p>
-{% endif %}
- 
-{{post.content|linebreaks}}
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-12, col-md-6, col-lg-4, col-12">
+  <h1 class="pb-5 fw-bold display-6">{{ post.title }}</h1>
+      </div>
+    </div>
+  {% if post.photo %}
+  <div class="row mb-4">
+    <div class="col-md-6, col-lg-4, col-sm-12">
+      <img src="{{post.photo.url}}" class="mx-auto d-block img-fluid rounded article-img" alt="{{post.title}}">
+    </div>
+  </div>
+  {% endif %}
+  {% autoescape off %}
+    <div class="row">
+    <div class="col-sm-12, col-md-6, col-lg-8, col-12">
+        <p class="lead text-justify">{{ post.content|linebreaks }}</p>
+      </div>
+    </div>
+
+  {% endautoescape %}
+</div>
 {% endblock %}
+
+<a href="https://www.voi.ru/ludyam_s_invalidnostiu//oformlenie_invalidnosti_i_poluchenie_tsr/federalnii_reestr_invalidov.html"><strong>Источник</strong></a>

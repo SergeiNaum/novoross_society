@@ -3,41 +3,44 @@ from django.http import HttpResponse, HttpResponseNotFound
 from django.urls import reverse, reverse_lazy
 from django.contrib import messages
 from django.views import View
-from django.views.generic import ListView, FormView
+from django.views.generic import ListView, FormView, TemplateView, DetailView
 
 
 from society_main.forms import ContactForm
-from society_main.models import Post, Category, TagPost
+from society_main.models import Post, TagPost
 
 
-class IndexView(View):
+class IndexView(TemplateView):
+    template_name = 'society_main/index.html'
 
-    def get(self, request, *args, **kwargs):
-        title = 'Главная страница'
-        return render(request, 'society_main/index.html', context={
-            'title': title, 'active_page': 'index',
-        })
-
-
-class AboutView(View):
-
-    def get(self, request, *args, **kwargs):
-        title = 'О Нас'
-        return render(request, 'society_main/about.html', context={
-            'title': title, 'active_page': 'about',
-        })
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Главная страница'
+        context['active_page'] = 'index'
+        return context
 
 
-class PolicyView(View):
+class AboutView(TemplateView):
+    template_name = 'society_main/about.html'
 
-    def get(self, request, *args, **kwargs):
-        title = 'Политика обработки персональных данных'
-        return render(request, 'society_main/policy.html', context={
-            'title': title,
-        })
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'О Нас'
+        context['active_page'] = 'about'
+        return context
+
+
+class PolicyView(TemplateView):
+    template_name = 'society_main/policy.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Политика обработки персональных данных'
+        return context
 
 
 class ContactsView(FormView):
+
     form_class = ContactForm
     template_name = 'society_main/contacts.html'
     success_url = reverse_lazy('index')
@@ -51,53 +54,66 @@ class ContactsView(FormView):
         return super().form_valid(form)
 
 
-class NewsView(View):
+class NewsView(TemplateView):
+    template_name = 'society_main/news.html'
+    posts = Post.published.all()
 
-    def get(self, request, *args, **kwargs):
-        posts = Post.published.all()
-        data = {
-            'title': 'Новости',
-            'posts': posts,
-            'cat_selected': 0,
-            'active_page': 'news'
-        }
-        return render(request, 'society_main/news.html', context=data)
-
-
-def show_tag_postlist(request, tag_slug):
-    tag = get_object_or_404(TagPost, slug=tag_slug)
-    posts = tag.tags.filter(is_published=Post.Status.PUBLISHED)
-    data = {
-        'title': f'Тег: {tag.tag}',
-        'posts': posts,
-        'cat_selected': None,
-    }
-
-    return render(request, 'society_main/news.html', context=data)
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Новости'
+        context['cat_selected'] = 0
+        context['posts'] = self.posts
+        context['active_page'] = 'news'
+        return context
 
 
-def show_post(request, post_slug):
-    post = get_object_or_404(Post, slug=post_slug)
+class NewsTagsView(ListView):
+    template_name = 'society_main/news.html'
+    context_object_name = 'posts'
+    allow_empty = False
 
-    data = {
-        'title': post.title,
-        'post': post,
-        'cat_selected': 1,
-    }
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        # tag = context['posts'][0].tags
+        tag = TagPost.objects.get(slug=self.kwargs['tag_slug'])
+        context['title'] = 'Тег: ' + tag.tag
+        context['active_page'] = 'news'
+        context['cat_selected'] = None
+        return context
 
-    return render(request, 'society_main/post.html', context=data)
+    def get_queryset(self):
+        return Post.published.filter(tags__slug=self.kwargs['tag_slug']).select_related('cat')
 
 
-def show_category(request, cat_slug):
-    category = get_object_or_404(Category, slug=cat_slug)
-    posts = Post.published.filter(cat_id=category.pk)
-    data = {
-        'title': f'Рубрика: {category.name}',
-        'posts': posts,
-        'cat_selected': category.pk,
-    }
+class NewsCatsView(ListView):
+    template_name = 'society_main/news.html'
+    context_object_name = 'posts'
 
-    return render(request, 'society_main/news.html', context=data)
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        cat = context['posts'][0].cat
+        context['title'] = 'Категория - ' + cat.name
+        context['cat_selected'] = cat.id
+        context['active_page'] = 'news'
+        return context
+
+    def get_queryset(self):
+        return Post.published.filter(cat__slug=self.kwargs['cat_slug']).select_related('cat')
+
+
+class ShowPost(DetailView):
+    model = Post
+    template_name = 'society_main/post.html'
+    context_object_name = 'post'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = context['post']
+        context['active_page'] = 'news'
+        return context
+
+    def get_object(self, queryset=None):
+        return get_object_or_404(Post.published, slug=self.kwargs[self.slug_url_kwarg])
 
 
 def page_not_found(request, exception):
