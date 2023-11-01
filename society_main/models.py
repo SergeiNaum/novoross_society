@@ -107,3 +107,8 @@ class TagPost(models.Model):
 
     def get_absolute_url(self):
         return reverse('tag', kwargs={'tag_slug': self.slug})
+
+
+class Video(models.Model):
+    title = models.CharField(max_length=200)
+    video = models.FileField(upload_to='videos/%Y/%m/%d/', default=None, blank=True, null=True, verbose_name="Видео")

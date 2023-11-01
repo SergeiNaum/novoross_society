@@ -7,7 +7,7 @@ from django.views.generic import ListView, FormView, TemplateView, DetailView
 
 
 from society_main.forms import ContactForm
-from society_main.models import Post, TagPost
+from society_main.models import Post, TagPost, Video
 
 
 class IndexView(TemplateView):
@@ -114,6 +114,11 @@ class ShowPost(DetailView):
 
     def get_object(self, queryset=None):
         return get_object_or_404(Post.published, slug=self.kwargs[self.slug_url_kwarg])
+
+
+def play_video(request, video_id):
+    video = Video.objects.get(id=video_id)
+    return render(request, 'society_main/components/player.html', {'video': video})
 
 
 def page_not_found(request, exception):
