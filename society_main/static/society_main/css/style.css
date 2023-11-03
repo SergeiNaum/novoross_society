@@ -70,9 +70,11 @@ header {
 
 }
 
-.nav-item.active:hover {
-  color: #000000;
+.nav-item.active .nav-link:hover {
+  color: black !important;
+    transition: color 0.3s ease-out;
 }
+
 
 @keyframes gradient {
   0% {background-position: 0% 0%}

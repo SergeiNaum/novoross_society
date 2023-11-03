@@ -22,6 +22,6 @@ urlpatterns = [
     path('category/<slug:cat_slug>/', NewsCatsView.as_view(), name='category'),
     path('tags/<slug:tag_slug>/', NewsTagsView.as_view(), name='tag'),
     path('policy/', PolicyView.as_view(), name='policy'),
-    path('video/<int:video_id>/', play_video, name='video'),
+    # path('video/<int:video_id>/', play_video, name='video'),
 
 ]

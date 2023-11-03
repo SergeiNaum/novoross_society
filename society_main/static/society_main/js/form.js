@@ -1,13 +1,21 @@
+document.addEventListener("DOMContentLoaded", function() {
 
-  ["name", "email", "message"].forEach(function (field) {
-    document.getElementById(`${field}-input`).addEventListener("input", function (event) {
-      const label = document.getElementById(`${field}-label`);
-      if (event.target.value !== "") {
-        label.classList.add("label-up");
-      } else {
-        label.classList.remove("label-up");
-      }
-    });
+  const form = document.getElementById("contactForm");
+
+  form.addEventListener("input", function(event) {
+
+    const field = event.target;
+
+    const label = form.querySelector(`label[for="${field.id}"]`);
+
+    if(field.value !== '') {
+      label.classList.add('label-up');
+    } else {
+      label.classList.remove('label-up');
+    }
+
   });
+
+});
 
 
