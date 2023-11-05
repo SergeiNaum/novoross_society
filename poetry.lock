@@ -395,6 +395,17 @@ dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
+name = "polog"
+version = "0.0.17"
+description = "The new generation logger"
+optional = false
+python-versions = "*"
+files = [
+    {file = "polog-0.0.17-py3-none-any.whl", hash = "sha256:f2f93f8e0738ce40e352a69fb64b945db0162dabd790391c5fb666250ed8a554"},
+    {file = "polog-0.0.17.tar.gz", hash = "sha256:02fdb6465cb7d529cefdb5f2fbd2d4142237d1ea2123c0e36c7be0a3fd28eef6"},
+]
+
+[[package]]
 name = "prompt-toolkit"
 version = "3.0.39"
 description = "Library for building powerful interactive command lines in Python"
@@ -593,4 +604,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "2e5e9fdc1127ced39bf0cc06db63bf46d1e03dc2592a56d1ead8d60dde7ec775"
+content-hash = "973b73e2eabae1fffbb340853f34aa994d7e9ddaba2854e728eea724b6eb8b31"

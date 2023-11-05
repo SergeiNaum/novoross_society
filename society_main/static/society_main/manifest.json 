@@ -1,0 +1,8 @@
+{
+  "name": "society_main,
+  "short_name": "society_main,
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3f51b5"
+}

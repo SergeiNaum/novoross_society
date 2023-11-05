@@ -6,14 +6,14 @@ from .models import Post, Category
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
-    list_display = ('post_photo', 'title', 'time_create', 'is_published', 'cat', 'photo')
+    list_display = ('post_photo', 'title', 'time_create', 'is_published', 'cat', 'photo', 'video')
     list_display_links = ('post_photo', 'title')
     list_editable = ('is_published', 'cat')
     ordering = ['-time_create', 'title']
     list_per_page = 10
     actions = ['set_published', 'set_draft']
     search_fields = ['title', 'cat__name']
-    fields = ['title', 'slug', 'content', 'cat', 'tags', 'photo']
+    fields = ['title', 'slug', 'content', 'cat', 'tags', 'photo', 'video']
     prepopulated_fields = {"slug": ("title",)}
     save_on_top = True
 

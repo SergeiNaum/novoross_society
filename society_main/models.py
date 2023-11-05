@@ -60,6 +60,7 @@ class Post(TimestampedModel):
     is_published = models.BooleanField(choices=tuple(map(lambda x: (bool(x[0]), x[1]), Status.choices)),
                                        default=Status.DRAFT, verbose_name="Статус")
     cat = models.ForeignKey('Category', on_delete=models.PROTECT, verbose_name="Категории")
+    video = models.FileField(upload_to='videos/%Y/%m/%d/', default=None, blank=True, null=True, verbose_name="Видео")
 
     objects = models.Manager()
     published = PublishedManager()
@@ -107,8 +108,3 @@ class TagPost(models.Model):
 
     def get_absolute_url(self):
         return reverse('tag', kwargs={'tag_slug': self.slug})
-
-
-class Video(models.Model):
-    title = models.CharField(max_length=200)
-    video = models.FileField(upload_to='videos/%Y/%m/%d/', default=None, blank=True, null=True, verbose_name="Видео")

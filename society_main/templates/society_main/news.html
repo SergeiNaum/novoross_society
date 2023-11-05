@@ -1,43 +1,70 @@
 {% extends "society_main/base.html" %}
 
 
-
-
 {% block content %}
 <div class="content-wrapper">
-{% include "society_main/components/sidebar.html" %}
+    {% include "society_main/components/sidebar.html" %}
 
-<!--Display artickles-->
- <div class="articles-content">
+    <!--Display artickles-->
+    <div class="articles-content">
 
-<div class="articles-content px-3 pt-4">
-    <h2 class="fs-5 fw-bold"> Статьи </h2>
-    <hr class="text-white">
-        <ul class="list-group list-articles">
-            {% for p in posts %}
-                {% if p.is_published %}
-                <li><div class="article-panel">
-             <p class="first">Категория: {{ p.cat.name }}</p>
-             <p class="last">Дата: {{p.time_update|date:"d-m-Y H:i:s"}}</p>
-    </div>
-                    <li class="list-group-item-action"><h2 class="text-bold">{{p.title}}</h2>
-                {% if p.photo %}
+        <div class="articles-content px-3 pt-4">
+            <h2 class="fs-5 fw-bold"> Статьи </h2>
+            <hr class="text-white">
+            <ul class="list-group list-articles">
+                {% for p in posts %}
+                    {% if p.is_published %}
+                <li>
+                    <div class="article-panel">
+                        <p class="first">Категория: {{ p.cat.name }}</p>
+                        <p class="last">Дата: {{p.time_update|date:"d-m-Y H:i:s"}}</p>
+                    </div>
+                <li class="list-group-item-action"><h2 class="text-bold">{{p.title}}</h2>
+                    {% if p.photo %}
                     <p><img class="mx-auto img-fluid img-article-left thumb rounded" src="{{p.photo.url}}"></p>
-                {% endif %}
+                    {% endif %}
                     {% autoescape off %}
                     {{ p.content|linebreaks|truncatewords:50 }}
                     {% endautoescape %}
-                    <div class="d-flex">
-                    <p class="btn btn-lg btn-primary ms-auto me-4" onclick="location.href='{{ p.get_absolute_url }}'">
-                        <i class="fa-brands fa-readme"></i>  Читать</p>
-                        </div>
-                    </li>
+                    <div class="d-flex mt-5">
+                        <p class="btn btn-lg btn-primary ms-auto me-4"
+                           onclick="location.href='{{ p.get_absolute_url }}'">
+                            <i class="fa-brands fa-readme"></i> Читать</p>
+                    </div>
+                </li>
                 {% endif %}
-            {% endfor %}
-        </ul>
-
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 </div>
+{% endblock %}
 
- </div>
-</div>
+{% block navigation %}
+{% if page_obj.has_other_pages %}
+<nav class="list-pages">
+    <ul>
+        {% if page_obj.has_previous %}
+        <li class="page-num">
+            <a href="?page={{ page_obj.previous_page_number }}">&lt;</a>
+        </li>
+        {% endif %}
+        {% for p in paginator.page_range %}
+        {% if page_obj.number == p %}
+        <li class="page-num page-num-selected">{{ p }}</li>
+        {% else %}
+        <li class="page-num">
+            <a href="?page={{ p }}">{{ p }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+        {% if page_obj.has_next %}
+        <li class="page-num">
+            <a href="?page={{ page_obj.next_page_number }}">&gt;</a>
+        </li>
+        {% endif %}
+    </ul>
+
+</nav>
+{% endif %}
 {% endblock %}

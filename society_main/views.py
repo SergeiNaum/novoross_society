@@ -2,17 +2,19 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse, HttpResponseNotFound
 from django.urls import reverse, reverse_lazy
 from django.contrib import messages
-from django.views import View
 from django.views.generic import ListView, FormView, TemplateView, DetailView
 
-
 from society_main.forms import ContactForm
-from society_main.models import Post, TagPost, Video
+from society_main.models import Post, TagPost
+
+from society_main.logging import config, file_writer, field
+from polog import log
 
 
 class IndexView(TemplateView):
     template_name = 'society_main/index.html'
 
+    @log
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = 'Главная страница'
@@ -23,6 +25,7 @@ class IndexView(TemplateView):
 class AboutView(TemplateView):
     template_name = 'society_main/about.html'
 
+    @log
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = 'О Нас'
@@ -33,6 +36,7 @@ class AboutView(TemplateView):
 class PolicyView(TemplateView):
     template_name = 'society_main/policy.html'
 
+    @log
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = 'Политика обработки персональных данных'
@@ -49,22 +53,28 @@ class ContactsView(FormView):
         'active_page': 'contacts'
     }
 
+    @log
     def form_valid(self, form):
         form.save()
         return super().form_valid(form)
 
 
-class NewsView(TemplateView):
+class NewsView(ListView):
     template_name = 'society_main/news.html'
-    posts = Post.published.all()
+    context_object_name = 'posts'
+    paginate_by = 5
 
+    @log
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['title'] = 'Новости'
+        context['title'] = 'Статьи'
         context['cat_selected'] = 0
-        context['posts'] = self.posts
         context['active_page'] = 'news'
         return context
+
+    @log
+    def get_queryset(self):
+        return Post.published.all().select_related('cat')
 
 
 class NewsTagsView(ListView):
@@ -72,6 +82,7 @@ class NewsTagsView(ListView):
     context_object_name = 'posts'
     allow_empty = False
 
+    @log
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
         # tag = context['posts'][0].tags
@@ -81,6 +92,7 @@ class NewsTagsView(ListView):
         context['cat_selected'] = None
         return context
 
+    @log
     def get_queryset(self):
         return Post.published.filter(tags__slug=self.kwargs['tag_slug']).select_related('cat')
 
@@ -89,6 +101,7 @@ class NewsCatsView(ListView):
     template_name = 'society_main/news.html'
     context_object_name = 'posts'
 
+    @log
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
         cat = context['posts'][0].cat
@@ -97,6 +110,7 @@ class NewsCatsView(ListView):
         context['active_page'] = 'news'
         return context
 
+    @log
     def get_queryset(self):
         return Post.published.filter(cat__slug=self.kwargs['cat_slug']).select_related('cat')
 
@@ -106,20 +120,19 @@ class ShowPost(DetailView):
     template_name = 'society_main/post.html'
     context_object_name = 'post'
 
+    @log
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = context['post']
         context['active_page'] = 'news'
         return context
 
+    @log
     def get_object(self, queryset=None):
         return get_object_or_404(Post.published, slug=self.kwargs[self.slug_url_kwarg])
 
 
-def play_video(request, video_id):
-    video = Video.objects.get(id=video_id)
-    return render(request, 'society_main/components/player.html', {'video': video})
-
-
+@log
 def page_not_found(request, exception):
     return HttpResponseNotFound("<h1>Страница не найдена</h1>")
+

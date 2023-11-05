@@ -1,5 +1,8 @@
 from django.contrib import admin
 from django.urls import path
+from django.urls import re_path
+
+
 
 
 from society_main.views import (
@@ -11,7 +14,7 @@ from society_main.views import (
     NewsCatsView,
     NewsTagsView,
     PolicyView,
-    play_video,
+    TemplateView,
 )
 urlpatterns = [
     path('', IndexView.as_view(), name='index'),
@@ -22,6 +25,6 @@ urlpatterns = [
     path('category/<slug:cat_slug>/', NewsCatsView.as_view(), name='category'),
     path('tags/<slug:tag_slug>/', NewsTagsView.as_view(), name='tag'),
     path('policy/', PolicyView.as_view(), name='policy'),
-    # path('video/<int:video_id>/', play_video, name='video'),
+    re_path(r'^manifest\.json$', TemplateView.as_view(template_name='manifest.json', content_type='application/json')),
 
 ]

@@ -12,6 +12,7 @@ Django = "^4.1.1"
 django-debug-toolbar = "^4.2.0"
 pillow = "^10.1.0"
 django-taggit = "^4.0.0"
+polog = "^0.0.17"
 
 
 [tool.poetry.group.dev.dependencies]

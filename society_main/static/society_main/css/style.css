@@ -71,7 +71,7 @@ header {
 }
 
 .nav-item.active .nav-link:hover {
-  color: black !important;
+    color: black !important;
     transition: color 0.3s ease-out;
 }
 
@@ -247,7 +247,8 @@ img.img-article-left.thumb {
 
 .article-img {
   max-width: auto;
-  height: 750px;
+  height: 350px;
+
 }
 
 ul.tags-list {
@@ -273,8 +274,6 @@ ul.tags-list li a {
   display: inline-block;;
   justify-content: center;
 }
-
-
 
 .social-icons a {
   margin: 0 10px;
@@ -310,3 +309,53 @@ ul.tags-list li a {
 h5 {
     font-weight: bold
 }
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+    /* Стили для навигации списком */
+    .list-pages {
+        margin: 20px 0;
+    }
+
+    .list-pages ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-pages li {
+        margin: 5px;
+    }
+
+    /* Общие стили для номеров страниц */
+    .page-num, .page-num a {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #eee;
+        color: #333;
+        text-decoration: none;
+        border-radius: 3px;
+        transition: background-color 0.3s ease;
+    }
+
+/* Стили для выбранной страницы */
+.page-num-selected {
+    background-color: #333;
+    color: white;
+}
+
+    /* Стили для ссылки */
+.page-num a {
+    color: #333;
+}
+
+.page-num a:hover {
+    background-color: #ddd;
+}
+

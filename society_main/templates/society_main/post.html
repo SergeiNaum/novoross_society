@@ -27,13 +27,34 @@
   <h1 class="pb-5 fw-bold display-6">{{ post.title }}</h1>
       </div>
     </div>
-  {% if post.photo %}
-  <div class="row mb-4">
-    <div class="col-md-6, col-lg-4, col-sm-12">
-      <img src="{{post.photo.url}}" class="mx-auto d-block img-fluid rounded article-img" alt="{{post.title}}">
-    </div>
+
+{% if post.video %}
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    <div class="row mb-4">
+        <div class="col-md-6 offset-md-3 col-12">
+          <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center video w-100">
+            <video controls class="embed-responsive-item ratio ratio-16x9">
+              <source src="{{ post.video.url }}" class="mx-auto d-block">
+            </video>
+          </div>
+        </div>
+      </div>
   </div>
-  {% endif %}
+</div>
+
+<button class="btn btn-light w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  Показать / скрыть  видео
+</button>
+{% else %}
+<!--  {% if post.photo %}-->
+<!--  <div class="row mb-4">-->
+<!--    <div class="col-md-6, col-lg-4, col-sm-12">-->
+<!--      <img src="{{ post.photo.url }}" class="mx-auto d-block img-fluid rounded article-img" alt="{{ post.title }}">-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  {% endif %}-->
+    {% endif %}
   {% autoescape off %}
     <div class="row">
     <div class="col-sm-12, col-md-6, col-lg-8, col-12">
@@ -45,4 +66,7 @@
 </div>
 {% endblock %}
 
-<a href="https://www.voi.ru/ludyam_s_invalidnostiu//oformlenie_invalidnosti_i_poluchenie_tsr/federalnii_reestr_invalidov.html"><strong>Источник</strong></a>
+<a href="https://www.voi.ru/ludyam_s_invalidnostiu//oformlenie_invalidnosti_i_poluchenie_tsr//poryadok_oformleniya_invalidnosti#tab-checkbox-12367"><strong>Источник</strong></a>
+
+<h2 class="display-6">Что делать, если не согласен с решением бюро медико-социальной экспертизы?</h2>
+<br>
