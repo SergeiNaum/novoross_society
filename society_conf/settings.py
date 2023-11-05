@@ -41,11 +41,29 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
+
+    'debug_toolbar',
     'django_extensions',
     'taggit',
+    'captcha',
 
     'society_main.apps.SocietyMainConfig',
 
+]
+
+# captcha config
+
+CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.random_char_challenge'
+# CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.math_challenge'
+CAPTCHA_LENGTH = 6
+CAPTCHA_NOISE_FUNCTIONS = ('captcha.helpers.noise_dots',)
+CAPTCHA_BACKGROUND_COLOR = 'red'
+CAPTCHA_FOREGROUND_COLOR = 'white'
+CAPTCHA_TEXT_COLOR = '#001100'
+CAPTCHA_TRANSFORMATION = [
+    'captcha.helpers.random_rot',
 ]
 
 
@@ -57,8 +75,13 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     # 'django_loguru.middleware.DjangoLoguruMiddleware',
+]
+
+# for django_debug_toolbar
+INTERNAL_IPS = [
+    '127.0.0.1',
 ]
 
 ROOT_URLCONF = 'society_conf.urls'
@@ -101,6 +124,13 @@ DATABASES = {
 #     }
 }
 
+# redis caches
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.redis.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379",
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -152,3 +182,5 @@ MEDIA_URL = '/media/'
 FIXTURE_DIRS = [
     'society_main/fixtures/',
 ]
+
+SITE_ID = 1

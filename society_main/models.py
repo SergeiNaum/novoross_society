@@ -1,8 +1,6 @@
 from django.db import models
 from django.urls import reverse
-from django.template.defaultfilters import slugify
-from taggit.managers import TaggableManager
-from taggit.models import TagBase
+
 
 
 def translit_to_eng(s: str) -> str:

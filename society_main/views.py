@@ -78,6 +78,7 @@ class NewsView(ListView):
 
 
 class NewsTagsView(ListView):
+
     template_name = 'society_main/news.html'
     context_object_name = 'posts'
     paginate_by = 5

@@ -1,15 +1,16 @@
 from django.forms import ModelForm
 from django import forms
-
+from captcha.fields import CaptchaField
 
 from society_main.models import ContactFormModel
 
 
 class ContactForm(ModelForm):
+    captcha = CaptchaField()
 
     class Meta:
         model = ContactFormModel
-        fields = ['name', 'email', 'message', 'checkbox']
+        fields = ['name', 'email', 'message', 'checkbox', 'captcha']
         labels = {
             'name': 'Ваше имя',
             'email': 'Email',
