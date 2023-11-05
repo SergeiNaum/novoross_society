@@ -12,9 +12,14 @@ start:
 lint:
 	poetry run flake8 society_main
 
-
 build:
 	./build.sh
+
+dump:
+	python -Xutf8 manage.py dumpdata --indent=2 --exclude taggit -o db.json
+
+loaddata:
+	python manage.py loaddata db.json
 
 
 .PHONY: install lint start

@@ -80,6 +80,7 @@ class NewsView(ListView):
 class NewsTagsView(ListView):
     template_name = 'society_main/news.html'
     context_object_name = 'posts'
+    paginate_by = 5
     allow_empty = False
 
     @log
@@ -100,6 +101,7 @@ class NewsTagsView(ListView):
 class NewsCatsView(ListView):
     template_name = 'society_main/news.html'
     context_object_name = 'posts'
+    paginate_by = 5
 
     @log
     def get_context_data(self, *, object_list=None, **kwargs):

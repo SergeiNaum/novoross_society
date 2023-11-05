@@ -1,5 +1,1357 @@
 [
 {
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-10-28T15:06:58.247Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Льготы наших оптимистов",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-10-28T15:07:16.408Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Льготы наших оптимистов",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"URL\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-10-28T15:18:27.669Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Льготы наших оптимистов",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"URL\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-10-28T15:25:47.019Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Льготы наших оптимистов",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"URL\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-10-28T15:26:03.093Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Досуг наших оптимистов",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-10-28T17:24:51.444Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-10-28T17:27:54.988Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-10-28T17:28:03.573Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-10-28T17:33:26.426Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-10-28T17:37:03.450Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-10-28T17:39:42.284Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-10-28T17:47:18.097Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-10-28T17:51:50.620Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-10-29T15:28:39.245Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-10-29T17:00:27.300Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "СОВЕТ ПО ДЕЛАМ ИНВАЛИДОВ ПРИ СОВЕТЕ ФЕДЕРАЦИИ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-10-29T17:00:50.509Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "СОВЕТ ПО ДЕЛАМ ИНВАЛИДОВ ПРИ СОВЕТЕ ФЕДЕРАЦИИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-10-29T17:01:56.254Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "СОВЕТ ПО ДЕЛАМ ИНВАЛИДОВ ПРИ СОВЕТЕ ФЕДЕРАЦИИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-10-29T17:12:07.818Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-10-29T17:12:18.756Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-10-29T17:12:24.399Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-10-29T17:14:00.717Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-10-29T17:14:04.294Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-10-29T17:16:09.661Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-10-29T17:17:39.993Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-10-29T17:20:29.994Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-10-29T17:21:32.539Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-10-29T17:22:24.259Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-10-29T17:24:05.093Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "ВНЕБЮДЖЕТНЫЕ ФОНДЫ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-10-29T17:24:09.776Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "ВНЕБЮДЖЕТНЫЕ ФОНДЫ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-10-29T17:25:33.073Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "ВНЕБЮДЖЕТНЫЕ ФОНДЫ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-10-29T17:26:04.894Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "ВНЕБЮДЖЕТНЫЕ ФОНДЫ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-10-29T17:26:24.278Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "ВНЕБЮДЖЕТНЫЕ ФОНДЫ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-10-29T17:27:53.033Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "ФЕДЕРАЛЬНОЕ БЮРО МЕДИКО-СОЦИАЛЬНОЙ ЭКСПЕРТИЗЫ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-10-29T17:28:46.593Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "ФЕДЕРАЛЬНОЕ БЮРО МЕДИКО-СОЦИАЛЬНОЙ ЭКСПЕРТИЗЫ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-10-29T17:28:50.781Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "ФЕДЕРАЛЬНОЕ БЮРО МЕДИКО-СОЦИАЛЬНОЙ ЭКСПЕРТИЗЫ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-10-29T17:47:37.357Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ ЧЕЛОВЕКА В РФ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-10-29T17:47:42.781Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ ЧЕЛОВЕКА В РФ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-10-29T17:50:21.021Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ РЕБЕНКА В РФ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-10-29T17:50:27.967Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ РЕБЕНКА В РФ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-10-29T17:52:56.707Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "ИПРА – КАК ОФОРМИТЬ И ДЛЯ ЧЕГО НУЖНА",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-10-29T17:53:02.476Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "ИПРА – КАК ОФОРМИТЬ И ДЛЯ ЧЕГО НУЖНА",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-10-29T17:55:58.759Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "ИПРА – КАК ОФОРМИТЬ И ДЛЯ ЧЕГО НУЖНА",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-10-29T17:57:22.351Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "ПОЛУЧЕНИЕ ТСР",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-10-29T17:57:30.677Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "ПОЛУЧЕНИЕ ТСР",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-10-29T17:58:26.458Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "ПОЛУЧЕНИЕ ТСР",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-10-29T17:59:09.163Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "ПОЛУЧЕНИЕ ТСР",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-10-29T18:00:54.756Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "ФЕДЕРАЛЬНЫЙ РЕЕСТР ИНВАЛИДОВ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-10-29T18:00:58.405Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "ФЕДЕРАЛЬНЫЙ РЕЕСТР ИНВАЛИДОВ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-11-03T16:16:34.255Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-11-03T16:16:39.673Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-11-03T17:39:40.325Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-11-03T17:41:17.057Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-11-03T17:41:41.992Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-11-03T17:42:03.318Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2023-11-03T17:42:36.025Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2023-11-03T17:43:24.396Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2023-11-03T17:48:32.842Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2023-11-03T17:49:50.030Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2023-11-03T21:21:54.506Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Досуг наших оптимистов",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2023-11-03T21:43:52.677Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Досуг наших оптимистов",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2023-11-03T21:45:48.156Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2023-11-03T22:03:41.566Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2023-11-03T22:04:53.520Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2023-11-03T22:06:07.545Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2023-11-04T10:26:19.780Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2023-11-04T10:26:46.108Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2023-11-04T10:35:30.485Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2023-11-04T10:36:16.518Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2023-11-04T12:03:38.571Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "тест-видео",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2023-11-04T13:10:07.230Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Поездка  НГО Оптимист в  Абрау - Дюрсо поющие фонтаны",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\", \"URL\", \"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2023-11-04T13:11:24.553Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Поездка  НГО Оптимист в  Абрау - Дюрсо поющие фонтаны",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2023-11-04T13:11:46.624Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Поездка  НГО Оптимист в  Абрау - Дюрсо поющие фонтаны",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2023-11-04T13:12:31.079Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Поездка  НГО Оптимист в  Абрау - Дюрсо поющие фонтаны",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2023-11-04T13:13:40.983Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Поездка  НГО Оптимист в  Абрау - Дюрсо поющие фонтаны",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2023-11-04T13:14:51.965Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Поездка  НГО Оптимист в  Абрау - Дюрсо поющие фонтаны",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2023-11-04T13:22:40.349Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "День рождения председятеля НГО оптимист 27.10.2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2023-11-04T13:22:55.989Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "День рождения председятеля НГО оптимист 27.10.2023",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2023-11-04T13:36:29.348Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "ПОРЯДОК ОФОРМЛЕНИЯ ИНВАЛИДНОСТИ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2023-11-04T13:36:33.058Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "ПОРЯДОК ОФОРМЛЕНИЯ ИНВАЛИДНОСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2023-11-04T13:37:54.075Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "ПОРЯДОК ОФОРМЛЕНИЯ ИНВАЛИДНОСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2023-11-04T13:39:02.573Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "ПОРЯДОК ОФОРМЛЕНИЯ ИНВАЛИДНОСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2023-11-04T13:56:42.897Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2023-11-04T13:56:49.306Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2023-11-04T13:57:38.556Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2023-11-04T13:58:23.229Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2023-11-04T13:59:10.642Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2023-11-04T14:00:27.481Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2023-11-04T14:02:20.648Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2023-11-04T14:02:43.032Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2023-11-04T15:32:44.418Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2023-11-04T15:45:26.628Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2023-11-04T15:53:02.480Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2023-11-04T15:53:51.508Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2023-11-04T15:55:04.422Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2023-11-04T15:58:39.341Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2023-11-04T15:59:49.980Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2023-11-04T16:03:18.241Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2023-11-04T16:05:27.449Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2023-11-04T16:05:58.812Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2023-11-04T16:06:50.269Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2023-11-04T16:07:16.895Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2023-11-04T16:08:27.739Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2023-11-04T16:16:11.433Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2023-11-04T16:16:50.074Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -432,6 +1784,60 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add video",
+    "content_type": 13,
+    "codename": "add_video"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change video",
+    "content_type": 13,
+    "codename": "change_video"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete video",
+    "content_type": 13,
+    "codename": "delete_video"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view video",
+    "content_type": 13,
+    "codename": "view_video"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$70a5GCaoVCCtS3etS8Uh7c$Nwn8zPlgL5upEtUR9tO7+rp0qli1q3TYRpIZJ8uZBSA=",
+    "last_login": "2023-11-03T21:19:47.326Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "optimistnovoross2018@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-28T14:30:52.267Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
   "model": "contenttypes.contenttype",
   "pk": 1,
   "fields": {
@@ -527,20 +1933,67 @@
     "model": "tagpost"
   }
 },
-
-
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "society_main",
+    "model": "video"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ajxqd4mvzyskgewjf7aq55c7koazjrbs",
+  "fields": {
+    "session_data": ".eJxVjDsOgzAQRO_iOrJsw_qTMj1nsBbvOiaJjIShinL3gESRSFPNezNvEXFbS9waL3EicRVaXH67EdOT6wHogfU-yzTXdZlGeSjypE0OM_Hrdrp_BwVb2dd9UnvAemRyYFTykCxD8F71pLIj4OyYTLLac8gaOVumYA0GUB134vMF4uw4Gg:1qz1Zz:73oSa8XLF7GgwiULu-MAV8bHsCz1Ty1TNSDKYpQfP5E",
+    "expire_date": "2023-11-17T21:19:47.330Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d8xmvi9fkxtoz2hg65ep7mgige6af7z2",
+  "fields": {
+    "session_data": ".eJxVjDsOgzAQRO_iOrJsw_qTMj1nsBbvOiaJjIShinL3gESRSFPNezNvEXFbS9waL3EicRVaXH67EdOT6wHogfU-yzTXdZlGeSjypE0OM_Hrdrp_BwVb2dd9UnvAemRyYFTykCxD8F71pLIj4OyYTLLac8gaOVumYA0GUB134vMF4uw4Gg:1qwkLQ:bXkWyptnjyCBSNyIB32g-AR8icYvT-kIDLjlo_uDStw",
+    "expire_date": "2023-11-11T14:31:20.968Z"
+  }
+},
+{
+  "model": "society_main.contactformmodel",
+  "pk": 1,
+  "fields": {
+    "time_create": "2023-10-27T19:03:57.578Z",
+    "time_update": "2023-10-27T19:03:57.578Z",
+    "name": "Арсен",
+    "email": "arsen@mail.com",
+    "message": "asass",
+    "checkbox": false
+  }
+},
+{
+  "model": "society_main.contactformmodel",
+  "pk": 2,
+  "fields": {
+    "time_create": "2023-10-28T06:26:21.188Z",
+    "time_update": "2023-10-28T06:26:21.188Z",
+    "name": "Вазген",
+    "email": "mtg@mail.com",
+    "message": "Hello Brothers !",
+    "checkbox": true
+  }
+},
 {
   "model": "society_main.post",
   "pk": 1,
   "fields": {
     "time_create": "2023-10-24T09:26:27.727Z",
-    "time_update": "2023-10-24T09:26:27.727Z",
+    "time_update": "2023-11-03T21:43:52.673Z",
     "title": "Досуг наших оптимистов",
     "slug": "dosug_optimista",
-    "photo": "",
-    "content": "Отдых, природа, кайф",
+    "photo": "photos/2023/11/03/trips_DcIpykz.jpg",
+    "content": "Отдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайф",
     "is_published": true,
     "cat": 1,
+    "video": "",
     "tags": [
       1
     ]
@@ -551,15 +2004,268 @@
   "pk": 2,
   "fields": {
     "time_create": "2023-10-24T09:27:16.333Z",
-    "time_update": "2023-10-24T09:27:16.333Z",
+    "time_update": "2023-10-28T15:25:47.017Z",
     "title": "Льготы наших оптимистов",
-    "slug": "lgots_optimistov",
+    "slug": "lgoty-nashih-optimistov",
     "photo": "",
     "content": "Отдых, природа, кайф",
     "is_published": true,
     "cat": 2,
+    "video": "",
     "tags": [
       2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 3,
+  "fields": {
+    "time_create": "2023-10-28T17:24:51.438Z",
+    "time_update": "2023-10-29T15:28:39.243Z",
+    "title": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
+    "slug": "komissiya-pri-prezidente-rf-po-delam-invalidov",
+    "photo": "photos/2023/10/29/law_book.jpg",
+    "content": "<p>\r\n    Комиссия при Президенте Российской Федерации по делам инвалидов является совещательным органом при Президенте Российской Федерации, образованным в целях обеспечения взаимодействия федеральных органов государственной власти, органов государственной власти субъектов Российской Федерации, органов местного самоуправления, общественных объединений, научных и других организаций при рассмотрении вопросов, связанных с решением проблем инвалидности и инвалидов в Российской Федерации. Основными задачами Комиссии являются:\r\n  </p>\r\n  <ol>\r\n    <li>подготовка предложений по формированию и проведению государственной политики в отношении инвалидов, определение способов, форм и этапов её реализации;</li>\r\n    <li>подготовка предложений по выработке основных направлений совершенствования законодательства Российской Федерации в сфере предоставления инвалидам равных с другими гражданами возможностей в реализации конституционных прав и свобод, социального обеспечения инвалидов и установления им мер государственной поддержки на основании анализа положения дел и обобщения практики применения законодательства Российской Федерации в указанной сфере;</li>\r\n    <li>обсуждение по предложению Президента Российской Федерации иных вопросов, относящихся к проблемам инвалидности и инвалидов в Российской Федерации.</li>\r\n  </ol>\r\n  <p><strong>Контакты:</strong></p>\r\n  <ul>\r\n    <li>103132, Москва, Старая площадь, д. 4 стр. 1</li>\r\n    <li><strong>Телефон Администрации Президента РФ:</strong> +7 (495) 606 36 02</li>\r\n    <li><strong>Телефон Управления Президента РФ по работе с обращениями граждан и организаций:</strong> +7 (495) 495 625 35 81</li>\r\n  </ul>",
+    "is_published": true,
+    "cat": 2,
+    "video": "",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 4,
+  "fields": {
+    "time_create": "2023-10-29T17:00:27.296Z",
+    "time_update": "2023-10-29T17:01:56.250Z",
+    "title": "СОВЕТ ПО ДЕЛАМ ИНВАЛИДОВ ПРИ СОВЕТЕ ФЕДЕРАЦИИ",
+    "slug": "sovet-po-delam-invalidov-pri-sovete-federacii",
+    "photo": "photos/2023/10/29/.jpg",
+    "content": "Совет по делам инвалидов при Совете Федерации Федерального Собрания Российской Федерации является постоянно действующим экспертно-консультативным органом при Совете Федерации Федерального Собрания Российской Федерации. Основными задачами Совета являются:\r\n\r\n1) изучение состояния и перспектив развития государственной политики Российской Федерации в области социальной защиты инвалидов;\r\n\r\n2) разработка предложений по совершенствованию законодательства Российской Федерации и законодательства субъектов Российской Федерации в области социальной защиты инвалидов;\r\n\r\n3) информирование общественности о проводимой государством социальной политике в отношении инвалидов и социально-экономической значимости их интеграции в общество.\r\n\r\nСовет занимается разработкой нормативно-правовой базы для защиты прав и интересов инвалидов в России. Кроме того, члены Совета рассматривают возможности по упрощению законодательных правил для предоставления льгот и услуг людям с инвалидностью.\r\n\r\nВ Совет по делам инвалидов при Совете Федерации можно обратиться с вопросом или за получением информации о том, какие права положены людям с инвалидностью, а также сообщить о сложностях в реализации того или иного закона.\r\n\r\nСайт: http://council.gov.ru/activity/documents/60572/",
+    "is_published": true,
+    "cat": 2,
+    "video": "",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 5,
+  "fields": {
+    "time_create": "2023-10-29T17:12:07.816Z",
+    "time_update": "2023-10-29T17:22:24.257Z",
+    "title": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "slug": "ispolnitelnye-organy-vlasti",
+    "photo": "photos/2023/10/29/memo.jpg",
+    "content": "<h2>Правительство РФ</h2>\r\n<p>Правительство Российской Федерации, как государственный орган исполнительной власти, решает вопросы в области социальной защиты, здравоохранения, жилищной политики, контролирует исполнение государственных программ Российской Федерации, в том числе программу «Доступная среда», а также многие другие вопросы.</p>\r\n<p><strong>Сайт</strong><strong>:</strong> <a href=\"http://government.ru/\">http://government.ru/</a>.</p>\r\n<p><strong>Контакты:</strong>  103274, г. Москва, Краснопресненская набережная, 2.</p>\r\n<p><strong>Обратиться в электронной форме можно по следующей ссылке:</strong> <a href=\"http://services.government.ru/letters/\"> http://services.government.ru/letters/</a>.</p>\r\n<h2>Министерство труда и социальной защиты РФ</h2>\r\n<p>Министерство труда и социальной защиты Российской Федерации является федеральным органом исполнительной власти, курирует разработку и принятие решений в рамках государственной политики в сфере демографии, труда, уровня жизни и доходов, оплаты труда, пенсионного обеспечения, занятости и безработицы, трудовой миграции, альтернативной гражданской службы, государственной гражданской службы, социальной защиты и социального обслуживания населения и так далее. Среди ключевых— вопросы опеки и попечительства в отношении совершеннолетних недееспособных или не полностью дееспособных граждан, оказание протезно-ортопедической помощи и обеспечение техническими средствами реабилитации, проведение медико-социальной экспертизы. Является ответственным исполнителем госпрограммы «Доступная среда».</p>\r\n<p><strong>Сайт: </strong><a href=\"http://www.rosmintrud.ru/\">http://www.rosmintrud.ru/</a></p>\r\n<p><strong>Контакты: </strong>127994, ГСП-4, г. Москва, ул. Ильинка, 21</p>\r\n<p><strong>Телефоны:</strong> +7 (495) 870-67-00; +7 (495) 587-88-89</p>\r\n<p><strong>Обратиться в электронной форме можно по следующей ссылке: </strong><a href=\"https://mintrud.gov.ru/reception/form\">https://mintrud.gov.ru/reception/form</a>.</p>\r\n<h2>Министерство здравоохранения РФ</h2>\r\n<p>Министерство здравоохранения Российской Федерации является федеральным органом исполнительной власти, осуществляющим функции по выработке и реализации государственной политики и нормативно-правовому регулированию в сфере здравоохранения, обязательного медицинского страхования, обращения лекарственных средств для медицинского применения, включая вопросы организации профилактики заболеваний, в том числе инфекционных заболеваний и СПИДа, медицинской помощи, медицинской реабилитации и медицинских экспертиз (за исключением медико-социальной экспертизы и военно-врачебной экспертизы), фармацевтической деятельности, включая обеспечение качества, эффективности и безопасности лекарственных средств для медицинского применения, обращения медицинских изделий.</p><a href=\"https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/ispolnitelnie_organy_vlasti.html\">https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/ispolnitelnie_organy_vlasti.html</a>\r\n<p><strong>Сайт: </strong><a href=\"https://minzdrav.gov.ru/ru\">https://minzdrav.gov.ru/ru</a></p>\r\n<p><strong>Контакты: </strong>127994,&nbsp;ГСП-4, г. Москва, Рахмановский пер, д. 3</p>\r\n<p><strong>Телефоны:</strong> (495) 628-44-53, (495) 627-29-44, (495) 627-24-00</p>\r\n<p><strong>Обратиться в электронной форме можно по следующей ссылке: </strong><a href=\"https://minzdrav.gov.ru/reception/appeals/new\">https://minzdrav.gov.ru/reception/appeals/new</a>.<strong> </strong></p>\r\n<strong> Источник: </strong> <a href=\"https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/ispolnitelnie_organy_vlasti.html\">https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/ispolnitelnie_organy_vlasti.html</a>",
+    "is_published": true,
+    "cat": 2,
+    "video": "",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 6,
+  "fields": {
+    "time_create": "2023-10-29T17:24:05.087Z",
+    "time_update": "2023-10-29T17:26:24.274Z",
+    "title": "ВНЕБЮДЖЕТНЫЕ ФОНДЫ",
+    "slug": "vnebyudzhetnye-fondy",
+    "photo": "photos/2023/10/29/.jpg_LGRlDfz",
+    "content": "<h2>Фонд пенсионного и социального страхования Российской Федерации</h2>\r\n<p style=\"text-align: justify;\">Фонд пенсионного и социального страхования Российской Федерации (сокращенное наименование - Социальный фонд России) - &nbsp; один из государственных внебюджетных фондов, который Создан федеральным законом от 14.07.2022 года № 236-ФЗ «О Фонде пенсионного и социального страхования Российской Федерации» путем реорганизации Пенсионного фонда Российской Федерации с одновременным присоединением к нему Фонда социального страхования Российской Федерации. Данный фонд начал свою работу 1 января 2023 года.</p>\r\n<p style=\"text-align: justify;\">СФР создан для осуществления государством пенсионного обеспечения, обязательного пенсионного страхования, обязательного социального страхования на случай временной нетрудоспособности и в связи с материнством, обязательного социального страхования от несчастных случаев на производстве и профессиональных заболеваний, социального обеспечения, предоставления мер социальной защиты (поддержки) отдельным категориям граждан.</p>\r\n<p>Основными социально значимыми функциями СФР являются:</p>\r\n<p style=\"text-align: justify;\">- назначение и выплата пенсий по обязательному пенсионному страхованию и государственному пенсионному обеспечению;&nbsp;</p>\r\n<p style=\"text-align: justify;\">- назначение и выплата государственных пособий, обеспечение по обязательному социальному страхованию и иных видов обеспечения;</p>\r\n<p style=\"text-align: justify;\">- организация ведения индивидуального (персонифицированного) учета в системах обязательного пенсионного страхования и обязательного социального страхования;</p>\r\n<p>- организация инвестирования средств пенсионных накоплений;</p>\r\n<p style=\"text-align: justify;\">- предоставление государственных гарантий, мер социальной защиты (поддержки), социальных услуг отдельным категориям граждан, в том числе в рамках оказания государственной социальной помощи;</p>\r\n<p style=\"text-align: justify;\">- организация мероприятий в области медицинской, социальной и профессиональной реабилитации застрахованных лиц;</p>\r\n<p>- обеспечение инвалидов (ветеранов) техническими средствами реабилитации.</p>\r\n<p><strong>Сайт: </strong><a href=\"https://sfr.gov.ru/?ysclid=lddbmzefj6250481115\">https://sfr.gov.ru</a>.</p>\r\n<p style=\"text-align: justify;\"><strong>Контакты:</strong> Адрес для отправки обращений почтой: 119991, ГСП-1, г. Москва, ул. Шаболовка, 4, стр. 1&nbsp;</p>\r\n<p style=\"text-align: justify;\"><strong>Телефон единого контактного центра взаимодействия с гражданами СФР:</strong> 8-800-6-000-000.</p>\r\n<p style=\"text-align: justify;\"><strong>Электронное обращение в фонд можно направить по ссылке - <a href=\"https://social-insurance.sfr.gov.ru/reception_desk/\">https://social-insurance.sfr.gov.ru/reception_desk/</a></strong></p>\r\n<p style=\"text-align: justify;\">Для перехода на региональную страницу СФР необходимо в поисковой строке выбрать свой регион проживания.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<h2 style=\"text-align: justify;\">Федеральный фонд обязательного медицинского страхования РФ</h2>\r\n<p style=\"text-align: justify;\">Федеральный фонд обязательного медицинского страхования реализует государственную политику в области обязательного медицинского страхования граждан как составной части государственного социального страхования.</p>\r\n<p style=\"text-align: justify;\">Обратиться в ФОМС можно по вопросам предоставления медицинской помощи в рамках системы обязательного медицинского страхования.</p>\r\n<p><strong>Сайт: </strong><a href=\"http://www.ffoms.gov.ru/\">http://www.ffoms.gov.ru/</a></p>\r\n<p><strong>Контакты: </strong>127994, ГСП-4, г. Москва, ул. Новослободская, д. 37, корп. 4А</p>\r\n<p><strong>Телефон:</strong> +7 (495) 870-96-80</p>\r\n<p><strong>Обратиться в электронной форме можно по следующей ссылке: </strong><a href=\"http://www.ffoms.gov.ru/for-citizens/feedback/\">http://www.ffoms.gov.ru/for-citizens/feedback/</a>.</p>\r\n<strong>Источник:</strong> <a href=\"https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/vnebudjetnie_fondy.html\">https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/vnebudjetnie_fondy.html</a>",
+    "is_published": true,
+    "cat": 2,
+    "video": "",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 7,
+  "fields": {
+    "time_create": "2023-10-29T17:27:53.026Z",
+    "time_update": "2023-10-29T17:28:50.779Z",
+    "title": "ФЕДЕРАЛЬНОЕ БЮРО МЕДИКО-СОЦИАЛЬНОЙ ЭКСПЕРТИЗЫ",
+    "slug": "federalnoe-byuro-mediko-socialnoj-ekspertizy",
+    "photo": "photos/2023/10/29/law_book_7sVkKX7.jpg",
+    "content": "<p>Многопрофильное медицинское, экспертное и&nbsp;реабилитационное учреждение, которое, помимо практической деятельности по&nbsp;проведению медико-социальной экспертизы, оказывает специализированную помощь, включая все виды протезирования и ортезирования. Является подведомственным учреждением Минтруда России. Специалистами Федерального бюро обобщается опыт работы федеральных государственных учреждений медико-социальной экспертизы и&nbsp;реабилитации, совершенствуются методические подходы к&nbsp;установлению инвалидности, уточняются критерии оценки ограничений жизнедеятельности; разрабатываются рекомендации по&nbsp;формированию индивидуальных программ реабилитации инвалидов, создаются и&nbsp;совершенствуются отдельные виды протезирования и ортезирования, различные технические средства реабилитации и&nbsp;приспособления, ассистивные технологии направленные на&nbsp;социально-средовую, психологическую реабилитацию и&nbsp;социально-бытовую адаптацию инвалидов.</p>\r\n<p>Сюда можно обратиться за получением информации о назначенной программе реабилитации, а также оспорить назначенную программу, получить полную информацию о полагающихся услугах.</p>\r\n<p><strong>Сайт: </strong><a href=\"http://fbmse.ru/\">http://fbmse.ru/</a></p>\r\n<p><strong>Контакты: </strong>127486, г. Москва, ул. Ивана Сусанина, 3,</p>\r\n<p><strong>Телефон: </strong>8 (499) 487-57-11, +7 (499) 906-04-33.</p>\r\n<strong>Источник:</strong> <a href=\"https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/fedburo_ekspertizi.html\">https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/fedburo_ekspertizi.html</a>",
+    "is_published": true,
+    "cat": 2,
+    "video": "",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 8,
+  "fields": {
+    "time_create": "2023-10-29T17:47:37.351Z",
+    "time_update": "2023-10-29T17:47:42.778Z",
+    "title": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ ЧЕЛОВЕКА В РФ",
+    "slug": "upolnomochennyj-po-pravam-cheloveka-v-rf",
+    "photo": "photos/2023/10/29/memo_V8kIZ8G.jpg",
+    "content": "<p>Основная цель — содействие реализации прав и свобод человека и гражданина в Российской Федерации.</p>\r\n<p>Уполномоченный по правам человека рассматривает жалобы граждан Российской Федерации и находящихся на территории Российской Федерации иностранных граждан и лиц без гражданства на решения или действия (бездействие) государственных органов, органов местного самоуправления, должностных лиц, государственных служащих, если ранее заявитель обжаловал эти решения или действия (бездействие) в судебном либо административном порядке, но не согласен с решениями, принятыми по его жалобе.</p>\r\n<p><strong>Сайт: </strong><a href=\"https://ombudsmanrf.org/\"><strong>https://ombudsmanrf.org/</strong></a></p>\r\n<p><strong>Контакты:</strong> 119121 г. Москва, Смоленский бульвар, д. 19, стр. 2</p>\r\n<p><strong>Телефон:</strong> 8 (800) 707-56-67(многоканальный), 8 (495) 870-41-77</p>\r\n<strong>Источник:</strong> <a href=\"https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/upolnomochennii_po_pravam_cheloveka.html\">https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/upolnomochennii_po_pravam_cheloveka.html</a>",
+    "is_published": true,
+    "cat": 2,
+    "video": "",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 9,
+  "fields": {
+    "time_create": "2023-10-29T17:50:21.015Z",
+    "time_update": "2023-10-29T17:50:27.965Z",
+    "title": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ РЕБЕНКА В РФ",
+    "slug": "upolnomochennyj-po-pravam-rebenka-v-rf",
+    "photo": "photos/2023/10/29/law_book_ReVSZ7W.jpg",
+    "content": "<p>Институт содействует реализации прав и свобод детей в Российской Федерации.</p>\r\n<p>Деятельность уполномоченного направлена на реализацию законных прав и интересов детей, на соблюдение законных прав и интересов детей государственными органами, органами местного самоуправления и должностными лицами.</p>\r\n<p><strong>Сайт: </strong><a href=\"http://deti.gov.ru/\">http://deti.gov.ru/</a></p>\r\n<p><strong>Контакты</strong>: 125993, г. Москва, ГСП-3, Миусская пл., д.7 стр. 1,</p>\r\n<p><strong>Телефон</strong> +7(495) 221-83-64 (доб.8984 или 8012).</p>\r\n\r\n<strong>Источник:</strong> <a href=\"https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/upolnomochennii_po_pravam_rebenka.html\">https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/upolnomochennii_po_pravam_rebenka.html</a>",
+    "is_published": true,
+    "cat": 2,
+    "video": "",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 10,
+  "fields": {
+    "time_create": "2023-10-29T17:52:56.704Z",
+    "time_update": "2023-10-29T17:55:58.757Z",
+    "title": "ИПРА – КАК ОФОРМИТЬ И ДЛЯ ЧЕГО НУЖНА",
+    "slug": "ipra-kak-oformit-i-dlya-chego-nuzhna",
+    "photo": "photos/2023/10/29/memo_wUmLtOT.jpg",
+    "content": "<p><strong>Как оформить ИПРА, для чего нужна</strong></p>\r\n<p style=\"text-align: justify;\">Индивидуальная программа реабилитации или абилитации инвалида (ИПРА) устанавливает перечень мероприятий, с помощью которых человек может восстановить или компенсировать утраченные способности. В ИПРА указываются виды, формы, объемы, сроки и порядок реализации медицинских, профессиональных и других реабилитационных мероприятий, перечень необходимых инвалиду технических средств реабилитации. Там также отмечается необходимые виды помощи, оказываемые инвалиду в преодолении барьеров, препятствующих получению им услуг на объектах социальной, инженерной и транспортной инфраструктур.</p>\r\n<p style=\"text-align: justify;\">Разработка и реализация ИПРА осуществляются в соответствие с <strong>Приказом Министерства труда и социальной защиты Российской Федерации от 13 июня 2017 г. № 486н «Об утверждении порядка разработки и реализации индивидуальной программы реабилитации или абилитации инвалида, индивидуальной программы реабилитации или абилитации ребенка-инвалида, выдаваемых федеральными государственными учреждениями медико-социальной экспертизы, и их форм».</strong></p>\r\n<p style=\"text-align: justify;\">ИПРА разрабатывается гражданину в случае признания его инвалидом. Разработкой и выдачей ИПРА занимаются федеральные государственные учреждения медико-социальной экспертизы (МСЭ).</p>\r\n<p style=\"text-align: justify;\">Важно знать, что для органов государственной власти и организаций ИПРА является обязательной для исполнения. Для инвалида же, наоборот, ИПРА носит рекомендательный характер – он вправе отказаться от реализации предусмотренных программой мероприятий, как и от реализации программы в целом.</p>\r\n<p><strong>Внесение изменений в ИПРА</strong></p>\r\n<p style=\"text-align: justify;\">Поскольку Индивидуальная программа реабилитации и абилитации составляется на основании нужд инвалида на момент установления инвалидности, впоследствии могут возникать ситуации, при которых в ИПРА необходимо вносить изменения. Вот некоторые из них: изменение персональных данных инвалида, изменений его антропометрических данных (вес, рост и т.д.), появление необходимости в дополнительных ТСР, внесение изменений в другие разделы ИПРА.</p>\r\n<p style=\"text-align: justify;\">В некоторых случаях для внесения изменений в ИПРА не требуется оформление направления, гражданин сразу обращается в бюро МСЭ с соответствующим заявлением. Это происходит:</p>\r\n<ol style=\"text-align: justify;\">\r\n<li>При необходимости внесения исправлений в ИПРА инвалида в связи с изменением персональных данных инвалида, а также в целях устранения технических ошибок (описка, опечатка, грамматическая, арифметическая либо подобная ошибка);</li>\r\n<li>При необходимости внесения изменений в ИПРА инвалида в связи с изменением антропометрических данных инвалида (вес, рост), необходимостью уточнения характеристик ранее рекомендованных видов реабилитационных или абилитационных мероприятий;</li>\r\n<li>При необходимости включения в ИПРА ребенка-инвалида рекомендаций о товарах и услугах, предназначенных для социальной адаптации и интеграции в общество детей-инвалидов, на приобретение которых направляются средства (часть средств) материнского (семейного) капитала (далее - товары и услуги).</li>\r\n</ol>\r\n<p style=\"text-align: justify;\">Если в ИПРА необходимо внести новое ТСР или иные реабилитационные мероприятия, то оформляется новое направление на МСЭ, проводится повторное освидетельствование, по результатам которого составляется новая ИПРА. При этом ранее выданная ИПРА изымается и приобщается к акту освидетельствования с отметками о реализации и эффективности. В новую ИПРА включаются ранее дававшиеся рекомендации (если они остаются по-прежнему показаны инвалиду) и новые рекомендации, дополнения.</p>\r\n<p style=\"text-align: justify;\">Необходимо обратить внимание, что если группа инвалидности установлена бессрочно и инвалид обращается только за изменением ИПРА, то группа инвалидности не пересматривается, освидетельствование проводится только с целью изменения ИПРА.</p>\r\n<p style=\"text-align: justify;\"><strong>Что делать, если не согласен с разработанной ИПРА?</strong></p>\r\n<p style=\"text-align: justify;\">Разработанная ИПРА обжалуется в том же порядке, что и другие решения бюро МСЭ (например, о непризнании инвалидом). Разработанная ИПРА обжалуется в главное бюро МСЭ по субъекту Российской Федерации и затем в Федеральное бюро МСЭ Российской Федерации. Срок обжалования составляет <strong>один месяц</strong> с даты получения гражданином решения. На любой из стадий процесса обжалования, можно обратиться <strong>в суд</strong> и признать Вашу ИПРА недействительной.</p>\r\n<a href=\"https://www.voi.ru/ludyam_s_invalidnostiu//oformlenie_invalidnosti_i_poluchenie_tsr/ipra.html\" class=\"ms-auto\"><strong>Источник</strong></a>",
+    "is_published": true,
+    "cat": 2,
+    "video": "",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 11,
+  "fields": {
+    "time_create": "2023-10-29T17:57:22.344Z",
+    "time_update": "2023-10-29T17:59:09.159Z",
+    "title": "ПОЛУЧЕНИЕ ТСР",
+    "slug": "poluchenie-tsr",
+    "photo": "photos/2023/10/29/memo_10xRr1V.jpg",
+    "content": "<p>В настоящее время есть два пути получения технических средств реабилитации, вписанных в ИПРА:</p>\r\n\r\n<p>предоставление соответствующего технического средства (изделия) в натуральном виде;</p>\r\n\r\n<p>выплаты компенсации расходов за самостоятельное приобретение ТСР.</p>\r\n\r\n<p>В конце 2020 года был принят закон, согласно которому люди с инвалидностью смогут приобретать необходимые им технические средства и услуги для реабилитации с помощью электронных сертификатов. За средства реабилитации можно будет расплачиваться электронным сертификатом, люди сами смогут решать какую модель ТСР им взять, и оплатить сертификатом без каких-либо долгих согласований и долгих ожиданий. Электронный сертификат поможет решить проблему ожидания компенсационных выплат. Данный закон вступает в силу в сентябре 2021 года, после этого у инвалида будет три способа получения ТСР.</p>\r\n<h2>Какие документы требуются для получения ТСР</h2>\r\n<p>Инвалид либо его представитель подают заявление о предоставлении технического средства (изделия) в территориальный орган Фонда социального страхования Российской Федерации по месту жительства (месту пребывания) инвалида или в уполномоченный орган исполнительной власти субъекта по месту жительства (месту пребывания) инвалида.</p>\r\n<p>К заявлению необходимо приложить:</p>\r\n<p>- Документ, удостоверяющий личность инвалида или документ, удостоверяющий личность лица, представляющего интересы инвалида и документ, подтверждающий полномочия представителя;<br>- Справка об инвалидности;<br>- СНИЛС;<br>- ИПРА.</p>\r\n<p>Заявление рассматривается в 15-дневный срок с даты его поступления. По окончании рассмотрения инвалида в письменной форме уведомляют о постановке на учет по обеспечению техническим средством.</p>\r\n<p>Помните, что техническое средство передается вам бесплатно в безвозмездное пользование и НЕ подлежит передаче третьим лицам, в том числе путем продажи или дарения. Но по окончании использования выданные инвалиду технические средства сдаче не подлежат.</p>\r\n<a href=\"https://www.voi.ru/ludyam_s_invalidnostiu//oformlenie_invalidnosti_i_poluchenie_tsr/poluchenie_tcr.html\" class=\"ms-auto\"><strong>Источник</strong></a>",
+    "is_published": true,
+    "cat": 2,
+    "video": "",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 12,
+  "fields": {
+    "time_create": "2023-10-29T18:00:54.750Z",
+    "time_update": "2023-10-29T18:00:58.404Z",
+    "title": "ФЕДЕРАЛЬНЫЙ РЕЕСТР ИНВАЛИДОВ",
+    "slug": "federalnyj-reestr-invalidov",
+    "photo": "photos/2023/10/29/memo_NYJNsjI.jpg",
+    "content": "<p>Федеральный реестр инвалидов (ФРИ) - это единая база данных для граждан, признанных в установленном порядке инвалидами, и для органов власти, которые оказывают услуги или меры социальной поддержки инвалидам. Использование ФРИ позволяет упростить документооборот между органами власти и дает возможность гражданам получить доступ ко многим услугам через интернет.</p>\r\n<p>Одним из достоинств реестра инвалидов также является специально созданный Личный кабинет, в котором гражданин, признанный инвалидом, может получить информацию об инвалидности, о рекомендованных и исполненных мероприятиях реабилитации и абилитации, положенных и предоставленных услугах и выплатах, а также обратиться за предоставлением услуг в электронном виде.</p>\r\n<p>В Личном кабинете вы найдете информацию о назначенных мероприятиях и ТСР в рамках Индивидуальной программы реабилитации или абилитации (ИПРА), номера и даты протокола проведения медико-социальной экспертизы, информацию о наборе услуг, положенных инвалиду (пенсии, ЕДВ и другое).</p>\r\n<p>Через Личный кабинет можно подать заявление на сопровождение при трудоустройстве, причем сотрудник службы занятости даже может приехать к вам домой; подать сведения об автомобиле, перевозящем инвалида (ребенка- инвалида); проверить, внесен ли ваш автомобиль в реестр (а это сейчас обязательное условие, если вы паркуетесь на стоянке для инвалидов) и многое другое.</p>\r\n<p>&nbsp;</p>\r\n<p>Скачать приложение ФРИ в Google Play - <a href=\"https://play.google.com/store/apps/details?id=krista.DisabledRegister&amp;hl=ru\">https://play.google.com/store/apps/details?id=krista.DisabledRegister&amp;hl=ru</a></p>\r\n<p>- в AppStore - <a href=\"https://apps.apple.com/ru/app/%D1%84%D0%B3%D0%B8%D1%81-%D1%84%D1%80%D0%B8/id1180892362\">https://apps.apple.com/ru/app/%D1%84%D0%B3%D0%B8%D1%81-%D1%84%D1%80%D0%B8/id1180892362</a></p>\r\n<a href=\"https://www.voi.ru/ludyam_s_invalidnostiu//oformlenie_invalidnosti_i_poluchenie_tsr/federalnii_reestr_invalidov.html\"><strong>Источник</strong></a>",
+    "is_published": true,
+    "cat": 2,
+    "video": "",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 13,
+  "fields": {
+    "time_create": "2023-11-03T16:16:34.252Z",
+    "time_update": "2023-11-04T13:14:51.964Z",
+    "title": "Поездка  НГО Оптимист в  Абрау - Дюрсо поющие фонтаны",
+    "slug": "abrau-durso",
+    "photo": "photos/2023/11/04/optimist_art.png",
+    "content": "<h2 class=\"display-6\">Исторический факт:</h2>\r\n\r\nДо образования царского имения здесь находилось адыгское селение адыг. ЕкIэх (другое название — адыг. Абрагъо) — «провалившееся». После окончания Кавказской войны и депортации черкесов в 1870 году по указу начальника Черноморского округа генерал-майора Д. В. Пиленко было основано удельное имение царской семьи Абрау-Дюрсо.\r\n\r\nВыделение земли для Удельного ведомства было произведено в 1871 году. При первом межевании площадь под лесом, лугами и степью составляла свыше 7,2 тыс. десятин. Опыты по разведению винограда были начаты под руководством агронома Черноморского округа Ф. И. Гейдука, который в 1872 году закупил за границей селекционные рейнские виноградные лозы сортов Рислинг и Португизер. В 1873—1874 годах часть (около 8 тыс. кустов) была высажена в Абрау-Дюрсо на плантации площадью свыше 3,2 тыс. квадратных саженей. Позже здесь культивировались также сорта Совиньон, Пино-фран и Пино-гри, Траминер и др.\r\n\r\nПервый урожай винограда в Абрау-Дюрсо собран в 1877 году. В 1882 году был выстроен специальный подвал, оборудованный для производства вина (в 1886 году — второй подвал на 13,6 тыс. вёдер). К 1882 году винодел Э. А. Ведель создал марочные столовые вина «Рислинг» и «Каберне Абрау». К середине 1890-х годов окончательно сложились типы марочных вин Абрау-Дюрсо: типа «Сотерн», «Лафит», «Бордо», «Бургундское».\r\n\r\nВ 1891 году главным виноделом Удельного ведомства был назначен князь Л. С. Голицын. В соответствии с его рекомендациями в Абрау-Дюрсо начата подготовка к приготовлению игристого вина шампанским способом (фр. méthode champenoise) и строительству усовершенствованных подвалов. С 1893 года разводили шампанские сорта винограда, вскоре ими было занято около половины всей площади виноградников. В 1894—1900 годах в Абрау-Дюрсо построены здание завода, 5 подвалов-тоннелей, проложена шоссейная дорога к Новороссийску. В 1898 году выпущена первая партия шампанского с маркой «Абрау». В 1899 году из Судака в Абрау-Дюрсо переведён весь персонал специалистов по производству шампанского.\r\n\r\nВ 1920 году на основе бывшего царского имения был создан винодельческий совхоз «Абрау-Дюрсо».\r\n\r\nВ этот период руководителем предприятия являлся А. М. Фролов-Багреев (1877—1953) — основоположник советской разновидности резервуарного метода производства игристых вин. Первый тираж советского шампанского в количестве 36 тысяч бутылок был произведён резервуарным методом под руководством А. М. Фролова-Багреева в 1928 году.\r\n\r\n28 июля 1936 года на заседании Политбюро, при личном участии И. В. Сталина, было принято Постановление Совнаркома СССР и ЦК ВКП(б) «О производстве Советского шампанского, десертных и столовых вин». Данное постановление предусматривало внедрение широкого производства «Советского шампанского» резервуарным методом на существующих заводах (в том числе, на заводе «Абрау-Дюрсо»).\r\n\r\n5 февраля 1937 года издано Постановление Совета Народных Комиссаров СССР № 213 «О расширении сырьевой базы для производства советского шампанского и высококачественных десертных вин в колхозах РСФСР» для использования предприятием «Абрау-Дюрсо» (п. 1):\r\n\r\nСосредоточить сырьевую базу для производства Советского шампанского в РСФСР: а) в основном — на территории, прилегающей к району расположения существующего шампанского производства в совхозе „Абрау-Дюрсо“: в районах Новороссийском, Анапском, Геленджикском и Темрюкском, Азово-Черноморского края.\r\n\r\nСовхоз и завод Абрау-Дюрсо были выделены в отдельный населённый пункт (рабочий посёлок) 23 июля 1948 года[7]. В конце 2000-x годов посёлок городского типа Абрау-Дюрсо преобразован в село.",
+    "is_published": true,
+    "cat": 1,
+    "video": "videos/2023/11/03/22.09.2023_Поездка_на_поющие_фонтаны_Абрау-Дюрсо.mp4",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 14,
+  "fields": {
+    "time_create": "2023-11-04T13:22:40.346Z",
+    "time_update": "2023-11-04T13:22:55.986Z",
+    "title": "День рождения председятеля НГО оптимист 27.10.2023",
+    "slug": "den-rozhdeniya-predsedyatelya-ngo-optimist-27102023",
+    "photo": "photos/2023/11/04/optimist_art_GiDnnSN.png",
+    "content": "Уважаемый Гаврилов Валерий Андреевич!\r\n\r\nПоздравляем Вас с Днем Рождения от всей команды ГОРОДСКОЙ ОБЩЕСТВЕННАОЙ НЕКОММЕРЧЕСКОЙ ОРГАНИЗАЦИИ ЛЮДЕЙ С ОГРАНИЧЕННЫМИ ВОЗМОЖНОСТЯМИ ЗДОРОВЬЯ «ОПТИМИСТ». Вы являетесь не только председателем нашей организации, но и источником вдохновения и оптимизма для всех нас.\r\n\r\nВаше руководство и преданность делу принесли нам множество счастливых моментов и общие достижения. Благодаря вашей энергии и решительности, мы смогли создать уютное и поддерживающее сообщество, которое дает людям с ограниченными возможностями здоровья шанс на полноценную жизнь.\r\n\r\nВаша преданность и понимание потребностей наших участников делают нашу организацию неотъемлемой частью жизни многих людей. Под вашим руководством, мы развиваем и проводим различные программы и мероприятия, которые помогают улучшить качество жизни наших участников, а также расширить их возможности.\r\n\r\nМы гордимся тем, что имеем такого талантливого и энергичного председателя, как Вы, и искренне благодарим Вас за все, что Вы делаете для нас. Желаем Вам огромного счастья, здоровья, вдохновения и успехов во всех ваших начинаниях. Пусть каждый следующий год будет наполнен новыми достижениями и прекрасными моментами.\r\n\r\nС наилучшими пожеланиями, Команда НГО «ОПТИМИСТ»",
+    "is_published": true,
+    "cat": 1,
+    "video": "videos/2023/11/04/VID-20231028-WA0023.mp4",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 15,
+  "fields": {
+    "time_create": "2023-11-04T13:36:29.340Z",
+    "time_update": "2023-11-04T13:39:02.569Z",
+    "title": "ПОРЯДОК ОФОРМЛЕНИЯ ИНВАЛИДНОСТИ",
+    "slug": "poryadok-oformleniya-invalidnosti",
+    "photo": "photos/2023/11/04/.jpg",
+    "content": "<h2 class=\"display-6\">Как происходит направление на медико-социальную экспертизу?</h2>\r\n<br>\r\nДля того, чтобы попасть в бюро медико-социальной экспертизы на освидетельствование, гражданин должен быть туда направлен.\r\n\r\nГражданин направляется на медико-социальную экспертизу медицинской организацией независимо от ее организационно-правовой формы в соответствии с решением врачебной комиссии медицинской организации.\r\n\r\nЗа направлением на МСЭ гражданин обращается к врачу медицинской организации по профилю своего основного заболевания или к терапевту. Врач, проводит осмотр пациента, изучает историю болезни, знакомится с имеющимися медицинскими документами, выписками и т.д. и направляет пациента на консультацию к другим врачам-специалистам, с целью выявления сопутствующих заболеваний, а также определяет, какие обследования должен пройти пациент. Перечень медицинских обследований, необходимых для получения клинико-функциональных данных в зависимости от заболевания в целях проведения медико-социальной экспертизы, утвержден Приказом Минтруда России №402н и Минздравом России №631н от 10 июня 2021 года.\r\n\r\nТак как медико-социальная экспертиза проводится только с согласия гражданина, то при оформлении направления на МСЭ гражданин должен письменного оформить согласие на направление и проведение медико-социальной экспертизы. Согласие на направление и проведение медико-социальной экспертизы подается гражданином (его законным или уполномоченным представителем) в медицинскую организацию после принятия врачебной комиссией медицинской организации решения о направлении его на медико-социальную экспертизу. В согласии на направление и проведение медико-социальной экспертизы гражданин (его законный или уполномоченный представитель) указывает предпочтительную форму проведения медико-социальной экспертизы (с его личным присутствием или без его личного присутствия) и информирует о предпочтительном способе получения уведомления о проведении медико-социальной экспертизы. Сведения из согласия вносятся в оформляемое направление на медико-социальную экспертизу. Согласие может быть подано в бумажной форме, либо в электронной форме через «Единый портал государственных и муниципальных услуг (функций)».\r\n\r\nПосле прохождения всех необходимых врачей и обследований медицинское учреждение формирует направление. Направление на медико-социальную экспертизу должно быть оформлено в течение не более 30 дней. Если гражданин находится в больнице в связи с ампутацией конечности и нуждается в первичном протезировании, то он должен быть направлен на медико-социальную экспертизу в течение 3 дней после проведения операции. Если гражданин признан нуждающимся в паллиативной медицинской помощи, то он направляется на медико-социальную экспертизу в течение 1 рабочего дня после получения результатов всех медицинских обследований.\r\n\r\nОформленное направление медицинская организация направляет в бюро МСЭ на бумажном носителе в течение 3 рабочих дней. Если в данной поликлинике имеется техническая возможность, то оформленное направление передается в бюро МСЭ в форме электронного документа, подписанного усиленной квалифицированной электронной подписью. С 1 июня 2023 года передача направления в бюро МСЭ медицинской организацией должна в обязательном порядке осуществляться в электронной форме.\r\n\r\n<h2 class=\"display-6\">Что делать, если в поликлинике Вам отказали в направлении на медико-социальную экспертизу?</h2>\r\n<br>\r\nВ случае, если поликлиника отказывает гражданину в направлении на освидетельствование, ему выдается заключение врачебной комиссии поликлиники. Это заключение может быть обжаловано в территориальном органе Федеральной службы по надзору в сфере здравоохранения (Росздравнадзор) или у учредителя данной медицинской организации. Учредителями, как правило, являются исполнительные органы государственной власти субъектов РФ в сфере здравоохранения (региональные министерства здравоохранения).\r\n\r\n<h2 class=\"display-6\">В каких случаях оформление направления на медико-социальную экспертизу не требуется?</h2>\r\n\r\nВ некоторых случаях оформление направления на медико-социальную экспертизу не требуется. Направление не требуется, если медико-социальная экспертиза проводится в целях:\r\n\r\n- выдачи дубликата справки, подтверждающей факт установления инвалидности, степени утраты профессиональной трудоспособности в процентах;\r\n\r\n- выдачи новой справки, подтверждающей факт установления инвалидности, в случае изменения фамилии, имени, отчества, даты рождения гражданина;\r\n\r\n- определения причины смерти инвалида, а также лица, пострадавшего в результате несчастного случая на производстве, профессионального заболевания, катастрофы на Чернобыльской АЭС и других радиационных или техногенных катастроф либо в результате ранения, контузии, увечья или заболевания, полученных в период прохождения военной службы, в случаях, когда законодательством Российской Федерации предусматривается предоставление семье умершего мер социальной поддержки.\r\n\r\nТакже оформление направления не требуется:\r\n\r\n- при необходимости внесения исправлений в индивидуальную программу реабилитации или абилитации в связи с изменением персональных, антропометрических данных инвалида (ребенка-инвалида), уточнением характеристик ранее рекомендованных видов реабилитационных и (или) абилитационных мероприятий, технических средств реабилитации и услуг, а также в целях устранения технических ошибок (описка, опечатка, грамматическая или арифметическая ошибка либо подобная ошибка) инвалиду (ребенку-инвалиду);\r\n\r\n- при необходимости включения в индивидуальную программу реабилитации или абилитации ребенка-инвалида рекомендаций о товарах и услугах, предназначенных для социальной адаптации и интеграции в общество детей-инвалидов, на приобретение которых направляются средства (часть средств) материнского (семейного) капитала (далее - товары и услуги)\r\n\r\nВ этих случаях гражданин (его законный или уполномоченный представитель) подает в бюро по месту жительства (месту пребывания, фактического проживания) заявление о проведении медико-социальной экспертизы на бумажном носителе или через личный кабинет единого портала в форме электронного документа с выбором конкретной даты и времени проведения медико-социальной экспертизы из предложенных вариантов.\r\n\r\n<h2 class=\"display-6\">В какой форме может быть проведена медико-социальная экспертиза?</h2>\r\n<br>\r\nПостановлением Правительства РФ от 05.04.2022 № 588 «О признании лица инвалидом» предусматриваются следующие формы проведения медико-социальной экспертизы:\r\n\r\n- с личным участием гражданина (очно);\r\n\r\n- без личного участия гражданина (заочно);\r\n\r\n- дистанционно (по видеосвязи).\r\n\r\nГражданин может самостоятельно выбрать в какой форме будет проводиться медико-социальная экспертиза (МСЭ) – очно или заочно. При очном освидетельствовании гражданин будет лично участвовать в экспертизе, при заочном – поступившие из медицинского учреждения документы будут рассмотрены без присутствия гражданина.\r\n\r\nВыбор гражданина о форме проведения экспертизы осуществляется в согласии на направление и проведение медико-социальной экспертизы и фиксируется в направлении гражданина на МСЭ.\r\n\r\nОднако Правилами предусмотрены случаи, когда медико-социальная экспертиза обязательно должна быть проведена в очной форме, независимо от предпочтения гражданина. К таким случаям, например, относится:\r\n\r\n- если возникнут сомнения в достоверности представленных документов;\r\n\r\n- если в процессе рассмотрения документов выявятся какие-либо несоответствия в направленных сведениях;\r\n\r\n- выяснится, что гражданин должен быть обследован с применением специального диагностического оборудования, которым располагают бюро МСЭ;\r\n\r\n- если экспертиза проводится в отношении гражданина, ранее признанного инвалидом с целью разработки индивидуальной программы реабилитации и абилитации;\r\n\r\n- если гражданин проживает в стационарном учреждении социального обслуживания (интернате).\r\n\r\nВо всех остальных случаях медико-социальная экспертиза проводится в той форме, которую выберет гражданин (очно или заочно). Если экспертиза будет проводиться очно, с гражданином согласуют дату и время ее проведения.\r\n\r\nС 1 июня 2023 года пройти медико-социальную экспертизу можно будет также в дистанционном формате, когда гражданину будет предоставлена возможность общения со специалистами МСЭ путем видеосвязи. Такой формат предполагается использовать при обжаловании решений бюро МСЭ в главном или федеральном бюро в случае, если гражданин не согласен с принятым решением.\r\n\r\n<h2 class=\"display-6\">Порядок проведения медико-социальной экспертизы</h2>\r\n\r\nМедико-социальная экспертиза проводится бюро, главным бюро, Федеральным бюро в соответствии со следующими заявленными в направлении на медико-социальной экспертизу или в заявлении гражданина (его законного или уполномоченного представителя) целями проведения медико-социальной экспертизы:\r\n\r\nа) установление группы инвалидности;\r\n\r\nб) установление категории \"ребенок-инвалид\";\r\n\r\nв) установление причин инвалидности;\r\n\r\nг) установление времени наступления инвалидности;\r\n\r\nд) установление срока инвалидности;\r\n\r\nе) определение степени утраты профессиональной трудоспособности в процентах;\r\n\r\nж) определение стойкой утраты трудоспособности сотрудника органов внутренних дел Российской Федерации, сотрудника органов принудительного исполнения Российской Федерации, лица, проходящего службу в войсках национальной гвардии Российской Федерации и имеющего специальное звание полиции;\r\n\r\nз) определение нуждаемости по состоянию здоровья в постоянном постороннем уходе (помощи, надзоре) отца, матери, жены, родного брата, родной сестры, дедушки, бабушки или усыновителя гражданина, призываемого на военную службу (военнослужащего, проходящего военную службу по контракту) и на военную службу по мобилизации;\r\n\r\nи) определение нуждаемости по состоянию здоровья в постоянном постороннем уходе (помощи, надзоре) отца, матери, родного брата, родной сестры, дедушки, бабушки или усыновителя государственного гражданского служащего, подлежащего назначению на иную должность гражданской службы в порядке ротации;\r\n\r\nк) определение причины смерти инвалида, а также лица, пострадавшего в результате несчастного случая на производстве, профессионального заболевания, катастрофы на Чернобыльской АЭС и других радиационных или техногенных катастроф либо в результате ранения, контузии, увечья или заболевания, полученных в период прохождения военной службы, в случаях, когда законодательством Российской Федерации предусматривается предоставление семье умершего мер социальной поддержки;\r\n\r\nл) разработка индивидуальной программы реабилитации или абилитации инвалида (ребенка-инвалида);\r\n\r\nм) разработка программы реабилитации лица, пострадавшего в результате несчастного случая на производстве и профессионального заболевания;\r\n\r\nн) выдача дубликата справки, подтверждающей факт установления инвалидности, степени утраты профессиональной трудоспособности в процентах;\r\n\r\nо) выдача новой справки, подтверждающей факт установления инвалидности, в случае изменения фамилии, имени, отчества, даты рождения гражданина;\r\n\r\nп) иные цели, установленные законодательством Российской Федерации.\r\n\r\nПо результатам рассмотрения зарегистрированных документов бюро (главное бюро, Федеральное бюро) с учетом мнения гражданина (его законного или уполномоченного представителя), указанного в направлении на медико-социальную экспертизу, в заявлении о проведении медико-социальной экспертизы или в заявлении об обжаловании решения бюро (главного бюро), принимает решение о форме проведения медико-социальной экспертизы, определяет дату и время проведения медико-социальной экспертизы в случае отсутствия выбора гражданином (его законным или уполномоченного представителем) даты и времени на едином портале и направляет гражданину (его законному или уполномоченному представителю) уведомление о проведении медико-социальной экспертизы в форме документа на бумажном носителе заказным почтовым отправлением или в форме электронного документа, подписанного усиленной квалифицированной электронной подписью должностного лица бюро (главного бюро, Федерального бюро), с использованием единого портала.\r\n\r\nВ случае принятия решения о проведении медико-социальной экспертизы с личным присутствием гражданина бюро (главное бюро, Федеральное бюро) уточняет по каналам телефонной связи у гражданина дату и время проведения освидетельствования посредством выбора доступных даты и времени из интервалов, определенных бюро (главным бюро, Федеральным бюро).\r\n\r\nМедико-социальная экспертиза может проводиться не только в помещении бюро МСЭ, но может быть выездной. Медико-социальная экспертиза с личным присутствием гражданина проводится:\r\n\r\nа) в бюро (главном бюро, Федеральном бюро) при явке гражданина в бюро (главное бюро, Федеральное бюро);\r\n\r\nб) по месту нахождения гражданина, если он не может явиться в бюро (главное бюро, Федеральное бюро) по состоянию здоровья, что подтверждается заключением врачебной комиссии медицинской организации;\r\n\r\nв) по месту нахождения гражданина в организации социального обслуживания, оказывающей социальные услуги в стационарной форме социального обслуживания;\r\n\r\nг) по месту нахождения гражданина в исправительном учреждении, где гражданин отбывает наказание;\r\n\r\nд) по месту нахождения гражданина в медицинской организации, оказывающей гражданину медицинскую помощь в стационарных условиях.\r\n\r\nМедико-социальная экспертиза без личного присутствия гражданина проводится путем изучения представленных документов, анализа имеющихся в направлении на медико-социальную экспертизу данных о состоянии здоровья гражданина, отражающих степень нарушения функций органов и систем организма, состояние компенсаторных возможностей организма, сведений о результатах проведенных реабилитационных или абилитационных мероприятий, сведений о результатах медицинских обследований, необходимых для получения клинико-функциональных данных в зависимости от заболевания в целях проведения медико-социальной экспертизы.\r\n\r\nМедико-социальная экспертиза с личным присутствием гражданина проводится путем опроса, осмотра и обследования гражданина специалистами бюро (главного бюро, Федерального бюро) при необходимости с использованием специального диагностического оборудования, изучения представленных документов, анализа имеющихся в направлении на медико-социальную экспертизу данных о состоянии здоровья гражданина, отражающих степень нарушения функций органов и систем организма, состояние компенсаторных возможностей организма, сведений о результатах проведенных реабилитационных или абилитационных мероприятий, сведений о результатах медицинских обследований, необходимых для получения клинико-функциональных данных в зависимости от заболевания в целях проведения медико-социальной экспертизы.\r\n\r\nПри проведении медико-социальной экспертизы гражданина ведется протокол.\r\n\r\nРешение о признании гражданина инвалидом либо об отказе в признании его инвалидом принимается простым большинством голосов специалистов, проводивших медико-социальную экспертизу, на основе обсуждения результатов его медико-социальной экспертизы и заносится в акт медико-социальной экспертизы.\r\n\r\nЕсли медико-социальная экспертиза проводилась с личным присутствием гражданина (очно) или дистанционно, то решение объявляется гражданину (его законному или уполномоченному представителю) в присутствии всех специалистов, проводивших медико-социальную экспертизу, которые дают по нему разъяснения.\r\n\r\nСправка, подтверждающая факт установления инвалидности, по согласованию с гражданином (его законным или уполномоченным представителем) может быть выдана на руки гражданину (его законному или уполномоченному представителю), либо направлена ему (его законному или уполномоченному представителю) заказным почтовым отправлением с соблюдением требований законодательства Российской Федерации в области защиты персональных данных.\r\n\r\nДля гражданина, признанного инвалидом (ребенком-инвалидом), разрабатывается индивидуальная программа реабилитации или абилитации инвалида (ребенка-инвалида) (далее - ИПРА).\r\n\r\nИПРА формируется в информационной системе медико-социальной экспертизы в форме электронного документа и направляется гражданину (его законному или уполномоченному представителю) на бумажном носителе заказным почтовым отправлением и в форме электронного документа в личный кабинет гражданина (его законного или уполномоченного представителя) на едином портале.\r\n\r\nПри проведении медико-социальной экспертизы с личным присутствием гражданина ИПРА по желанию инвалида (его законного или уполномоченного представителя) может быть выдана ему на руки на бумажном носителе.\r\n\r\nГражданину, не признанному инвалидом, формируется выписка с результатами проведения медико-социальной экспертизы, и направляется гражданину (его законному или уполномоченному представителю) на бумажном носителе заказным почтовым отправлением и в личный кабинет на едином портале. В случае проведения медико-социальной экспертизы с присутствием гражданина по его желанию справка с результатами медико-социальной экспертизы может быть выдана на бумажном носителе на руки гражданину (его законному или уполномоченному представителю).\r\n\r\nПо результатам медико-социальной экспертизы гражданина в информационной системе медико-социальной экспертизы составляется акт. Акт медико-социальной экспертизы гражданина, протокол проведения медико-социальной экспертизы гражданина, ИПРА формируются в информационной системе медико-социальной экспертизы в электронное дело медико-социальной экспертизы гражданина. Гражданин (его законный или уполномоченный представитель) имеет право на ознакомление с актом медико-социальной экспертизы и протоколом проведения медико-социальной экспертизы. Для этого необходимо обратиться в бюро МСЭ с соответствующим заявлением, в результате которого ему в этот же день должны выдать копии указанных документов в бумажной форме, либо они направляются в личный кабинет гражданина на едином портале в виде электронных документов.\r\n\r\n<h2 class=\"display-6\">Какая группа инвалидности может быть установлена?</h2>\r\n\r\nГражданам может быть установлена одна из трех групп инвалидности -  первая, вторая или третья. Основным документом, регулирующим вопрос установления той или иной группы инвалидности, является Приказ Минтруда России от 27 августа 2019 года № 585н «О классификациях и критериях, используемых при осуществлении медико-социальной экспертизы граждан федеральными государственными учреждениями медико-социальной экспертизы».\r\n\r\nДанным документом определены основные виды стойких расстройств функций организма человека, обусловленные заболеваниями, последствиями травм или дефектами, а именно:\r\n\r\nа) нарушения психических функций (сознания, ориентации, интеллекта, личностных особенностей, волевых и побудительных функций, внимания, памяти, психомоторных функций, эмоций, восприятия, мышления, познавательных функций высокого уровня, умственных функций речи, последовательных сложных движений);\r\n\r\nб) нарушения языковых и речевых функций (устной (ринолалия, дизартрия, заикание, алалия, афазия); письменной (дисграфия, дислексия), вербальной и невербальной речи; нарушение голосообразования);\r\n\r\nв) нарушения сенсорных функций (зрения; слуха; обоняния; осязания; тактильной, болевой, температурной, вибрационной и других видов чувствительности; вестибулярной функции; боль);\r\n\r\nг) нарушения нейромышечных, скелетных и связанных с движением (статодинамических) функций (движения головы, туловища, конечностей, в том числе костей, суставов, мышц; статики, координации движений);\r\n\r\nд) нарушения функций сердечно-сосудистой системы, дыхательной системы, пищеварительной, эндокринной систем и метаболизма, системы крови и иммунной системы, мочевыделительной функции, функции кожи и связанных с ней систем;\r\n\r\nе) нарушения, обусловленные физическим внешним уродством (деформации лица, головы, туловища, конечностей, приводящие к внешнему уродству; аномальные отверстия пищеварительного, мочевыделительного, дыхательного трактов; нарушение размеров тела).\r\n\r\nСтепень выраженности этих нарушений оценивается в процентах и устанавливается в диапазоне от 10 до 100, с шагом в 10 процентов.\r\n\r\nВыделяются 4 степени выраженности стойких нарушений функций организма человека, обусловленных заболеваниями, последствиями травм или дефектами:\r\n\r\nI степень - стойкие незначительные нарушения функций организма человека, обусловленные заболеваниями, последствиями травм или дефектами, в диапазоне от 10 до 30 процентов;\r\n\r\nII степень - стойкие умеренные нарушения функций организма человека, обусловленные заболеваниями, последствиями травм или дефектами, в диапазоне от 40 до 60 процентов;\r\n\r\nIII степень - стойкие выраженные нарушения функций организма человека, обусловленные заболеваниями, последствиями травм или дефектами, в диапазоне от 70 до 80 процентов;\r\n\r\nIV степень - стойкие значительно выраженные нарушения функций организма человека, обусловленные заболеваниями, последствиями травм или дефектами, в диапазоне от 90 до 100 процентов.\r\n\r\nСтепень выраженности стойких нарушений функций организма человека, обусловленных заболеваниями, последствиями травм или дефектами, устанавливается в соответствии с количественными системами оценки, предусмотренными приложениями N 1 и 2 к настоящим классификациям и критериям.\r\n\r\nПриложением 1 установлена система оценки в отношении взрослых, достигших 18-летнего возраста, приложение 2 – в отношении детей. Данные приложения содержат конкретные заболевания или состояния и соответствующая этому заболеванию количественная оценка в процентах в зависимости от тяжести имеющихся нарушений при данном заболевании.\r\n\r\nВ зависимости от установленной количественной оценки нарушения функций организма устанавливается группа инвалидности.\r\n\r\nКритерием для установления первой группы инвалидности является нарушение здоровья человека с IV степенью выраженности стойких нарушений функций организма человека (в диапазоне от 90 до 100 процентов), обусловленное заболеваниями, последствиями травм или дефектами.\r\n\r\nКритерием для установления второй группы инвалидности является нарушение здоровья человека с III степенью выраженности стойких нарушений функций организма (в диапазоне от 70 до 80 процентов), обусловленное заболеваниями, последствиями травм или дефектами.\r\n\r\nКритерием для установления третьей группы инвалидности является нарушение здоровья человека со II степенью выраженности стойких нарушений функций организма (в диапазоне от 40 до 60 процентов), обусловленное заболеваниями, последствиями травм или дефектами.\r\n\r\nКатегория \"ребенок-инвалид\" устанавливается при наличии у ребенка II, III либо IV степени выраженности стойких нарушений функций организма (в диапазоне от 40 до 100 процентов), обусловленных заболеваниями, последствиями травм и дефектами.\r\n\r\nЕще один важный момент, на который необходимо обратить внимание. Как же учитываются сопутствующие и иные имеющиеся у гражданина заболевания при установлении инвалидности?\r\n\r\nИзучаются все имеющиеся у гражданина заболевания, определяется то, которое дает наиболее высокий процент нарушения функций организма и определяется влияют ли остальные имеющиеся заболевания на вот это основное. Если такое влияние установлено, то гражданину увеличивается количественная оценка максимально выраженного нарушения еще на 10%.\r\n\r\n<h2 class=\"display-6\">На какой срок устанавливается инвалидность?</h2>\r\n<br>\r\nИнвалидность I группы устанавливается на 2 года, II и III групп - на 1 год.\r\n\r\nТакже группа инвалидности может быть установлена бессрочно.\r\n\r\nКатегория «ребенок-инвалид» устанавливается сроком на 1 год, 2 года, 5 лет, до достижения гражданином возраста 14 лет либо 18 лет.\r\n\r\nПо общему правилу группа инвалидности без указания срока переосвидетельствования, а гражданам, не достигшим 18 лет, - категория \"ребенок-инвалид\" до достижения гражданином возраста 18 лет устанавливается: не позднее 4 лет после первичного признания гражданина инвалидом (установления категории \"ребенок-инвалид\") в случае выявления невозможности устранения или уменьшения в ходе осуществления реабилитационных или абилитационных мероприятий степени ограничения жизнедеятельности гражданина, вызванного стойкими необратимыми морфологическими изменениями, дефектами и нарушениями функций органов и систем организма.\r\n\r\nЭто касается общего правила, однако Постановлением Правительства РФ от 05.04.2022 № 588 «О признании лица инвалидом» утверждены отдельные условия, при наличии которых сроки установления инвалидности отличаются от общего правила. В частности, в приложении к указанным Правилам признания лица инвалидом утверждены отдельные перечни заболеваний и состояний, которые дают основания устанавливать инвалидность раньше. В частности утверждены:\r\n\r\n- Перечень заболеваний, дефектов, необратимых морфологических изменений, нарушений функций органов и систем организма, при которых группа инвалидности без указания срока переосвидетельствования (категория \"ребенок-инвалид\" до достижения гражданином возраста 18 лет) устанавливается гражданам не позднее 2 лет после первичного признания инвалидом (установления категории \"ребенок-инвалид\");\r\n\r\n- Показания и условия для установления категории \"ребенок-инвалид\" сроком на 5 лет и до достижения возраста 14 лет;\r\n\r\n- Показания и условия для установления категории \"ребенок-инвалид\" до достижения гражданином возраста 18 лет;\r\n\r\n- Заболевания, дефекты, необратимые морфологические изменения, нарушения функций органов и систем организма, при которых группа инвалидности (категория \"ребенок-инвалид\") устанавливается без срока переосвидетельствования (до достижения возраста 18 лет) при первичном освидетельствовании.\r\n\r\nДанные основания были приняты для того, чтобы в тяжелых случаях или в случаях, когда очевидно, что состояние здоровья улучшаться не будет, оперативно принимать решение об установлении инвалидности бессрочно, либо на 5 лет и до достижения 18 лет в отношении детей-инвалидов.\r\n\r\nПеречислять конкретные заболевания и состояния, которые содержаться в данных документах не представляется возможным из-за объема этой информации. Вы можете ознакомиться с Постановлением Правительства РФ от 05.04.2022 № 588 «О признании лица инвалидом» и приложениями к нему по следующей ссылке: https://base.garant.ru/403829132\r\n\r\n<h2 class=\"display-6\">Какая причина инвалидности может быть установлена и для чего она нужна?</h2>\r\n<br>\r\nПостановлением Правительства РФ 05.04.2022 № 588 «О признании лица инвалидом» утверждены 16 возможных причин инвалидности и это перечень не является закрытым, т.е. возможны и иные причины инвалидности, которые содержаться в иных нормативно-правовых актах.\r\n\r\nВ случае признания гражданина инвалидом устанавливаются следующие причины инвалидности:\r\n\r\nа) общее заболевание;\r\n\r\nб) трудовое увечье;\r\n\r\nв) профессиональное заболевание;\r\n\r\nг) инвалидность с детства;\r\n\r\nд) инвалидность с детства вследствие ранения (контузии, увечья), связанная с боевыми действиями в период Великой Отечественной войны 1941 - 1945 годов;\r\n\r\nе) военная травма;\r\n\r\nж) заболевание получено в период военной службы;\r\n\r\nз) заболевание радиационно обусловленное получено при исполнении обязанностей военной службы (служебных обязанностей) в связи с катастрофой на Чернобыльской АЭС;\r\n\r\nи) заболевание связано с катастрофой на Чернобыльской АЭС;\r\n\r\nк) заболевание, полученное при исполнении иных обязанностей военной службы (служебных обязанностей), связано с катастрофой на Чернобыльской АЭС;\r\n\r\nл) заболевание связано с аварией на производственном объединении \"Маяк\";\r\n\r\nм) заболевание, полученное при исполнении иных обязанностей военной службы (служебных обязанностей), связано с аварией на производственном объединении \"Маяк\";\r\n\r\nн) заболевание связано с последствиями радиационных воздействий;\r\n\r\nо) заболевание радиационно обусловленное получено при исполнении обязанностей военной службы (служебных обязанностей) в связи с непосредственным участием в действиях подразделений особого риска;\r\n\r\nп) заболевание (ранение, контузия, увечье), полученное лицом, обслуживавшим действующие воинские части Вооруженных Сил СССР и Вооруженных Сил Российской Федерации, находившиеся на территориях других государств в период ведения в этих государствах боевых действий;\r\n\r\nр) инвалидность вследствие ранения (контузии, увечья), полученного в связи с участием в боевых действиях в составе отрядов самообороны Республики Дагестан в период с августа по сентябрь 1999 г. в ходе контртеррористических операций на территории Республики Дагестан;\r\n\r\nс) иные причины, установленные законодательством Российской Федерации.\r\n\r\nОстановимся на самых распространенных причинах инвалидности.\r\n\r\nПричина инвалидности «инвалидность с детства» устанавливается, если заболевание или травма получены гражданином в детстве.\r\n\r\nПричина «трудовое увечье» устанавливается в случае получение травмы, увечья в случае несчастного случая на производстве. Факт получение увечья на производстве подтверждается актом о несчастном случае на производстве по установленной форме или решением суда об установлении факта несчастного случая на производстве.\r\n\r\nПричина «профессиональное заболевание» определяется гражданам, инвалидность которых наступила вследствие острых и хронических профессиональных заболеваний (отравлений). Также подтверждается либо актом о случае профессионального заболевания, либо решением суда.\r\n\r\nПричина инвалидности «военная травма» определяется гражданам, уволенным с военной службы, в случаях, если инвалидность бывших военнослужащих наступила вследствие увечья (ранения, травмы, контузии) или заболевания, полученных при защите Родины, в том числе в связи с пребыванием на фронте, прохождением военной службы на территориях других государств, где велись боевые действия, или при исполнении иных обязанностей военной службы. Подтверждается военно-медицинскими документами: свидетельством о болезни, справкой военно-врачебн<br>ой комиссии, справкой по форме N 16, справками военно-медицинских учреждений, а также справками Центрального архива Министерства обороны Российской Федерации, Архива военно-медицинских документов Военно-медицинского музея Министерства обороны Российской Федерации, Российского государственного военного архива.\r\n\r\nПричина «заболевание получено в период военной службы» определяется в случаях, если инвалидность бывшего военнослужащего наступила вследствие заболевания, полученного в период военной службы, вследствие увечья (ранения, травмы, контузии), полученного в результате несчастного случая, не связанного с исполнением обязанностей военной службы (служебных обязанностей), либо заболевания, не связанного с исполнением обязанностей военной службы (служебных обязанностей). Подтверждается военно-медицинскими документами: свидетельством о болезни, справкой ВВК, справками военно-медицинских учреждений, а также справками Центрального архива Министерства обороны Российской Федерации, Архива военно-медицинских документов Военно-медицинского музея Министерства обороны Российской Федерации, Российского государственного военного архива.\r\n\r\nНеобходимо отметить, что все перечисленные выше причины инвалидности могут быть установлены как по прямым последствиям обстоятельств, явившихся причиной заболеваний, травмы, увечья, так и по его осложнениям, обусловившим наступление инвалидности, независимо от времени обращения в бюро медико-социальной экспертизы за установлением инвалидности. Например, гражданин заболел в детстве, лечился, но за установлением инвалидности не обращался. Впоследствии, уже будучи взрослым, обратился за инвалидностью, предоставил медицинские документы, подтверждающие, что заболевание возникло в детстве, был признан инвалидом с причиной инвалидности «инвалид с детства».\r\n\r\nТакже существует еще причина инвалидности с формулировкой «общее заболевание», которая определяется в тех случаях, когда инвалидность явилась следствием различных заболеваний или увечий, но не стоит в прямой зависимости от профессионального заболевания, трудового увечья, военной травмы или заболевания, полученного в период военной службы, и не связана с катастрофой на Чернобыльской АЭС, последствиями радиационных воздействий и непосредственным участием в деятельности подразделений особого риска и иными обстоятельствами, указанными в настоящем разъяснении.\r\n\r\nБолее подробно с условиями установления той или иной причины инвалидности Вы можете ознакомиться в Приказе Минтруда РФ от 28.11.2019 года № 742н «Об утверждении порядка установления причин инвалидности».\r\n\r\nЕще хотелось бы отметить, что в отношении детей-инвалидов причина инвалидности не указывается, просто устанавливается категория «ребенок-инвалид», а уже по достижению 18-летнего возраста, при освидетельствовании в этом возрасте, устанавливается причина инвалидности «инвалид с детства».\r\n\r\nИсключением является, если лицо в возрасте до 18 лет, признается инвалидом по последствиям трудового увечья или профессионального заболевания, в этом случае по его выбору, либо выбору его законного представителя устанавливается категория «ребенок-инвалид» или группа инвалидности с соответствующей причиной инвалидности.\r\n\r\nПричина инвалидности устанавливает социальный статус инвалида и в связи с этим определяет его право пользоваться предусмотренными именно для этой категории мерами социальной поддержки.\r\n\r\nПричина инвалидности влияет на пенсию, а также иные выплаты и льготы, которые устанавливаются для инвалидов конкретных категорий.\r\n\r\nТак, например, инвалиды вследствие военной травмы, получают пенсию не через Пенсионный фонд РФ, а через Министерство обороны РФ, МВД России, ФСБ России и т.д. (в зависимости от того, где гражданин служил) в соответствии с отдельным нормативно-правовым актом (Федеральным законом от 12.02.1993 года № 4468-1). В данном случае установлен иной порядок назначения пенсии, ее размер и другие условия.\r\n\r\nДля инвалидов с детства предусмотрен ряд дополнительных льгот. В частности, льгота по налогу на имущество предусмотрена для инвалидов I и II группы, а также инвалидов с детства независимо от группы (Налоговый кодекс РФ часть вторая, статья 407).\r\n\r\nТакже для инвалидов с детства I группы предусмотрены иные условия осуществления выплаты по уходу (Указ президента РФ от 26.02.2013 года № 175).\r\n\r\nИнвалидам вследствие аварии на Чернобыльской АЭС установлен целый ряд дополнительных льгот. В частности:\r\n\r\n- льгота по оплате содержания и ремонта общего имущества в многоквартирном доме в размере 50% независимо от принадлежности жилого фонда (для инвалидов иных категорий только в домах государственного и муниципального жилищного фонда;\r\n\r\n- использование очередного отпуска в удобное время, а также дополнительный отпуск 14 дней;\r\n\r\n- ежемесячная денежная компенсация в возмещение вреда, причиненного здоровью, а также другие льготы (ФЗ от 15.05.1991 года № 1244-1).\r\n\r\nТо же самое касается и иных категорий инвалидности, в отношении каждой из них предусмотрен (или может быть предусмотрен) иной (дополнительный) перечень льгот и выплат, а также порядок их получения.\r\n\r\n<h2 class=\"display-6\">Порядок переосвидетельствования инвалидов</h2>\r\n\r\nПереосвидетельствование инвалида (ребенка-инвалида) проводится общем порядке.\r\n\r\nПереосвидетельствование инвалидов I группы проводится 1 раз в 2 года, инвалидов II и III групп - 1 раз в год, а детей-инвалидов - 1 раз в течение срока, на который ребенку установлена категория \"ребенок-инвалид\".\r\n\r\nПереосвидетельствование гражданина, инвалидность которому установлена без указания срока переосвидетельствования, может проводиться по направлению медицинской организации в связи с изменением состояния здоровья либо при осуществлении главным бюро, Федеральным бюро контроля за решениями, принятыми соответственно бюро, главным бюро.\r\n\r\nПереосвидетельствование инвалида (ребенка-инвалида) может осуществляться заблаговременно, но не более чем за 2 месяца до истечения установленного срока инвалидности.\r\n\r\nПереосвидетельствование инвалида (ребенка-инвалида) ранее установленного срока проводится по направлению медицинской организации в связи с изменением состояния здоровья либо при осуществлении главным бюро, Федеральным бюро контроля за решениями, принятыми соответственно бюро, главным бюро.\r\n\r\nТаким образом, если группа инвалидности установлена на определенный срок, при приближении срока очередного освидетельствования, который указан в справке МСЭ (как правило, за месяц), инвалид обращается в медицинское учреждение для оформления направления на медико-социальную экспертизу. Возможно проведение освидетельствования ранее предусмотренного срока, если изменилось состояние здоровья.\r\n\r\nЕсли инвалидность установлена бессрочно, но изменилось состояние здоровья, требуется внести изменения в ИПРА, то инвалид также обращается в медицинское учреждение для оформления направления на МСЭ.\r\n\r\n<h2 class=\"display-6\">Что делать, если не согласен с решением бюро медико-социальной экспертизы?</h2>\r\n<br>\r\nГражданин может быть не согласен с установленной группой инвалидности (например, он считает, что его состояние здоровья соответствует более тяжелой группе), сроком, на который установлена инвалидность, может быть не согласен с содержанием разработанной ему индивидуальной программой реабилитации и абилитации, а также не согласен с решением о непризнании его инвалидом.\r\n\r\nЧтобы разобраться с механизмом обжалования рассмотрим структуру федеральных учреждений медико-социальной экспертизы, которая представляет из себя пирамиду, где в основании представлены бюро медико-социальной экспертизы, выше располагаются главные бюро МСЭ по субъектам РФ, а в самом верху – федеральное бюро медико-социальной экспертизы. Подчиненность у федеральных учреждений также соответствующая – вышестоящие являются главенствующими над нижестоящими.\r\n\r\nГражданин (его законный или уполномоченный представитель) может обжаловать решение бюро в главное бюро в месячный срок со дня его получения на основании заявления, поданного в бюро, проводившее медико-социальную экспертизу, либо в главное бюро в письменной форме на бумажном носителе или в электронном виде с использованием единого портала.\r\n\r\nГлавное бюро не позднее 30 рабочих дней со дня поступления заявления гражданина проводит его медико-социальную экспертизу и на основании полученных результатов выносит соответствующее решение.\r\n\r\nВ случае обжалования гражданином решения главного бюро главный эксперт по медико-социальной экспертизе по соответствующему субъекту Российской Федерации с согласия гражданина может поручить проведение его медико-социальной экспертизы другому составу специалистов главного бюро.\r\n\r\nРешение главного бюро может быть обжаловано в месячный срок со дня его получения в Федеральное бюро на основании заявления, подаваемого гражданином (его законным или уполномоченным представителем) в главное бюро, проводившее медико-социальную экспертизу, либо в Федеральное бюро в письменной форме на бумажном носителе или в электронном виде с использованием единого портала.\r\n\r\nФедеральное бюро не позднее 30 рабочих дней со дня поступления заявления гражданина проводит его медико-социальную экспертизу и на основании полученных результатов выносит соответствующее решение.\r\n\r\nРешения бюро, главного бюро, Федерального бюро могут быть обжалованы в суд гражданином (его законным или уполномоченным представителем) в порядке, установленном законодательством Российской Федерации.\r\n\r\nПри судебном обжаловании решения бюро МСЭ необходимо учитывать, что суд правомочен только отменить принятое решение, в дальнейшем гражданину необходимо будет все равно обращаться в бюро МСЭ для установления инвалидности.\r\n\r\n<a href=\"https://www.voi.ru/ludyam_s_invalidnostiu//oformlenie_invalidnosti_i_poluchenie_tsr//poryadok_oformleniya_invalidnosti#tab-checkbox-12367\"><strong>Источник</strong></a>",
+    "is_published": true,
+    "cat": 2,
+    "video": "",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 16,
+  "fields": {
+    "time_create": "2023-11-04T13:56:42.887Z",
+    "time_update": "2023-11-04T16:16:50.070Z",
+    "title": "Откуда оптимизм в «Оптимисте»?",
+    "slug": "otkuda-optimizm-v-optimiste",
+    "photo": "",
+    "content": "<div class=\"container-fluid\">\r\n    <div class=\"row mb-4\">\r\n        <div class=\"col-md-6, col-lg-8, col-sm-12\">\r\n            <p class=\"mx-auto d-block img-fluid article-img rounded\">\r\n                <img src=\"../../../static/society_main/images/optimist-8-07-2021.jpg\">\r\n            </p>\r\n        </div>\r\n\r\n        - Сергей Леонидович, расскажите, как начиналась Ваша общественная деятельность?\r\n\r\n        - Я еще со школы чувствовал, что у меня есть проблемы со здоровьем. И в 1995 году у меня проявилось сильное\r\n        заболевание щитовидной железы. Я был как слон. Руки опухшие, пальцы сардельками, ничего не сгибается. Говорить\r\n        не мог, потому что язык опухал. В итоге я получил группу инвалидности. А затем вступил в Общество инвалидов,\r\n        председателем которого была Рулева Алла Николаевна. Там я начал заниматься организацией различных экскурсий,\r\n        походов в кино, театр, выставочные залы и т.д. Раньше никто этим конкретно не занимался. И у меня как-то сразу\r\n        начало получаться. А это дает вдохновение, силы придает. Ну, и понеслось...\r\n\r\n\r\n        <p class=\"mx-auto d-block img-fluid rounded\">\r\n            <img src=\"../../../static/society_main/images/vizitk.jpg\">\r\n\r\n\r\n            Вот с 2000 года примерно я всем этим занимаюсь. К 2018 году я вышел из Общества инвалидов и создал\r\n            организацию\r\n            «Оптимист» для детей и взрослых, имеющих проблемы со здоровьем. Почему такое название? Потому что оптимист,\r\n            конечно, не путешественник, но всегда на подъеме духа.\r\n\r\n            - А Вы все это делаете на подъеме духа?\r\n\r\n            <img src=\"../../../static/society_main/images/optimist-2.jpg\">\r\n        <p class=\"text-center\">Поездка на лотосы.</p>\r\n\r\n        - Года два назад в новой школе в 13-ом микрорайоне был круглый стол. Приезжали представители из Краснодара и\r\n        спрашивали: «Зачем Вы все это делаете?». Я ответил: «Люди сидят по домам, не то что сутками, а годами. Они не\r\n        выходят никуда, потому что, во-первых, нет денег, во-вторых, нет силы, которая подымет их и вытащит из дома».\r\n        Они\r\n        только поддакивают.\r\n\r\n        - Почему Вам так важно жить не только для себя, но и для «Оптимиста»?\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-3.jpg\">\r\n\r\n        - Потому что человек должен нести в мир добро, причем должен делать это безвозмездно. Человек, который приходит\r\n        в\r\n        Общество инвалидов либо в «Оптимист», не должен работать за деньги. Если он пришел зарабатывать, то с него\r\n        отдачи\r\n        никакой не будет.\r\n\r\n        -В какие интересные места Ваша группа уже ездила?\r\n\r\n        - Мы много где были. В Краснодаре в парке Галицкого, в Кабардинке все осмотрели, ездили в Абинск на ромашковую\r\n        поляну, в Голубицкую на крокодиловую ферму, в Керчи были три раза, посещали гору Митридат, видели Крымский мост.\r\n        В\r\n        Новороссийске ходили в городской театр, кинотеатр Нептун, исторический музей, планетарий, океанариум, хоть он у\r\n        нас\r\n        и маленький, на двух паровозиках, которые в парке Фрунзе и в парке Ленина, катались. Все, что недалеко за\r\n        городом\r\n        находится, посетили: Абрау-Дюрсо, культурно-туристический комплекс «Россия» в Глебовке, в парке живой природы\r\n        «Додо», совсем недавно ездили на Кипарисовое озеро в Сукко, в гольф-клуб в Раевской. В общем, практически все,\r\n        что в\r\n        дневной доступности, мы посетили. Я пытался прорабатывать маршруты даже в сторону Сочи, и хотя это пока\r\n        дороговато,\r\n        я что-нибудь придумаю.\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-4.jpg\">\r\n\r\n        - Какая из этих поездок запомнилась больше всего?\r\n\r\n        - Каждая поездка - это маленькая история, везде есть какие-то свои нюансы и запоминающиеся моменты. Например, у\r\n        нас\r\n        появилась новая женщина, Оксана Харьковская, она на каждую поездку сочиняет стихи. Когда приезжаем в лес,\r\n        женщины\r\n        любят ходить по лесу и обнимать деревья, это у них называется соединение с природой. Если есть купель, все\r\n        всегда\r\n        купаются, несмотря на ледяную воду, и никто при этом не заболевает. Много любопытных эпизодов есть.\r\n\r\n        - Вы экскурсии организовываете общие для детей и взрослых? Или отдельно собираете детей, а отдельно взрослых?\r\n\r\n        - По-всякому бывает. С детскими экскурсиями сложнее, дети очень плохо собираются. Набрать 50 человек с мамами\r\n        очень\r\n        сложно. А надо полный автобус набрать, чтобы поездка состоялась. Поэтому я часто набираю смешанные группы:\r\n        половина\r\n        детей с мамами, половина взрослые.\r\n\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-5.jpg\">\r\n\r\n        - Сколько человек в «Оптимисте»?\r\n\r\n        - В организации порядка 200 человек детей и взрослых. Я когда-то думал, наберу 100 человек и хватит. А сейчас\r\n        уже\r\n        200, и народ постепенно идет, идет, идет... Порядка 10 человек колясочников детей. Я с каждым из них\r\n        разговаривал.\r\n        Но они все неподъемные, поэтому сидят дома и никуда не ходят. С волонтером Малхасян Наирой мы пытались\r\n        организовать\r\n        детей. Но ничего не получается, потому что дети грузные, их вытащить тяжело, а мамы часто одни, папы уходят.\r\n        Ведь\r\n        даже с кровати на коляску пересадить инвалида нужна немалая физическая сила.\r\n\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-6.jpg\">\r\n        <p class=\"text-center\">На выставке интерактивного музея нового поколения \"Фестиваль Роботов\"</p>\r\n\r\n        - Сергей Леонидович, у Вас много помощников?\r\n\r\n        - Да. Это наши активисты, Марина Каргина, Елена Ласковец, Татьяна Савина, Трубоенко Светлана, Гаврилов Валера,\r\n        Рябова Светлана. Они помогают мне в организации мероприятий. Многие из них очень больны, но, тем не менее,\r\n        находят в\r\n        себе силы участвовать в общественной жизни.\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-7.jpg\">\r\n\r\n        -Есть еще несколько человек, которых я принял волонтерами к себе. Они везде с нами ездят при условии, что будут\r\n        помогать инвалидам. Но, к сожалению, они готовы только куда-то с нами ходить, а вот съездить проведать кого-то в\r\n        больнице или на дому, выйти с кем-нибудь из инвалидов погулять от них не допросишься.\r\n\r\n        - Что Вас расстраивает?\r\n\r\n        - Необязательность людей, их хитрость. В каждой поездке кто-то опаздывает, кто-то совсем не приходит и даже не\r\n        оповещает об этом, а я же жду, человек записан у меня! Многие мамы спрашивают, дескать, у меня трое детей, один\r\n        из\r\n        них инвалид, как я одного поведу, а других нет? Но ведь места выделили инвалидам. Сами же родители других\r\n        инвалидов\r\n        обидятся. Но я все равно не бросаю это дело. Для меня самое главное - конечный результат. Поехали - здорово! Вот\r\n        тогда у меня душа спокойна. Радуюсь. А в процессе, конечно, нервничаю, психую, всякое в жизни бывает. Все на\r\n        эмоциях. Но останавливаться нельзя, потому что остановишься, опустишь ручки, и все. Тут надо вперед, вперед!\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-8.jpg\">\r\n        <p class=\"center\">Посещение выставки живых тропических бабочек в Новороссийске</p>\r\n\r\n\r\n        -Кто же оказывает помощь «Оптимисту»?\r\n\r\n        - «Оптимист» выражает благодарность директору ООО «Черномортрансфлот» Челдышниковой Виктории Александровне за\r\n        организацию увлекательных прогулок на катере. Большое спасибо директору МУП «Детско-юношеский кинотеатр «Нептун»\r\n        Кузнецовой Нине Владимировне. Благодаря акции «КиноСреда - День уходящего кино» в кинотеатре действует\r\n        специальная\r\n        цена на фильмы, 100 рублей. И мы имели возможность посмотреть на большом экране кинофильмы «Братья медведи:\r\n        Тайна\r\n        трех миров», «Время» и многие другие.; И еще «Оптимист» очень благодарен директору МАУ «Новороссийский городской\r\n        театр» Бередину Олегу Геннадьевичу. Мы посмотрели многие постановки нашего театра, посетили концерты\r\n        симфонического\r\n        оркестра, концерт четы Печенкиных и многие другие, и все это практически бесплатно. Мы всем им очень благодарны.\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-9.jpg\">\r\n\r\n        На самом деле мы будем рады любой спонсорской помощи: современному компьютеру, помещению, материальной помощи.\r\n        Связаться со мной можно по телефону 89676681657. Звоните, и люди Вам будут благодарны.\r\n\r\n        - Сергей Леонидович, каковы Ваши дальнейшие планы?\r\n\r\n        - У меня есть надежда, что в сентябре или октябре мы поедем в Севастополь. Но это все очень дорого. Я планирую\r\n        эту\r\n        поездку с ночевкой. Доехать до Севастополя, там переночевать, и обратно через Ялту, Симферополь поехать. Тем\r\n        более у\r\n        меня в Севастополе дедушка в танке сгорел во время войны, для меня это памятные места.\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-10.jpg\">\r\n\r\n        P.S. Так откуда же оптимизм в «Оптимисте»? Сейчас трудное время, денег нет, работы нет, за все надо платить,\r\n        даже за\r\n        всякую мелочь, и особенно трудно людям больным, слабым, пожилым, инвалидам. Да и заработать они сейчас уже\r\n        практически не могут. А Сергей Леонидович - этот воистину горящий желанием помочь человек скрашивает их жизнь, и\r\n        это\r\n        достойно огромного уважения. Для меня это человек с большой буквы.\r\n\r\n        <p>\r\n            Автор: тест: Марина ДАРКИНА, фото предоставлено группой \"ОПТИМИСТ\"\r\n            10.09.2021 18:46\r\n        </p>\r\n    </div>\r\n</div>",
+    "is_published": true,
+    "cat": 1,
+    "video": "",
+    "tags": [
+      1
     ]
   }
 },
