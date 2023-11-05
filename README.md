@@ -1,5 +1,21 @@
 ### Установка python на ubuntu:
 
+## Установка redis
+Следуйте инструкциям офф.документации redis по ссылке:  
+https://redis.io/docs/install/install-redis/install-redis-on-linux/
+
+Запуск сервера redis:
+
+```bash
+sudo service redis-server start
+```
+запуск redis для проверки:
+
+```bash
+redis-cli
+```
+пишем: ```ping``` должен быть получет ответ от сервера redis: ```PONG```
+
 ## Устанавливаем pyenv:
 
 ```bash

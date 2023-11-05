@@ -59,6 +59,7 @@ class Post(TimestampedModel):
                                        default=Status.DRAFT, verbose_name="Статус")
     cat = models.ForeignKey('Category', on_delete=models.PROTECT, verbose_name="Категории")
     video = models.FileField(upload_to='videos/%Y/%m/%d/', default=None, blank=True, null=True, verbose_name="Видео")
+    description = models.TextField(blank=True, verbose_name="Описание к статье")
 
     objects = models.Manager()
     published = PublishedManager()

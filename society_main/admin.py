@@ -13,7 +13,7 @@ class PostAdmin(admin.ModelAdmin):
     list_per_page = 10
     actions = ['set_published', 'set_draft']
     search_fields = ['title', 'cat__name']
-    fields = ['title', 'slug', 'content', 'cat', 'tags', 'photo', 'video']
+    fields = ['title', 'slug', 'content', 'description' ,'cat', 'tags', 'photo', 'video']
     prepopulated_fields = {"slug": ("title",)}
     save_on_top = True
 
