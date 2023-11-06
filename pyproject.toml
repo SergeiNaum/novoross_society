@@ -12,12 +12,12 @@ Django = "^4.1.1"
 django-debug-toolbar = "^4.2.0"
 pillow = "^10.1.0"
 django-taggit = "^4.0.0"
-polog = "^0.0.17"
 psycopg2-binary = "^2.9.9"
 python-decouple = "^3.8"
 django-simple-captcha = "^0.5.20"
 redis = "^5.0.1"
 hiredis = "^2.2.3"
+rich = "^13.6.0"
 
 
 [tool.poetry.group.dev.dependencies]

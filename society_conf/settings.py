@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 import os
 from pathlib import Path
 from decouple import config
+import logging.handlers
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -192,14 +194,82 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_PORT = '465'
 EMAIL_USE_SSL = True
+EMAIL_USE_TLS = False
 EMAIL_HOST_USER = 'optimist-novo-allert@yandex.ru'
 EMAIL_HOST_PASSWORD = 'pjxuvlnjweqyzqjd'
 EMAIL_SERVER = EMAIL_HOST_USER
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 EMAIL_ADMIN = ['optimistnovoross2018@gmail.com']
 
+ADMINS = [
+    ('Sergey', 'optimistnovoross2018@gmail.com'),
+]
 
+# logging config
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'console': {
+            'format': '%(name)-12s %(levelname)-8s %(message)s'
+        },
+        'file': {
+            'format': '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
+        },
+        'verbose': {
+            'format': '%(asctime)s [%(levelname)s] %(name)s - %(message)s'
+        },
 
+    },
+    'handlers': {
+        'console': {
+            'class': 'rich.logging.RichHandler',
+            'formatter': 'console',
+            'level': 'INFO',
+        },
+        'file': {
+            'level': 'WARNING',
+            'class': 'logging.FileHandler',
+            'formatter': 'file',
+            'filename': 'logs/debug.json'
+        },
+        'mail_admins': {
+            'level': 'WARNING',
+            'class': 'django.utils.log.AdminEmailHandler',
+            'include_html': True,
+        },
+        'rotating_file': {  # Создаем rotating file
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': 'logs/debug.json',
+            'maxBytes': 1024 * 1024 * 200,  # 10 Мб
+            'backupCount': 5,  # Количество файлов ротации
+            'formatter': 'verbose',
+            'level': 'DEBUG',
 
+        },
+    },
+    'loggers': {
+        '': {
+            'level': 'INFO',
+            'handlers': ['console'],
+            'propagate': True
+        },
+        'django.request': {
+            'level': 'WARNING',
+            'handlers': ['console', 'file', 'mail_admins', 'rotating_file'],
+            'propagate': True
+        },
+        'django.db.backends': {
+            'level': 'WARNING',
+            'handlers': ['console', 'file', 'mail_admins', 'rotating_file'],
+            'propagate': True
+        },
+        'django.db.security': {
+            'level': 'WARNING',
+            'handlers': ['console', 'file', 'mail_admins', 'rotating_file'],
+            'propagate': True
+        }
+    }
+}
 
