@@ -32,6 +32,7 @@ class PublishedManager(models.Manager):
 class ContactFormModel(TimestampedModel):
     name = models.CharField(max_length=100, verbose_name='Имя')
     email = models.EmailField(unique=True, max_length=200, verbose_name='email')
+    ip_address = models.GenericIPAddressField(verbose_name='IP отправителя', blank=True, null=True)
     message = models.TextField(verbose_name="Текст обращения")
     checkbox = models.BooleanField(default=False)
 
@@ -42,6 +43,9 @@ class ContactFormModel(TimestampedModel):
         indexes = [
             models.Index(fields=['-time_create'])
         ]
+
+    def __str__(self):
+        return f'Вам письмо от {self.email}'
 
 
 class Post(TimestampedModel):

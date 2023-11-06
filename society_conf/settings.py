@@ -51,6 +51,7 @@ INSTALLED_APPS = [
 
     'society_main.apps.SocietyMainConfig',
 
+
 ]
 
 # captcha config
@@ -184,3 +185,21 @@ FIXTURE_DIRS = [
 ]
 
 SITE_ID = 1
+
+# Email settings
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.yandex.ru'
+EMAIL_PORT = '465'
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = 'optimist-novo-allert@yandex.ru'
+EMAIL_HOST_PASSWORD = 'pjxuvlnjweqyzqjd'
+EMAIL_SERVER = EMAIL_HOST_USER
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+EMAIL_ADMIN = ['optimistnovoross2018@gmail.com']
+
+
+
+
+
+

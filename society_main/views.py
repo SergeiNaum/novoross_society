@@ -10,6 +10,9 @@ from society_main.models import Post, TagPost
 from society_main.logging import config, file_writer, field
 from polog import log
 
+from society_main.services.email import send_contact_email_message
+from society_main.services.utils import get_client_ip
+
 
 class IndexView(TemplateView):
     template_name = 'society_main/index.html'
@@ -53,9 +56,19 @@ class ContactsView(FormView):
         'active_page': 'contacts'
     }
 
-    @log
+    # @log
+    # def form_valid(self, form):
+    #     form.save()
+    #     return super().form_valid(form)
+
     def form_valid(self, form):
-        form.save()
+        if form.is_valid():
+            feedback = form.save(commit=False)
+            feedback.ip_address = get_client_ip(self.request)
+            subj = feedback.name
+            send_contact_email_message(subj, feedback.email, feedback.message, feedback.ip_address)
+            feedback.save()
+
         return super().form_valid(form)
 
 

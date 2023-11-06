@@ -1,7 +1,7 @@
 from django.contrib import admin, messages
 from django.utils.html import mark_safe
 
-from .models import Post, Category
+from .models import Post, Category, ContactFormModel
 
 
 @admin.register(Post)
@@ -13,7 +13,7 @@ class PostAdmin(admin.ModelAdmin):
     list_per_page = 10
     actions = ['set_published', 'set_draft']
     search_fields = ['title', 'cat__name']
-    fields = ['title', 'slug', 'content', 'description' ,'cat', 'tags', 'photo', 'video']
+    fields = ['title', 'slug', 'content', 'description', 'cat', 'tags', 'photo', 'video']
     prepopulated_fields = {"slug": ("title",)}
     save_on_top = True
 
@@ -43,3 +43,16 @@ class CategoryAdmin(admin.ModelAdmin):
     class Meta:
         verbose_name = 'Категория'
         verbose_name_plural = 'Категории'
+
+
+@admin.register(ContactFormModel)
+class FeedbackAdmin(admin.ModelAdmin):
+    """
+    Админ-панель модели профил
+    """
+    list_display = ('name', 'email', 'ip_address', 'message', 'checkbox')
+    list_display_links = ('name', 'email', 'ip_address')
+    ordering = ['-time_create']
+    list_per_page = 10
+    search_fields = ['name', 'email']
+
