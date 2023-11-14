@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('society_main', '0004_contactformmodel_checkbox'),
     ]
@@ -12,17 +11,33 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AlterModelOptions(
             name='contactformmodel',
-            options={'ordering': ['-time_create'], 'verbose_name': 'Обратная связь', 'verbose_name_plural': 'Обратная связь'},
+            options={
+                'ordering': ['-time_create'],
+                'verbose_name': 'Обратная связь',
+                'verbose_name_plural': 'Обратная связь'
+            },
         ),
         migrations.AddField(
             model_name='post',
             name='video',
-            field=models.FileField(blank=True, default=None, null=True, upload_to='videos/%Y/%m/%d/', verbose_name='Видео'),
+            field=models.FileField(
+                blank=True,
+                default=None,
+                null=True,
+                upload_to='videos/%Y/%m/%d/',
+                verbose_name='Видео'
+            ),
         ),
         migrations.AlterField(
             model_name='post',
             name='photo',
-            field=models.ImageField(blank=True, default=None, null=True, upload_to='photos/%Y/%m/%d/', verbose_name='Фото'),
+            field=models.ImageField(
+                blank=True,
+                default=None,
+                null=True,
+                upload_to='photos/%Y/%m/%d/',
+                verbose_name='Фото'
+            ),
         ),
         migrations.AlterField(
             model_name='tagpost',

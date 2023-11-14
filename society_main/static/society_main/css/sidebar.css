@@ -31,8 +31,10 @@ hr.h-color {
    position: absolute;
    min-height: 100vh;
    z-index: 1;
-
  }
+ .close-btn {
+    display: block; /* Показываем кнопку */
+}
  #side_nav.active{
    margin-left: 0;
   }

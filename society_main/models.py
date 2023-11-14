@@ -2,17 +2,6 @@ from django.db import models
 from django.urls import reverse
 
 
-
-def translit_to_eng(s: str) -> str:
-    d = {'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd',
-         'е': 'e', 'ё': 'yo', 'ж': 'zh', 'з': 'z', 'и': 'i', 'к': 'k',
-         'л': 'l', 'м': 'm', 'н': 'n', 'о': 'o', 'п': 'p', 'р': 'r',
-         'с': 's', 'т': 't', 'у': 'u', 'ф': 'f', 'х': 'h', 'ц': 'c', 'ч': 'ch',
-         'ш': 'sh', 'щ': 'shch', 'ь': '', 'ы': 'y', 'ъ': '', 'э': 'r', 'ю': 'yu', 'я': 'ya'}
-
-    return "".join(map(lambda x: d[x] if d.get(x, False) else x, s.lower()))
-
-
 class TimestampedModel(models.Model):
     """An abstract model with a pair of timestamps."""
 
@@ -56,13 +45,23 @@ class Post(TimestampedModel):
     title = models.CharField(max_length=255, verbose_name="Заголовок")
     slug = models.SlugField(max_length=255, unique=True, db_index=True, verbose_name="URL")
     # slug = models.SlugField(max_length=255, db_index=True, blank=True, default='')
-    photo = models.ImageField(upload_to="photos/%Y/%m/%d/", default=None, blank=True, null=True, verbose_name="Фото")
+    photo = models.ImageField(
+        upload_to="photos/%Y/%m/%d/", default=None, blank=True, null=True, verbose_name="Фото"
+    )
     content = models.TextField(blank=True, verbose_name="Текст статьи")
-    tags = models.ManyToManyField('TagPost', blank=True, related_name='tags', verbose_name="Теги")
-    is_published = models.BooleanField(choices=tuple(map(lambda x: (bool(x[0]), x[1]), Status.choices)),
-                                       default=Status.DRAFT, verbose_name="Статус")
-    cat = models.ForeignKey('Category', on_delete=models.PROTECT, verbose_name="Категории")
-    video = models.FileField(upload_to='videos/%Y/%m/%d/', default=None, blank=True, null=True, verbose_name="Видео")
+    tags = models.ManyToManyField(
+        'TagPost', blank=True, related_name='tags', verbose_name="Теги"
+    )
+    is_published = models.BooleanField(
+        choices=tuple(map(lambda x: (bool(x[0]), x[1]), Status.choices)),
+        default=Status.DRAFT, verbose_name="Статус"
+    )
+    cat = models.ForeignKey(
+        'Category', on_delete=models.PROTECT, verbose_name="Категории"
+    )
+    video = models.FileField(
+        upload_to='videos/%Y/%m/%d/', default=None, blank=True, null=True, verbose_name="Видео"
+    )
     description = models.TextField(blank=True, verbose_name="Описание к статье")
 
     objects = models.Manager()
@@ -73,7 +72,6 @@ class Post(TimestampedModel):
 
     def get_absolute_url(self):
         return reverse('post', kwargs={'slug': self.slug})
-
 
     class Meta:
         verbose_name = 'Статьи'

@@ -17,11 +17,16 @@ class ContactForm(ModelForm):
             'message': 'Сообщение',
         }
         widgets = {
-            'name': forms.TextInput(attrs={'class': 'form-control form-style', 'autocomplete': 'off'}),
-            'email': forms.EmailInput(attrs={'class': 'form-control form-style', 'autocomplete': 'off'}),
-            'message': forms.Textarea(attrs={
-                'cols': 50, 'rows': 5, 'class': 'form-control form-style', 'autocomplete': 'off'
-            }),
+            'name': forms.TextInput(
+                attrs={'class': 'form-control form-style', 'autocomplete': 'off'}
+            ),
+            'email': forms.EmailInput(
+                attrs={'class': 'form-control form-style', 'autocomplete': 'off'}
+            ),
+            'message': forms.Textarea(
+                attrs={
+                    'cols': 50, 'rows': 5, 'class': 'form-control form-style', 'autocomplete': 'off'
+                }),
             'checkbox': forms.CheckboxInput(attrs={
                 'class': 'chechbox_in', 'id': 'checkbox', 'required': True}),
         }

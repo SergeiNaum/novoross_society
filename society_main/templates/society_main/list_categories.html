@@ -1,20 +1,22 @@
-            <ul class="list-unstyled px-2">
-                {% if cat_selected == 0 %}
-                    <li class="active text-decoration-none px-3 py-2 d-block">
-                        <i class="fa-solid fa-list"></i> Все категории </li>
-                {% else %}
-                        <li class=""><a href="{% url 'news' %}" class="text-decoration-none px-3 py-2 d-block">
-                            <i class="fa-solid fa-list"></i> Все категории </a></li>
-                {% endif %}
+<ul class="list-unstyled px-2">
+    {% if cat_selected == 0 %}
+    <li class="active text-decoration-none px-3 py-2 d-block">
+        <i class="fa-solid fa-list"></i> Все категории
+    </li>
+    {% else %}
+    <li class=""><a href="{% url 'news' %}" class="text-decoration-none px-3 py-2 d-block">
+        <i class="fa-solid fa-list"></i> Все категории </a></li>
+    {% endif %}
 
-                {% for cat in cats %}
-                    {% if cat.id == cat_selected %}
-                <li class="active text-decoration-none px-3 py-2 d-block">
-                    <i class="{{ cat.icon }}"></i> {{cat.name}} </li>
-                {% else %}
-                    <li class=""><a href="{{ cat.get_absolute_url }}" class="text-decoration-none px-3 py-2 d-block">
-                    <i class="{{ cat.icon }}"></i> {{cat.name}} </a></li>
+    {% for cat in cats %}
+    {% if cat.id == cat_selected %}
+    <li class="active text-decoration-none px-3 py-2 d-block">
+        <i class="{{ cat.icon }}"></i> {{cat.name}}
+    </li>
+    {% else %}
+    <li class=""><a href="{{ cat.get_absolute_url }}" class="text-decoration-none px-3 py-2 d-block">
+        <i class="{{ cat.icon }}"></i> {{cat.name}} </a></li>
 
-                {% endif %}
-                {% endfor %}
-            </ul>
+    {% endif %}
+    {% endfor %}
+</ul>

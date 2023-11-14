@@ -1,13 +1,11 @@
-from django.shortcuts import render, get_object_or_404, redirect
-from django.http import HttpResponse, HttpResponseNotFound
-from django.urls import reverse, reverse_lazy
-from django.contrib import messages
+from django.shortcuts import get_object_or_404
+from django.http import HttpResponseNotFound
+from django.urls import reverse_lazy
 from django.views.generic import ListView, FormView, TemplateView, DetailView
+
 
 from society_main.forms import ContactForm
 from society_main.models import Post, TagPost
-
-
 from society_main.services.email import send_contact_email_message
 from society_main.services.utils import get_client_ip
 
@@ -55,8 +53,11 @@ class ContactsView(FormView):
         if form.is_valid():
             feedback = form.save(commit=False)
             feedback.ip_address = get_client_ip(self.request)
-            subj = feedback.name
-            send_contact_email_message(subj, feedback.email, feedback.message, feedback.ip_address)
+            subj = (f'Сообщение из формы обратной связи сайта optimist-novorossyisk от: '
+                    f'{feedback.name}')
+            send_contact_email_message(
+                subj, feedback.email, feedback.message, feedback.ip_address
+            )
             feedback.save()
 
         return super().form_valid(form)
@@ -126,12 +127,11 @@ class ShowPost(DetailView):
         context['active_page'] = 'news'
         return context
 
-
     def get_object(self, queryset=None):
-        return get_object_or_404(Post.published, slug=self.kwargs[self.slug_url_kwarg])
-
+        return get_object_or_404(
+            Post.published, slug=self.kwargs[self.slug_url_kwarg]
+        )
 
 
 def page_not_found(request, exception):
     return HttpResponseNotFound("<h1>Страница не найдена</h1>")
-

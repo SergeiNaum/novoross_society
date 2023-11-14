@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('society_main', '0006_post_description'),
     ]
@@ -13,6 +12,8 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='contactformmodel',
             name='ip_address',
-            field=models.GenericIPAddressField(blank=True, null=True, verbose_name='IP отправителя'),
+            field=models.GenericIPAddressField(
+                blank=True, null=True, verbose_name='IP отправителя'
+            ),
         ),
     ]

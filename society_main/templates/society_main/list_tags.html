@@ -1,13 +1,13 @@
 {% if tags %}
 
-    <ul class="list-unstyled px-2">
-        <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block">
-            Тэги:</a></li>
-        {% for t in tags %}
-        <li><a href="{{t.get_absolute_url}}" class="text-decoration-none px-3 py-2 d-block">
-            <i class="{{ t.icon }}"></i> {{ t.tag }}</a></li>
-        {% endfor %}
-    </ul>
+<ul class="list-unstyled px-2">
+    <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block">
+        Тэги:</a></li>
+    {% for t in tags %}
+    <li><a href="{{t.get_absolute_url}}" class="text-decoration-none px-3 py-2 d-block">
+        <i class="{{ t.icon }}"></i> {{ t.tag }}</a></li>
+    {% endfor %}
+</ul>
 {% endif %}
 
 <!--            <ul class="list-unstyled px-2">-->

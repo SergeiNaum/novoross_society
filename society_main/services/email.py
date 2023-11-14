@@ -1,7 +1,6 @@
 from django.core.mail import EmailMessage
 from django.conf import settings
 from django.template.loader import render_to_string
-from django.contrib.auth.models import User
 
 
 def send_contact_email_message(subj, email, message, ip):

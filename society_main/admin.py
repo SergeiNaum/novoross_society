@@ -39,7 +39,6 @@ class CategoryAdmin(admin.ModelAdmin):
     list_display = ('id', 'name')
     list_display_links = ('id', 'name')
 
-
     class Meta:
         verbose_name = 'Категория'
         verbose_name_plural = 'Категории'
@@ -55,4 +54,3 @@ class FeedbackAdmin(admin.ModelAdmin):
     ordering = ['-time_create']
     list_per_page = 10
     search_fields = ['name', 'email']
-

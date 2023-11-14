@@ -1352,6 +1352,812 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2023-11-05T15:03:26.325Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "ОПТИМИСТ-НОВОРОССИЙСК.РФ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2023-11-05T15:04:26.368Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "ОПТИМИСТ-НОВОРОССИЙСК.РФ",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2023-11-05T17:36:21.310Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "ПОРЯДОК ОФОРМЛЕНИЯ ИНВАЛИДНОСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2023-11-05T17:37:26.415Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "ПОРЯДОК ОФОРМЛЕНИЯ ИНВАЛИДНОСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2023-11-05T17:46:17.438Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "ПОРЯДОК ОФОРМЛЕНИЯ ИНВАЛИДНОСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2023-11-05T17:47:21.150Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2023-11-05T17:47:35.183Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2023-11-05T17:48:06.016Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "День рождения председятеля НГО оптимист 27.10.2023",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2023-11-05T17:48:46.412Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Поездка  НГО Оптимист в  Абрау - Дюрсо поющие фонтаны",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2023-11-05T17:49:12.410Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "ФЕДЕРАЛЬНЫЙ РЕЕСТР ИНВАЛИДОВ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2023-11-05T17:49:37.767Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "ПОЛУЧЕНИЕ ТСР",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2023-11-05T17:50:25.915Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "ИПРА – КАК ОФОРМИТЬ И ДЛЯ ЧЕГО НУЖНА",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2023-11-05T17:50:48.091Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ РЕБЕНКА В РФ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2023-11-05T17:51:34.092Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ ЧЕЛОВЕКА В РФ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2023-11-05T17:51:43.606Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "ФЕДЕРАЛЬНОЕ БЮРО МЕДИКО-СОЦИАЛЬНОЙ ЭКСПЕРТИЗЫ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2023-11-05T17:52:07.657Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "ВНЕБЮДЖЕТНЫЕ ФОНДЫ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2023-11-05T17:52:20.457Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2023-11-05T17:52:29.811Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "СОВЕТ ПО ДЕЛАМ ИНВАЛИДОВ ПРИ СОВЕТЕ ФЕДЕРАЦИИ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2023-11-05T17:52:39.436Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2023-11-05T17:53:37.711Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Льготы наших оптимистов",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\", \"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2023-11-05T17:53:48.706Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Досуг наших оптимистов",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2023-11-05T17:54:33.560Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ РЕБЕНКА В РФ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2023-11-05T17:54:54.786Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ РЕБЕНКА В РФ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2023-11-05T17:55:18.592Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ РЕБЕНКА В РФ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2023-11-05T17:55:57.730Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "ПОЛУЧЕНИЕ ТСР",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2023-11-06T15:16:55.059Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Вам письмо от Daryl@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2023-11-06T15:16:55.068Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Вам письмо от Borya@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2023-11-06T15:16:55.072Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Вам письмо от Sergey@yandex.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2023-11-06T15:16:55.075Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Вам письмо от Vas@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2023-11-06T15:16:55.079Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Вам письмо от mtg@mail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2023-11-06T15:16:55.082Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Вам письмо от arsen@mail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2023-11-09T10:42:42.403Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2023-11-09T10:43:14.095Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2023-11-09T11:18:23.137Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2023-11-09T11:18:59.926Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2023-11-09T11:20:32.257Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2023-11-09T11:21:05.078Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2023-11-09T11:25:16.167Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2023-11-09T11:25:46.539Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2023-11-09T11:26:17.378Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2023-11-09T11:28:04.285Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2023-11-09T11:29:01.064Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2023-11-09T11:30:54.411Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2023-11-09T11:31:52.128Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2023-11-09T11:33:22.483Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2023-11-09T11:34:13.794Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2023-11-09T11:34:39.290Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2023-11-11T17:29:38.605Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2023-11-11T17:29:59.023Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Откуда оптимизм в «Оптимисте»?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2023-11-11T17:49:03.532Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2023-11-11T17:49:10.212Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2023-11-11T17:51:46.884Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2023-11-11T17:53:56.631Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2023-11-11T17:55:55.844Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2023-11-11T18:11:31.438Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2023-11-11T18:12:06.746Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2023-11-11T18:12:44.498Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2023-11-11T18:13:53.204Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2023-11-11T18:15:05.567Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2023-11-11T18:21:05.307Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2023-11-11T18:22:59.510Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2023-11-11T18:24:00.895Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0435\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -1820,11 +2626,191 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add captcha store",
+    "content_type": 14,
+    "codename": "add_captchastore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change captcha store",
+    "content_type": 14,
+    "codename": "change_captchastore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete captcha store",
+    "content_type": 14,
+    "codename": "delete_captchastore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view captcha store",
+    "content_type": 14,
+    "codename": "view_captchastore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 15,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 15,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 15,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 15,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add Cookie",
+    "content_type": 16,
+    "codename": "add_cookie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change Cookie",
+    "content_type": 16,
+    "codename": "change_cookie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete Cookie",
+    "content_type": 16,
+    "codename": "delete_cookie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view Cookie",
+    "content_type": 16,
+    "codename": "view_cookie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add Log item",
+    "content_type": 17,
+    "codename": "add_logitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change Log item",
+    "content_type": 17,
+    "codename": "change_logitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete Log item",
+    "content_type": 17,
+    "codename": "delete_logitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view Log item",
+    "content_type": 17,
+    "codename": "view_logitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add Cookie Group",
+    "content_type": 18,
+    "codename": "add_cookiegroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change Cookie Group",
+    "content_type": 18,
+    "codename": "change_cookiegroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete Cookie Group",
+    "content_type": 18,
+    "codename": "delete_cookiegroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view Cookie Group",
+    "content_type": 18,
+    "codename": "view_cookiegroup"
+  }
+},
+{
   "model": "auth.user",
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$600000$70a5GCaoVCCtS3etS8Uh7c$Nwn8zPlgL5upEtUR9tO7+rp0qli1q3TYRpIZJ8uZBSA=",
-    "last_login": "2023-11-03T21:19:47.326Z",
+    "last_login": "2023-11-11T17:29:16.224Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -1942,6 +2928,54 @@
   }
 },
 {
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "captcha",
+    "model": "captchastore"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "cookie_consent",
+    "model": "cookie"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "cookie_consent",
+    "model": "logitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "cookie_consent",
+    "model": "cookiegroup"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5eew3hc13ucxfn6mni9jf4w7p8yor89w",
+  "fields": {
+    "session_data": ".eJxVjDsOgzAQRO_iOrJsw_qTMj1nsBbvOiaJjIShinL3gESRSFPNezNvEXFbS9waL3EicRVaXH67EdOT6wHogfU-yzTXdZlGeSjypE0OM_Hrdrp_BwVb2dd9UnvAemRyYFTykCxD8F71pLIj4OyYTLLac8gaOVumYA0GUB134vMF4uw4Gg:1r1rnI:zc0Q-H984U0FzvfH1NCH7z7H2xTO6iSyW6LqK9pdedg",
+    "expire_date": "2023-11-25T17:29:16.264Z"
+  }
+},
+{
   "model": "sessions.session",
   "pk": "ajxqd4mvzyskgewjf7aq55c7koazjrbs",
   "fields": {
@@ -1958,26 +2992,305 @@
   }
 },
 {
-  "model": "society_main.contactformmodel",
+  "model": "sites.site",
   "pk": 1,
   "fields": {
-    "time_create": "2023-10-27T19:03:57.578Z",
-    "time_update": "2023-10-27T19:03:57.578Z",
-    "name": "Арсен",
-    "email": "arsen@mail.com",
-    "message": "asass",
-    "checkbox": false
+    "domain": "ОПТИМИСТ-НОВОРОССИЙСК.РФ",
+    "name": "ОПТИМИСТ-НОВОРОССИЙСК.РФ"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 52,
+  "fields": {
+    "challenge": "2+10=",
+    "response": "12",
+    "hashkey": "9e6c84a71160c46cd8f7cce2eeff46173ee9771e",
+    "expiration": "2023-11-09T11:05:14.015Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 53,
+  "fields": {
+    "challenge": "HYMVKR",
+    "response": "hymvkr",
+    "hashkey": "7d800196721cb9cf3d153503a3faf93f1704a587",
+    "expiration": "2023-11-09T11:07:15.949Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 54,
+  "fields": {
+    "challenge": "PIBAYV",
+    "response": "pibayv",
+    "hashkey": "be8a9b247a1b3bfeb9976612fdc15b13d82d616d",
+    "expiration": "2023-11-09T11:08:10.867Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 55,
+  "fields": {
+    "challenge": "BYJRZL",
+    "response": "byjrzl",
+    "hashkey": "dac0ba10fa5e4681d6b306d76845ba209f3b276a",
+    "expiration": "2023-11-09T11:12:40.213Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 56,
+  "fields": {
+    "challenge": "FAREZW",
+    "response": "farezw",
+    "hashkey": "28ae96032451249832d71cce2373a72626dfa576",
+    "expiration": "2023-11-09T12:17:20.786Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 57,
+  "fields": {
+    "challenge": "KWAMVD",
+    "response": "kwamvd",
+    "hashkey": "78c3d15f7f4e38fef4cfd49500c4b55e5252b060",
+    "expiration": "2023-11-09T12:17:50.715Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 58,
+  "fields": {
+    "challenge": "GTUHYX",
+    "response": "gtuhyx",
+    "hashkey": "27f741e570cdce418b4a49419db39895bcb763c3",
+    "expiration": "2023-11-09T12:18:42.927Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 59,
+  "fields": {
+    "challenge": "LDJHXJ",
+    "response": "ldjhxj",
+    "hashkey": "9512e3664220f61cb2da9c7f85b5ade50dcde154",
+    "expiration": "2023-11-09T12:21:14.287Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 60,
+  "fields": {
+    "challenge": "XBUNBI",
+    "response": "xbunbi",
+    "hashkey": "2f5c578466f9e6e46d6145532ad564ddd8f8493e",
+    "expiration": "2023-11-09T12:21:32.052Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 61,
+  "fields": {
+    "challenge": "UXLIRU",
+    "response": "uxliru",
+    "hashkey": "cae92c034fd8f9478d0b6e41aecd067f2aeca0b5",
+    "expiration": "2023-11-09T12:22:19.148Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 62,
+  "fields": {
+    "challenge": "BRIJRU",
+    "response": "brijru",
+    "hashkey": "d3a9268a76655f18aa957b1c2b36d3469b28e63f",
+    "expiration": "2023-11-09T12:23:08.459Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 63,
+  "fields": {
+    "challenge": "OQSXPS",
+    "response": "oqsxps",
+    "hashkey": "bc14a73c0c7fea42ab661d866ea944907884dc3d",
+    "expiration": "2023-11-09T13:49:45.700Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 64,
+  "fields": {
+    "challenge": "HUXVQT",
+    "response": "huxvqt",
+    "hashkey": "ec0930616b0b0524845ad12ecad154bb19976d39",
+    "expiration": "2023-11-11T19:25:50.307Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 65,
+  "fields": {
+    "challenge": "SARKTK",
+    "response": "sarktk",
+    "hashkey": "9ae890fcb3aed771288c7eab8a2cceffd22fb0b7",
+    "expiration": "2023-11-11T19:37:14.218Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 66,
+  "fields": {
+    "challenge": "MRNKLU",
+    "response": "mrnklu",
+    "hashkey": "c0485befde31fa4dbf38808675d2ea472d87469f",
+    "expiration": "2023-11-11T19:37:22.888Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 67,
+  "fields": {
+    "challenge": "QSCALT",
+    "response": "qscalt",
+    "hashkey": "3f2a57c5a5240f54bab215f92d3f46aa67c813fd",
+    "expiration": "2023-11-11T19:37:55.399Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 68,
+  "fields": {
+    "challenge": "KHASGZ",
+    "response": "khasgz",
+    "hashkey": "c3e89aa63eff9ac8d9d226b45a3ca60338a8b6af",
+    "expiration": "2023-11-11T19:38:01.406Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 69,
+  "fields": {
+    "challenge": "KMXMUG",
+    "response": "kmxmug",
+    "hashkey": "f106e37f36fae0069b218d5e36e67c5726c8fd6a",
+    "expiration": "2023-11-11T19:41:56.605Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 70,
+  "fields": {
+    "challenge": "PPVXAZ",
+    "response": "ppvxaz",
+    "hashkey": "106cb99cfa1283b03e71cdcd05f8f1a1ef7f5e4c",
+    "expiration": "2023-11-11T20:21:02.182Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 71,
+  "fields": {
+    "challenge": "QPYIUC",
+    "response": "qpyiuc",
+    "hashkey": "397d611250cebf1f24edec2a3de5ed3a50de64a7",
+    "expiration": "2023-11-11T20:27:40.277Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 72,
+  "fields": {
+    "challenge": "TCBZKV",
+    "response": "tcbzkv",
+    "hashkey": "915d3c28b1783ad30df71a147fb346163810a6ed",
+    "expiration": "2023-11-11T20:48:24.063Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 73,
+  "fields": {
+    "challenge": "KLUNKH",
+    "response": "klunkh",
+    "hashkey": "7e75fbe649e5dba0bb324729291f40cb623a933e",
+    "expiration": "2023-11-12T08:15:19.993Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 74,
+  "fields": {
+    "challenge": "OAJUCR",
+    "response": "oajucr",
+    "hashkey": "1042429c5abf6d173b018d42663bb5f476321aab",
+    "expiration": "2023-11-12T16:49:45.477Z"
   }
 },
 {
   "model": "society_main.contactformmodel",
-  "pk": 2,
+  "pk": 7,
   "fields": {
-    "time_create": "2023-10-28T06:26:21.188Z",
-    "time_update": "2023-10-28T06:26:21.188Z",
-    "name": "Вазген",
-    "email": "mtg@mail.com",
-    "message": "Hello Brothers !",
+    "time_create": "2023-11-06T16:51:08.087Z",
+    "time_update": "2023-11-06T16:51:08.087Z",
+    "name": "Gyrgen",
+    "email": "gyrgen@mail.ru",
+    "ip_address": "127.0.0.1",
+    "message": "Hello people",
+    "checkbox": true
+  }
+},
+{
+  "model": "society_main.contactformmodel",
+  "pk": 8,
+  "fields": {
+    "time_create": "2023-11-09T10:24:14.445Z",
+    "time_update": "2023-11-09T10:24:14.445Z",
+    "name": "XSXX",
+    "email": "sas@mail.com",
+    "ip_address": "127.0.0.1",
+    "message": "asasa",
+    "checkbox": true
+  }
+},
+{
+  "model": "society_main.contactformmodel",
+  "pk": 9,
+  "fields": {
+    "time_create": "2023-11-09T10:27:01.689Z",
+    "time_update": "2023-11-09T10:27:01.689Z",
+    "name": "ыы",
+    "email": "sss@mail.com",
+    "ip_address": "127.0.0.1",
+    "message": "sssssdxsdx",
+    "checkbox": true
+  }
+},
+{
+  "model": "society_main.contactformmodel",
+  "pk": 10,
+  "fields": {
+    "time_create": "2023-11-09T10:32:33.652Z",
+    "time_update": "2023-11-09T10:32:33.652Z",
+    "name": "чч",
+    "email": "sdsds@mail.com",
+    "ip_address": "127.0.0.1",
+    "message": "asasa",
+    "checkbox": true
+  }
+},
+{
+  "model": "society_main.contactformmodel",
+  "pk": 11,
+  "fields": {
+    "time_create": "2023-11-09T10:38:02.345Z",
+    "time_update": "2023-11-09T10:38:02.345Z",
+    "name": "Сергей",
+    "email": "sergey@mail.ru",
+    "ip_address": "127.0.0.1",
+    "message": "Добрый день это моё первое обращение",
     "checkbox": true
   }
 },
@@ -1986,7 +3299,7 @@
   "pk": 1,
   "fields": {
     "time_create": "2023-10-24T09:26:27.727Z",
-    "time_update": "2023-11-03T21:43:52.673Z",
+    "time_update": "2023-11-05T17:53:48.699Z",
     "title": "Досуг наших оптимистов",
     "slug": "dosug_optimista",
     "photo": "photos/2023/11/03/trips_DcIpykz.jpg",
@@ -1994,6 +3307,7 @@
     "is_published": true,
     "cat": 1,
     "video": "",
+    "description": "Отдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайфОтдых, природа, кайф",
     "tags": [
       1
     ]
@@ -2004,14 +3318,15 @@
   "pk": 2,
   "fields": {
     "time_create": "2023-10-24T09:27:16.333Z",
-    "time_update": "2023-10-28T15:25:47.017Z",
+    "time_update": "2023-11-05T17:53:37.702Z",
     "title": "Льготы наших оптимистов",
     "slug": "lgoty-nashih-optimistov",
-    "photo": "",
+    "photo": "photos/2023/11/05/memo.jpg",
     "content": "Отдых, природа, кайф",
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "Отдых, природа, кайф",
     "tags": [
       2
     ]
@@ -2022,7 +3337,7 @@
   "pk": 3,
   "fields": {
     "time_create": "2023-10-28T17:24:51.438Z",
-    "time_update": "2023-10-29T15:28:39.243Z",
+    "time_update": "2023-11-05T17:52:39.430Z",
     "title": "КОМИССИЯ ПРИ ПРЕЗИДЕНТЕ РФ ПО ДЕЛАМ ИНВАЛИДОВ",
     "slug": "komissiya-pri-prezidente-rf-po-delam-invalidov",
     "photo": "photos/2023/10/29/law_book.jpg",
@@ -2030,6 +3345,7 @@
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "Комиссия при Президенте Российской Федерации по делам инвалидов является совещательным органом при Президенте Российской Федерации, образованным в целях обеспечения взаимодействия федеральных органов государственной власти, органов государственной власти субъектов Российской Федерации, органов местного самоуправления, общественных объединений, научных и других организаций при рассмотрении вопросов, связанных с решением проблем инвалидности и инвалидов в Российской Федерации. Основными задачами Комиссии являются:",
     "tags": [
       2
     ]
@@ -2040,7 +3356,7 @@
   "pk": 4,
   "fields": {
     "time_create": "2023-10-29T17:00:27.296Z",
-    "time_update": "2023-10-29T17:01:56.250Z",
+    "time_update": "2023-11-05T17:52:29.803Z",
     "title": "СОВЕТ ПО ДЕЛАМ ИНВАЛИДОВ ПРИ СОВЕТЕ ФЕДЕРАЦИИ",
     "slug": "sovet-po-delam-invalidov-pri-sovete-federacii",
     "photo": "photos/2023/10/29/.jpg",
@@ -2048,6 +3364,7 @@
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "Совет по делам инвалидов при Совете Федерации Федерального Собрания Российской Федерации является постоянно действующим экспертно-консультативным органом при Совете Федерации Федерального Собрания Российской Федерации. Основными задачами Совета являются:\r\n\r\n1) изучение состояния и перспектив развития государственной политики Российской Федерации в области социальной защиты инвалидов;",
     "tags": [
       2
     ]
@@ -2058,7 +3375,7 @@
   "pk": 5,
   "fields": {
     "time_create": "2023-10-29T17:12:07.816Z",
-    "time_update": "2023-10-29T17:22:24.257Z",
+    "time_update": "2023-11-05T17:52:20.449Z",
     "title": "ИСПОЛНИТЕЛЬНЫЕ ОРГАНЫ ВЛАСТИ",
     "slug": "ispolnitelnye-organy-vlasti",
     "photo": "photos/2023/10/29/memo.jpg",
@@ -2066,6 +3383,7 @@
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "<p>Правительство Российской Федерации, как государственный орган исполнительной власти, решает вопросы в области социальной защиты, здравоохранения, жилищной политики, контролирует исполнение государственных программ Российской Федерации, в том числе программу «Доступная среда», а также многие другие вопросы.</p>",
     "tags": [
       2
     ]
@@ -2076,7 +3394,7 @@
   "pk": 6,
   "fields": {
     "time_create": "2023-10-29T17:24:05.087Z",
-    "time_update": "2023-10-29T17:26:24.274Z",
+    "time_update": "2023-11-05T17:52:07.648Z",
     "title": "ВНЕБЮДЖЕТНЫЕ ФОНДЫ",
     "slug": "vnebyudzhetnye-fondy",
     "photo": "photos/2023/10/29/.jpg_LGRlDfz",
@@ -2084,6 +3402,7 @@
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "Фонд пенсионного и социального страхования Российской Федерации (сокращенное наименование - Социальный фонд России) - &nbsp; один из государственных внебюджетных фондов, который Создан федеральным законом от 14.07.2022 года № 236-ФЗ «О Фонде пенсионного и социального страхования Российской Федерации» путем реорганизации Пенсионного фонда Российской Федерации с одновременным присоединением к нему Фонда социального страхования Российской Федерации. Данный фонд начал свою работу 1 января 2023 года.</p>",
     "tags": [
       2
     ]
@@ -2094,7 +3413,7 @@
   "pk": 7,
   "fields": {
     "time_create": "2023-10-29T17:27:53.026Z",
-    "time_update": "2023-10-29T17:28:50.779Z",
+    "time_update": "2023-11-05T17:51:43.600Z",
     "title": "ФЕДЕРАЛЬНОЕ БЮРО МЕДИКО-СОЦИАЛЬНОЙ ЭКСПЕРТИЗЫ",
     "slug": "federalnoe-byuro-mediko-socialnoj-ekspertizy",
     "photo": "photos/2023/10/29/law_book_7sVkKX7.jpg",
@@ -2102,6 +3421,7 @@
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "<p>Многопрофильное медицинское, экспертное и&nbsp;реабилитационное учреждение, которое, помимо практической деятельности по&nbsp;проведению медико-социальной экспертизы, оказывает специализированную помощь, включая все виды протезирования и ортезирования. Является подведомственным учреждением Минтруда России. Специалистами Федерального бюро обобщается опыт работы федеральных государственных учреждений медико-социальной экспертизы и&nbsp;реабилитации, совершенствуются методические подходы",
     "tags": [
       2
     ]
@@ -2112,7 +3432,7 @@
   "pk": 8,
   "fields": {
     "time_create": "2023-10-29T17:47:37.351Z",
-    "time_update": "2023-10-29T17:47:42.778Z",
+    "time_update": "2023-11-05T17:51:34.083Z",
     "title": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ ЧЕЛОВЕКА В РФ",
     "slug": "upolnomochennyj-po-pravam-cheloveka-v-rf",
     "photo": "photos/2023/10/29/memo_V8kIZ8G.jpg",
@@ -2120,6 +3440,7 @@
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "<p>Основная цель — содействие реализации прав и свобод человека и гражданина в Российской Федерации.</p>\r\n<p>Уполномоченный по правам человека рассматривает жалобы граждан Российской Федерации и находящихся на территории Российской Федерации иностранных граждан и лиц без гражданства на решения или действия (бездействие) государственных органов, органов местного самоуправления, должностных лиц, государственных служащих, если ранее заявитель обжаловал эти решения или действия (бездействие) в судебном либо административном порядке, но не согласен с решениями, принятыми по его жалобе.</p>",
     "tags": [
       2
     ]
@@ -2130,14 +3451,15 @@
   "pk": 9,
   "fields": {
     "time_create": "2023-10-29T17:50:21.015Z",
-    "time_update": "2023-10-29T17:50:27.965Z",
+    "time_update": "2023-11-05T17:55:18.590Z",
     "title": "УПОЛНОМОЧЕННЫЙ ПО ПРАВАМ РЕБЕНКА В РФ",
     "slug": "upolnomochennyj-po-pravam-rebenka-v-rf",
     "photo": "photos/2023/10/29/law_book_ReVSZ7W.jpg",
-    "content": "<p>Институт содействует реализации прав и свобод детей в Российской Федерации.</p>\r\n<p>Деятельность уполномоченного направлена на реализацию законных прав и интересов детей, на соблюдение законных прав и интересов детей государственными органами, органами местного самоуправления и должностными лицами.</p>\r\n<p><strong>Сайт: </strong><a href=\"http://deti.gov.ru/\">http://deti.gov.ru/</a></p>\r\n<p><strong>Контакты</strong>: 125993, г. Москва, ГСП-3, Миусская пл., д.7 стр. 1,</p>\r\n<p><strong>Телефон</strong> +7(495) 221-83-64 (доб.8984 или 8012).</p>\r\n\r\n<strong>Источник:</strong> <a href=\"https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/upolnomochennii_po_pravam_rebenka.html\">https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/upolnomochennii_po_pravam_rebenka.html</a>",
+    "content": "<p>Институт содействует реализации прав и свобод детей в Российской Федерации.</p>\r\n<p>Деятельность уполномоченного направлена на реализацию законных прав и интересов детей, на соблюдение законных прав и интересов детей государственными органами, органами местного самоуправления и должностными лицами.</p>\r\n<p><strong>Сайт: </strong><a href=\"http://deti.gov.ru/\">http://deti.gov.ru/</a></p>\r\n<p><strong>Контакты</strong>: 125993, г. Москва, ГСП-3, Миусская пл., д.7 стр. 1,</p>\r\n<p><strong>Телефон</strong> +7(495) 221-83-64 (доб.8984 или 8012).</p>\r\n<strong>Источник:</strong> <a href=\"https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/upolnomochennii_po_pravam_rebenka.html\">https://www.voi.ru/ludyam_s_invalidnostiu/obratitsa_po_voprosam/upolnomochennii_po_pravam_rebenka.html</a>",
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "Институт содействует реализации прав и свобод детей в Российской Федерации.\r\nДеятельность уполномоченного направлена на реализацию законных прав и интересов детей, на соблюдение законных прав и интересов детей государственными органами, органами местного самоуправления и должностными лицами.",
     "tags": [
       2
     ]
@@ -2148,7 +3470,7 @@
   "pk": 10,
   "fields": {
     "time_create": "2023-10-29T17:52:56.704Z",
-    "time_update": "2023-10-29T17:55:58.757Z",
+    "time_update": "2023-11-05T17:50:25.908Z",
     "title": "ИПРА – КАК ОФОРМИТЬ И ДЛЯ ЧЕГО НУЖНА",
     "slug": "ipra-kak-oformit-i-dlya-chego-nuzhna",
     "photo": "photos/2023/10/29/memo_wUmLtOT.jpg",
@@ -2156,6 +3478,7 @@
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "Индивидуальная программа реабилитации или абилитации инвалида (ИПРА) устанавливает перечень мероприятий, с помощью которых человек может восстановить или компенсировать утраченные способности. В ИПРА указываются виды, формы, объемы, сроки и порядок реализации медицинских, профессиональных и других реабилитационных мероприятий, перечень необходимых инвалиду технических средств реабилитации. Там также отмечается необходимые виды помощи, оказываемые инвалиду в преодолении барьеров, препятствующих получению им услуг на объектах социальной, инженерной и транспортной инфраструктур.",
     "tags": [
       2
     ]
@@ -2166,7 +3489,7 @@
   "pk": 11,
   "fields": {
     "time_create": "2023-10-29T17:57:22.344Z",
-    "time_update": "2023-10-29T17:59:09.159Z",
+    "time_update": "2023-11-05T17:55:57.720Z",
     "title": "ПОЛУЧЕНИЕ ТСР",
     "slug": "poluchenie-tsr",
     "photo": "photos/2023/10/29/memo_10xRr1V.jpg",
@@ -2174,6 +3497,7 @@
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "В настоящее время есть два пути получения технических средств реабилитации, вписанных в ИПРА:\r\nпредоставление соответствующего технического средства (изделия) в натуральном виде;\r\nвыплаты компенсации расходов за самостоятельное приобретение ТСР.\r\nВ конце 2020 года был принят закон, согласно которому люди с инвалидностью смогут приобретать необходимые им технические средства и услуги для реабилитации с помощью электронных сертификатов. За средства реабилитации можно будет расплачиваться электронным сертификатом, люди сами смогут решать какую модель ТСР им взять, и оплатить сертификатом без каких-либо долгих согласований и долгих ожиданий. Электронный сертификат поможет решить проблему ожидания компенсационных выплат. Данный закон вступает в силу в сентябре 2021 года, после этого у инвалида будет три способа получения ТСР.",
     "tags": [
       2
     ]
@@ -2184,7 +3508,7 @@
   "pk": 12,
   "fields": {
     "time_create": "2023-10-29T18:00:54.750Z",
-    "time_update": "2023-10-29T18:00:58.404Z",
+    "time_update": "2023-11-05T17:49:12.401Z",
     "title": "ФЕДЕРАЛЬНЫЙ РЕЕСТР ИНВАЛИДОВ",
     "slug": "federalnyj-reestr-invalidov",
     "photo": "photos/2023/10/29/memo_NYJNsjI.jpg",
@@ -2192,6 +3516,7 @@
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "<p>Федеральный реестр инвалидов (ФРИ) - это единая база данных для граждан, признанных в установленном порядке инвалидами, и для органов власти, которые оказывают услуги или меры социальной поддержки инвалидам. Использование ФРИ позволяет упростить документооборот между органами власти и дает возможность гражданам получить доступ ко многим услугам через интернет.</p>\r\n<p>Одним из достоинств реестра инвалидов также является специально созданный Личный кабинет, в котором гражданин, признанный инвалидом, может получить информацию об инвалидности, о рекомендованных и исполненных мероприятиях реабилитации и абилитации, положенных и предоставленных услугах и выплатах, а также обратиться за предоставлением услуг в электронном виде.</p>",
     "tags": [
       2
     ]
@@ -2202,7 +3527,7 @@
   "pk": 13,
   "fields": {
     "time_create": "2023-11-03T16:16:34.252Z",
-    "time_update": "2023-11-04T13:14:51.964Z",
+    "time_update": "2023-11-05T17:48:46.402Z",
     "title": "Поездка  НГО Оптимист в  Абрау - Дюрсо поющие фонтаны",
     "slug": "abrau-durso",
     "photo": "photos/2023/11/04/optimist_art.png",
@@ -2210,6 +3535,7 @@
     "is_published": true,
     "cat": 1,
     "video": "videos/2023/11/03/22.09.2023_Поездка_на_поющие_фонтаны_Абрау-Дюрсо.mp4",
+    "description": "До образования царского имения здесь находилось адыгское селение адыг. ЕкIэх (другое название — адыг. Абрагъо) — «провалившееся». После окончания Кавказской войны и депортации черкесов в 1870 году по указу начальника Черноморского округа генерал-майора Д. В. Пиленко было основано удельное имение царской семьи Абрау-Дюрсо.\r\n\r\nВыделение земли для Удельного ведомства было произведено в 1871 году. При первом межевании площадь под лесом, лугами и степью составляла свыше 7,2 тыс. десятин. Опыты по разведению винограда были начаты под руководством агронома Черноморского округа Ф. И. Гейдука, который в 1872 году закупил за границей селекционные рейнские виноградные лозы сортов Рислинг и Португизер. В 1873—1874 годах часть (около 8 тыс. кустов) была высажена в Абрау-Дюрсо на плантации площадью свыше 3,2 тыс. квадратных саженей. Позже здесь культивировались также сорта Совиньон, Пино-фран и Пино-гри, Траминер и др.",
     "tags": [
       1
     ]
@@ -2220,7 +3546,7 @@
   "pk": 14,
   "fields": {
     "time_create": "2023-11-04T13:22:40.346Z",
-    "time_update": "2023-11-04T13:22:55.986Z",
+    "time_update": "2023-11-05T17:48:06.007Z",
     "title": "День рождения председятеля НГО оптимист 27.10.2023",
     "slug": "den-rozhdeniya-predsedyatelya-ngo-optimist-27102023",
     "photo": "photos/2023/11/04/optimist_art_GiDnnSN.png",
@@ -2228,6 +3554,7 @@
     "is_published": true,
     "cat": 1,
     "video": "videos/2023/11/04/VID-20231028-WA0023.mp4",
+    "description": "Уважаемый Гаврилов Валерий Андреевич!\r\n\r\nПоздравляем Вас с Днем Рождения от всей команды ГОРОДСКОЙ ОБЩЕСТВЕННАОЙ НЕКОММЕРЧЕСКОЙ ОРГАНИЗАЦИИ ЛЮДЕЙ С ОГРАНИЧЕННЫМИ ВОЗМОЖНОСТЯМИ ЗДОРОВЬЯ «ОПТИМИСТ». Вы являетесь не только председателем нашей организации, но и источником вдохновения и оптимизма для всех нас.",
     "tags": [
       1
     ]
@@ -2238,7 +3565,7 @@
   "pk": 15,
   "fields": {
     "time_create": "2023-11-04T13:36:29.340Z",
-    "time_update": "2023-11-04T13:39:02.569Z",
+    "time_update": "2023-11-05T17:46:17.418Z",
     "title": "ПОРЯДОК ОФОРМЛЕНИЯ ИНВАЛИДНОСТИ",
     "slug": "poryadok-oformleniya-invalidnosti",
     "photo": "photos/2023/11/04/.jpg",
@@ -2246,6 +3573,7 @@
     "is_published": true,
     "cat": 2,
     "video": "",
+    "description": "Для того, чтобы попасть в бюро медико-социальной экспертизы на освидетельствование, гражданин должен быть туда направлен.\r\n\r\nГражданин направляется на медико-социальную экспертизу медицинской организацией независимо от ее организационно-правовой формы в соответствии с решением врачебной комиссии медицинской организации.\r\n\r\nЗа направлением на МСЭ гражданин обращается к врачу медицинской организации по профилю своего основного заболевания или к терапевту. Врач, проводит осмотр пациента, изучает историю болезни, знакомится с имеющимися медицинскими документами, выписками и т.д. и направляет пациента на консультацию к другим врачам-специалистам, с целью выявления сопутствующих заболеваний, а также определяет, какие обследования должен пройти пациент. Перечень медицинских обследований, необходимых для получения клинико-функциональных данных в зависимости от заболевания в целях проведения медико-социальной экспертизы, утвержден Приказом Минтруда России №402н и Минздравом России №631н от 10 июня 2021 года.",
     "tags": [
       2
     ]
@@ -2256,14 +3584,34 @@
   "pk": 16,
   "fields": {
     "time_create": "2023-11-04T13:56:42.887Z",
-    "time_update": "2023-11-04T16:16:50.070Z",
+    "time_update": "2023-11-11T17:29:59.016Z",
     "title": "Откуда оптимизм в «Оптимисте»?",
     "slug": "otkuda-optimizm-v-optimiste",
-    "photo": "",
-    "content": "<div class=\"container-fluid\">\r\n    <div class=\"row mb-4\">\r\n        <div class=\"col-md-6, col-lg-8, col-sm-12\">\r\n            <p class=\"mx-auto d-block img-fluid article-img rounded\">\r\n                <img src=\"../../../static/society_main/images/optimist-8-07-2021.jpg\">\r\n            </p>\r\n        </div>\r\n\r\n        - Сергей Леонидович, расскажите, как начиналась Ваша общественная деятельность?\r\n\r\n        - Я еще со школы чувствовал, что у меня есть проблемы со здоровьем. И в 1995 году у меня проявилось сильное\r\n        заболевание щитовидной железы. Я был как слон. Руки опухшие, пальцы сардельками, ничего не сгибается. Говорить\r\n        не мог, потому что язык опухал. В итоге я получил группу инвалидности. А затем вступил в Общество инвалидов,\r\n        председателем которого была Рулева Алла Николаевна. Там я начал заниматься организацией различных экскурсий,\r\n        походов в кино, театр, выставочные залы и т.д. Раньше никто этим конкретно не занимался. И у меня как-то сразу\r\n        начало получаться. А это дает вдохновение, силы придает. Ну, и понеслось...\r\n\r\n\r\n        <p class=\"mx-auto d-block img-fluid rounded\">\r\n            <img src=\"../../../static/society_main/images/vizitk.jpg\">\r\n\r\n\r\n            Вот с 2000 года примерно я всем этим занимаюсь. К 2018 году я вышел из Общества инвалидов и создал\r\n            организацию\r\n            «Оптимист» для детей и взрослых, имеющих проблемы со здоровьем. Почему такое название? Потому что оптимист,\r\n            конечно, не путешественник, но всегда на подъеме духа.\r\n\r\n            - А Вы все это делаете на подъеме духа?\r\n\r\n            <img src=\"../../../static/society_main/images/optimist-2.jpg\">\r\n        <p class=\"text-center\">Поездка на лотосы.</p>\r\n\r\n        - Года два назад в новой школе в 13-ом микрорайоне был круглый стол. Приезжали представители из Краснодара и\r\n        спрашивали: «Зачем Вы все это делаете?». Я ответил: «Люди сидят по домам, не то что сутками, а годами. Они не\r\n        выходят никуда, потому что, во-первых, нет денег, во-вторых, нет силы, которая подымет их и вытащит из дома».\r\n        Они\r\n        только поддакивают.\r\n\r\n        - Почему Вам так важно жить не только для себя, но и для «Оптимиста»?\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-3.jpg\">\r\n\r\n        - Потому что человек должен нести в мир добро, причем должен делать это безвозмездно. Человек, который приходит\r\n        в\r\n        Общество инвалидов либо в «Оптимист», не должен работать за деньги. Если он пришел зарабатывать, то с него\r\n        отдачи\r\n        никакой не будет.\r\n\r\n        -В какие интересные места Ваша группа уже ездила?\r\n\r\n        - Мы много где были. В Краснодаре в парке Галицкого, в Кабардинке все осмотрели, ездили в Абинск на ромашковую\r\n        поляну, в Голубицкую на крокодиловую ферму, в Керчи были три раза, посещали гору Митридат, видели Крымский мост.\r\n        В\r\n        Новороссийске ходили в городской театр, кинотеатр Нептун, исторический музей, планетарий, океанариум, хоть он у\r\n        нас\r\n        и маленький, на двух паровозиках, которые в парке Фрунзе и в парке Ленина, катались. Все, что недалеко за\r\n        городом\r\n        находится, посетили: Абрау-Дюрсо, культурно-туристический комплекс «Россия» в Глебовке, в парке живой природы\r\n        «Додо», совсем недавно ездили на Кипарисовое озеро в Сукко, в гольф-клуб в Раевской. В общем, практически все,\r\n        что в\r\n        дневной доступности, мы посетили. Я пытался прорабатывать маршруты даже в сторону Сочи, и хотя это пока\r\n        дороговато,\r\n        я что-нибудь придумаю.\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-4.jpg\">\r\n\r\n        - Какая из этих поездок запомнилась больше всего?\r\n\r\n        - Каждая поездка - это маленькая история, везде есть какие-то свои нюансы и запоминающиеся моменты. Например, у\r\n        нас\r\n        появилась новая женщина, Оксана Харьковская, она на каждую поездку сочиняет стихи. Когда приезжаем в лес,\r\n        женщины\r\n        любят ходить по лесу и обнимать деревья, это у них называется соединение с природой. Если есть купель, все\r\n        всегда\r\n        купаются, несмотря на ледяную воду, и никто при этом не заболевает. Много любопытных эпизодов есть.\r\n\r\n        - Вы экскурсии организовываете общие для детей и взрослых? Или отдельно собираете детей, а отдельно взрослых?\r\n\r\n        - По-всякому бывает. С детскими экскурсиями сложнее, дети очень плохо собираются. Набрать 50 человек с мамами\r\n        очень\r\n        сложно. А надо полный автобус набрать, чтобы поездка состоялась. Поэтому я часто набираю смешанные группы:\r\n        половина\r\n        детей с мамами, половина взрослые.\r\n\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-5.jpg\">\r\n\r\n        - Сколько человек в «Оптимисте»?\r\n\r\n        - В организации порядка 200 человек детей и взрослых. Я когда-то думал, наберу 100 человек и хватит. А сейчас\r\n        уже\r\n        200, и народ постепенно идет, идет, идет... Порядка 10 человек колясочников детей. Я с каждым из них\r\n        разговаривал.\r\n        Но они все неподъемные, поэтому сидят дома и никуда не ходят. С волонтером Малхасян Наирой мы пытались\r\n        организовать\r\n        детей. Но ничего не получается, потому что дети грузные, их вытащить тяжело, а мамы часто одни, папы уходят.\r\n        Ведь\r\n        даже с кровати на коляску пересадить инвалида нужна немалая физическая сила.\r\n\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-6.jpg\">\r\n        <p class=\"text-center\">На выставке интерактивного музея нового поколения \"Фестиваль Роботов\"</p>\r\n\r\n        - Сергей Леонидович, у Вас много помощников?\r\n\r\n        - Да. Это наши активисты, Марина Каргина, Елена Ласковец, Татьяна Савина, Трубоенко Светлана, Гаврилов Валера,\r\n        Рябова Светлана. Они помогают мне в организации мероприятий. Многие из них очень больны, но, тем не менее,\r\n        находят в\r\n        себе силы участвовать в общественной жизни.\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-7.jpg\">\r\n\r\n        -Есть еще несколько человек, которых я принял волонтерами к себе. Они везде с нами ездят при условии, что будут\r\n        помогать инвалидам. Но, к сожалению, они готовы только куда-то с нами ходить, а вот съездить проведать кого-то в\r\n        больнице или на дому, выйти с кем-нибудь из инвалидов погулять от них не допросишься.\r\n\r\n        - Что Вас расстраивает?\r\n\r\n        - Необязательность людей, их хитрость. В каждой поездке кто-то опаздывает, кто-то совсем не приходит и даже не\r\n        оповещает об этом, а я же жду, человек записан у меня! Многие мамы спрашивают, дескать, у меня трое детей, один\r\n        из\r\n        них инвалид, как я одного поведу, а других нет? Но ведь места выделили инвалидам. Сами же родители других\r\n        инвалидов\r\n        обидятся. Но я все равно не бросаю это дело. Для меня самое главное - конечный результат. Поехали - здорово! Вот\r\n        тогда у меня душа спокойна. Радуюсь. А в процессе, конечно, нервничаю, психую, всякое в жизни бывает. Все на\r\n        эмоциях. Но останавливаться нельзя, потому что остановишься, опустишь ручки, и все. Тут надо вперед, вперед!\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-8.jpg\">\r\n        <p class=\"center\">Посещение выставки живых тропических бабочек в Новороссийске</p>\r\n\r\n\r\n        -Кто же оказывает помощь «Оптимисту»?\r\n\r\n        - «Оптимист» выражает благодарность директору ООО «Черномортрансфлот» Челдышниковой Виктории Александровне за\r\n        организацию увлекательных прогулок на катере. Большое спасибо директору МУП «Детско-юношеский кинотеатр «Нептун»\r\n        Кузнецовой Нине Владимировне. Благодаря акции «КиноСреда - День уходящего кино» в кинотеатре действует\r\n        специальная\r\n        цена на фильмы, 100 рублей. И мы имели возможность посмотреть на большом экране кинофильмы «Братья медведи:\r\n        Тайна\r\n        трех миров», «Время» и многие другие.; И еще «Оптимист» очень благодарен директору МАУ «Новороссийский городской\r\n        театр» Бередину Олегу Геннадьевичу. Мы посмотрели многие постановки нашего театра, посетили концерты\r\n        симфонического\r\n        оркестра, концерт четы Печенкиных и многие другие, и все это практически бесплатно. Мы всем им очень благодарны.\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-9.jpg\">\r\n\r\n        На самом деле мы будем рады любой спонсорской помощи: современному компьютеру, помещению, материальной помощи.\r\n        Связаться со мной можно по телефону 89676681657. Звоните, и люди Вам будут благодарны.\r\n\r\n        - Сергей Леонидович, каковы Ваши дальнейшие планы?\r\n\r\n        - У меня есть надежда, что в сентябре или октябре мы поедем в Севастополь. Но это все очень дорого. Я планирую\r\n        эту\r\n        поездку с ночевкой. Доехать до Севастополя, там переночевать, и обратно через Ялту, Симферополь поехать. Тем\r\n        более у\r\n        меня в Севастополе дедушка в танке сгорел во время войны, для меня это памятные места.\r\n\r\n        <img src=\"../../../static/society_main/images/optimist-10.jpg\">\r\n\r\n        P.S. Так откуда же оптимизм в «Оптимисте»? Сейчас трудное время, денег нет, работы нет, за все надо платить,\r\n        даже за\r\n        всякую мелочь, и особенно трудно людям больным, слабым, пожилым, инвалидам. Да и заработать они сейчас уже\r\n        практически не могут. А Сергей Леонидович - этот воистину горящий желанием помочь человек скрашивает их жизнь, и\r\n        это\r\n        достойно огромного уважения. Для меня это человек с большой буквы.\r\n\r\n        <p>\r\n            Автор: тест: Марина ДАРКИНА, фото предоставлено группой \"ОПТИМИСТ\"\r\n            10.09.2021 18:46\r\n        </p>\r\n    </div>\r\n</div>",
+    "photo": "photos/2023/11/05/optimist_art.png",
+    "content": "<div class=\"container-fluid\">\r\n    <div class=\"row mb-4\">\r\n        <div class=\"col-md-2\"></div>\r\n        <div class=\"col-md-8, col-sm-12\">\r\n            <div class=\"p-5\">\r\n                <p class=\"mx-auto d-block img-fluid article-img rounded\">\r\n                    <img src=\"../../../static/society_main/images/articles/art1/optimist-8-07-2021.jpg\">\r\n                </p>\r\n            </div>\r\n\r\n            - Сергей Леонидович, расскажите, как начиналась Ваша общественная деятельность?\r\n\r\n            - Я еще со школы чувствовал, что у меня есть проблемы со здоровьем. И в 1995 году у меня проявилось сильное\r\n            заболевание щитовидной железы. Я был как слон. Руки опухшие, пальцы сардельками, ничего не сгибается.\r\n            Говорить\r\n            не мог, потому что язык опухал. В итоге я получил группу инвалидности. А затем вступил в Общество инвалидов,\r\n            председателем которого была Рулева Алла Николаевна. Там я начал заниматься организацией различных экскурсий,\r\n            походов в кино, театр, выставочные залы и т.д. Раньше никто этим конкретно не занимался. И у меня как-то\r\n            сразу\r\n            начало получаться. А это дает вдохновение, силы придает. Ну, и понеслось...\r\n\r\n\r\n            <p class=\"mx-auto d-block img-fluid rounded\">\r\n                <img src=\"../../../static/society_main/images/articles/art1/vizitk.jpg\">\r\n\r\n\r\n                Вот с 2000 года примерно я всем этим занимаюсь. К 2018 году я вышел из Общества инвалидов и создал\r\n                организацию\r\n                «Оптимист» для детей и взрослых, имеющих проблемы со здоровьем. Почему такое название? Потому что\r\n                оптимист,\r\n                конечно, не путешественник, но всегда на подъеме духа.\r\n\r\n                - А Вы все это делаете на подъеме духа?\r\n\r\n                <img src=\"../../../static/society_main/images/articles/art1/optimist-2.jpg\">\r\n            <p class=\"text-center\">Поездка на лотосы.</p>\r\n\r\n            - Года два назад в новой школе в 13-ом микрорайоне был круглый стол. Приезжали представители из Краснодара и\r\n            спрашивали: «Зачем Вы все это делаете?». Я ответил: «Люди сидят по домам, не то что сутками, а годами. Они\r\n            не\r\n            выходят никуда, потому что, во-первых, нет денег, во-вторых, нет силы, которая подымет их и вытащит из\r\n            дома».\r\n            Они\r\n            только поддакивают.\r\n\r\n            - Почему Вам так важно жить не только для себя, но и для «Оптимиста»?\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art1/optimist-3.jpg\">\r\n\r\n            - Потому что человек должен нести в мир добро, причем должен делать это безвозмездно. Человек, который\r\n            приходит\r\n            в\r\n            Общество инвалидов либо в «Оптимист», не должен работать за деньги. Если он пришел зарабатывать, то с него\r\n            отдачи\r\n            никакой не будет.\r\n\r\n            -В какие интересные места Ваша группа уже ездила?\r\n\r\n            - Мы много где были. В Краснодаре в парке Галицкого, в Кабардинке все осмотрели, ездили в Абинск на\r\n            ромашковую\r\n            поляну, в Голубицкую на крокодиловую ферму, в Керчи были три раза, посещали гору Митридат, видели Крымский\r\n            мост.\r\n            В\r\n            Новороссийске ходили в городской театр, кинотеатр Нептун, исторический музей, планетарий, океанариум, хоть\r\n            он у\r\n            нас\r\n            и маленький, на двух паровозиках, которые в парке Фрунзе и в парке Ленина, катались. Все, что недалеко за\r\n            городом\r\n            находится, посетили: Абрау-Дюрсо, культурно-туристический комплекс «Россия» в Глебовке, в парке живой\r\n            природы\r\n            «Додо», совсем недавно ездили на Кипарисовое озеро в Сукко, в гольф-клуб в Раевской. В общем, практически\r\n            все,\r\n            что в\r\n            дневной доступности, мы посетили. Я пытался прорабатывать маршруты даже в сторону Сочи, и хотя это пока\r\n            дороговато,\r\n            я что-нибудь придумаю.\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art1/optimist-4.jpg\">\r\n\r\n            - Какая из этих поездок запомнилась больше всего?\r\n\r\n            - Каждая поездка - это маленькая история, везде есть какие-то свои нюансы и запоминающиеся моменты.\r\n            Например, у\r\n            нас\r\n            появилась новая женщина, Оксана Харьковская, она на каждую поездку сочиняет стихи. Когда приезжаем в лес,\r\n            женщины\r\n            любят ходить по лесу и обнимать деревья, это у них называется соединение с природой. Если есть купель, все\r\n            всегда\r\n            купаются, несмотря на ледяную воду, и никто при этом не заболевает. Много любопытных эпизодов есть.\r\n\r\n            - Вы экскурсии организовываете общие для детей и взрослых? Или отдельно собираете детей, а отдельно\r\n            взрослых?\r\n\r\n            - По-всякому бывает. С детскими экскурсиями сложнее, дети очень плохо собираются. Набрать 50 человек с\r\n            мамами\r\n            очень\r\n            сложно. А надо полный автобус набрать, чтобы поездка состоялась. Поэтому я часто набираю смешанные группы:\r\n            половина\r\n            детей с мамами, половина взрослые.\r\n\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art1/optimist-5.jpg\">\r\n\r\n            - Сколько человек в «Оптимисте»?\r\n\r\n            - В организации порядка 200 человек детей и взрослых. Я когда-то думал, наберу 100 человек и хватит. А\r\n            сейчас\r\n            уже\r\n            200, и народ постепенно идет, идет, идет... Порядка 10 человек колясочников детей. Я с каждым из них\r\n            разговаривал.\r\n            Но они все неподъемные, поэтому сидят дома и никуда не ходят. С волонтером Малхасян Наирой мы пытались\r\n            организовать\r\n            детей. Но ничего не получается, потому что дети грузные, их вытащить тяжело, а мамы часто одни, папы уходят.\r\n            Ведь\r\n            даже с кровати на коляску пересадить инвалида нужна немалая физическая сила.\r\n\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art1/optimist-6.jpg\">\r\n            <p class=\"text-center\">На выставке интерактивного музея нового поколения \"Фестиваль Роботов\"</p>\r\n\r\n            - Сергей Леонидович, у Вас много помощников?\r\n\r\n            - Да. Это наши активисты, Марина Каргина, Елена Ласковец, Татьяна Савина, Трубоенко Светлана, Гаврилов\r\n            Валера,\r\n            Рябова Светлана. Они помогают мне в организации мероприятий. Многие из них очень больны, но, тем не менее,\r\n            находят в\r\n            себе силы участвовать в общественной жизни.\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art1/optimist-7.jpg\">\r\n\r\n            -Есть еще несколько человек, которых я принял волонтерами к себе. Они везде с нами ездят при условии, что\r\n            будут\r\n            помогать инвалидам. Но, к сожалению, они готовы только куда-то с нами ходить, а вот съездить проведать\r\n            кого-то в\r\n            больнице или на дому, выйти с кем-нибудь из инвалидов погулять от них не допросишься.\r\n\r\n            - Что Вас расстраивает?\r\n\r\n            - Необязательность людей, их хитрость. В каждой поездке кто-то опаздывает, кто-то совсем не приходит и даже\r\n            не\r\n            оповещает об этом, а я же жду, человек записан у меня! Многие мамы спрашивают, дескать, у меня трое детей,\r\n            один\r\n            из\r\n            них инвалид, как я одного поведу, а других нет? Но ведь места выделили инвалидам. Сами же родители других\r\n            инвалидов\r\n            обидятся. Но я все равно не бросаю это дело. Для меня самое главное - конечный результат. Поехали - здорово!\r\n            Вот\r\n            тогда у меня душа спокойна. Радуюсь. А в процессе, конечно, нервничаю, психую, всякое в жизни бывает. Все на\r\n            эмоциях. Но останавливаться нельзя, потому что остановишься, опустишь ручки, и все. Тут надо вперед, вперед!\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art1/optimist-8.jpg\">\r\n            <p class=\"center\">Посещение выставки живых тропических бабочек в Новороссийске</p>\r\n\r\n\r\n            -Кто же оказывает помощь «Оптимисту»?\r\n\r\n            - «Оптимист» выражает благодарность директору ООО «Черномортрансфлот» Челдышниковой Виктории Александровне\r\n            за\r\n            организацию увлекательных прогулок на катере. Большое спасибо директору МУП «Детско-юношеский кинотеатр\r\n            «Нептун»\r\n            Кузнецовой Нине Владимировне. Благодаря акции «КиноСреда - День уходящего кино» в кинотеатре действует\r\n            специальная\r\n            цена на фильмы, 100 рублей. И мы имели возможность посмотреть на большом экране кинофильмы «Братья медведи:\r\n            Тайна\r\n            трех миров», «Время» и многие другие.; И еще «Оптимист» очень благодарен директору МАУ «Новороссийский\r\n            городской\r\n            театр» Бередину Олегу Геннадьевичу. Мы посмотрели многие постановки нашего театра, посетили концерты\r\n            симфонического\r\n            оркестра, концерт четы Печенкиных и многие другие, и все это практически бесплатно. Мы всем им очень\r\n            благодарны.\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art1/optimist-9.jpg\">\r\n\r\n            На самом деле мы будем рады любой спонсорской помощи: современному компьютеру, помещению, материальной\r\n            помощи.\r\n            Связаться со мной можно по телефону 89676681657. Звоните, и люди Вам будут благодарны.\r\n\r\n            - Сергей Леонидович, каковы Ваши дальнейшие планы?\r\n\r\n            - У меня есть надежда, что в сентябре или октябре мы поедем в Севастополь. Но это все очень дорого. Я\r\n            планирую\r\n            эту\r\n            поездку с ночевкой. Доехать до Севастополя, там переночевать, и обратно через Ялту, Симферополь поехать. Тем\r\n            более у\r\n            меня в Севастополе дедушка в танке сгорел во время войны, для меня это памятные места.\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art1/optimist-10.jpg\">\r\n\r\n            P.S. Так откуда же оптимизм в «Оптимисте»? Сейчас трудное время, денег нет, работы нет, за все надо платить,\r\n            даже за\r\n            всякую мелочь, и особенно трудно людям больным, слабым, пожилым, инвалидам. Да и заработать они сейчас уже\r\n            практически не могут. А Сергей Леонидович - этот воистину горящий желанием помочь человек скрашивает их\r\n            жизнь, и\r\n            это\r\n            достойно огромного уважения. Для меня это человек с большой буквы.\r\n\r\n            <p>\r\n                Автор: тест: Марина ДАРКИНА, фото предоставлено группой \"ОПТИМИСТ\"\r\n                10.09.2021 18:46\r\n            </p>\r\n            <div class=\"col-md-2\"></div>\r\n        </div>\r\n    </div>\r\n</div>",
     "is_published": true,
     "cat": 1,
     "video": "",
+    "description": "- Сергей Леонидович, расскажите, как начиналась Ваша общественная деятельность?\r\n\r\n        - Я еще со школы чувствовал, что у меня есть проблемы со здоровьем. И в 1995 году у меня проявилось сильное\r\n        заболевание щитовидной железы. Я был как слон. Руки опухшие, пальцы сардельками, ничего не сгибается. Говорить\r\n        не мог, потому что язык опухал. В итоге я получил группу инвалидности. А затем вступил в Общество инвалидов,\r\n        председателем которого была Рулева Алла Николаевна. Там я начал заниматься организацией различных экскурсий,\r\n        походов в кино, театр, выставочные залы и т.д. Раньше никто этим конкретно не занимался. И у меня как-то сразу\r\n        начало получаться. А это дает вдохновение, силы придает. Ну, и понеслось...",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "society_main.post",
+  "pk": 17,
+  "fields": {
+    "time_create": "2023-11-11T17:49:03.518Z",
+    "time_update": "2023-11-11T18:24:00.886Z",
+    "title": "«ОПТИМИСТ» Новороссийска отметил свое пятилетие",
+    "slug": "optimist-novorossijska-otmetil-svoe-pyatiletie",
+    "photo": "photos/2023/11/11/optimist_art.png",
+    "content": "<div class=\"container-fluid\">\r\n    <div class=\"row mb-4\">\r\n        <div class=\"col-md-2\"></div>\r\n        <div class=\"col-md-8, col-sm-12\">\r\n            <div class=\"p-5\">\r\n                <strong>\r\n                    <span style=\"color: #993366;\">\r\n                        <span style=\"color: #008080;\">\r\n                            В Новороссийске  в кинотеатре  «Нептун» состоялось торжество по случаю пятилетия  некоммерческой\r\n                            организации людей с ограниченными возможностями здоровья «ОПТИМИСТ».\r\n                        </span>\r\n                    </span>\r\n                </strong>\r\n                <p class=\"mx-auto d-block img-fluid article-img rounded\">\r\n                    <img src=\"../../../static/society_main/images/articles/art2/optimist-8-07-2021.jpg\" class=\"justify-content-center\">\r\n                </p>\r\n            </div>\r\n\r\n            Пришли на мероприятие 75 человек. В «ОПТИМИСТЕ» люди с разными проблемами здоровья, в том числе и\r\n            колясочники, но все они хотят общаться и жить полноценной жизнью: ездить на экскурсии, жарить шашлыки,\r\n            любоваться природой, кататься на лодках, иметь единомышленников. Многие из них в обществе давно, но были на\r\n            мероприятии несколько новых человек, которые только услышали про это общество и заинтересовались им.\r\n\r\n\r\n            <p class=\"mx-auto d-block img-fluid rounded\">\r\n                <img src=\"../../../static/society_main/images/articles/art2/optimist-1.jpg\" class=\"justify-content-center\">\r\n                <br>\r\n                \r\n                Организовал общество «ОПТИМИСТ» в 2018 году Сергей Леонидович Мельников, который старался всегда\r\n                заботиться о своих подопечных, стремился, чтобы общество «ОПТИМИСТ» было единой семьей. Он сам был\r\n                тяжело болен, и тем не менее в его сердце находилось место для всех оптимистов. В феврале этого года\r\n                Сергея Леонидовича не стало.\r\n\r\n                <img src=\"../../../static/society_main/images/articles/art2/optimist-2.jpg\" class=\"justify-content-center\">\r\n            <p class=\"text-bold\">На фото: поездка в х. Горный. 29/12/2022 г.</p>\r\n            <br>\r\n\r\n            Перед гостями выступил учредитель НГО «ОПТИМИСТ» Гаврилов Валерий Александрович. Он поздравил всех с\r\n            пятилетием, рассказал, что идет процесс переоформления документов огранизации в юстиции, сообщил о ближайших\r\n            планах на будущее, поведал о том, что «ОПТИМИСТ» обращался в администрацию по поводу выделения помещения, но\r\n            пока получил отказ.\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art2/optimist-3.jpg\" class=\"justify-content-center\">\r\n\r\n            Помимо этого в зале прозвучало еще много добрых слов в адрес «ОПТИМИСТА». Семья Ивановых, Людмила Николаевна\r\n            и ее супруг Анатолий Иванович, сказали, что они просто счастливы от того, что познакомились с этой\r\n            организацией. «Действительно, хочется куда-то поехать, что-то новое посмотреть. А это далеко не всегда под\r\n            силу, особенно людям в возрасте. Здесь же все организуют, отвезут и привезут. Спасибо Вам, организаторы,\r\n            учредители, волонтеры, активисты. За то, что вы есть, за то, что вы рядом, за то, что на вас можно\r\n            положиться» - поделилась Людмила Николаевна.\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art2/optimist-4.jpg\" class=\"justify-content-center\">\r\n            <p class=\"text-bold\">На фото: супруги Ивановы.</p>\r\n            <br>\r\n\r\n            Встреча прошла в теплой дружественной обстановке и закончилась просмотром кинофильма «Хитровка. Знак\r\n            четырёх».\r\n\r\n            В планах «ОПТИМИСТА» до конца 2023 года поездка на термальные источники Лагонаки, прогулка по Абрау,\r\n            Солнечный остров в Анапе, хутор Горный, Шато-пино, Старый парк, ромашковая поляна, цветущие лотосы и многое\r\n            другое.\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art2/optimist-5.jpg\" class=\"justify-content-center\">\r\n            <p class=\"text-center\">***До новых встреч в «ОПТИМИСТЕ»!</p>\r\n\r\n            <img src=\"../../../static/society_main/images/articles/art2/optimist-6.jpg\">\r\n\r\n            <p>\r\n                Автор: тест: Марина ДАРКИНА, фото предоставлено группой \"ОПТИМИСТ\"\r\n                10.09.2021 18:46\r\n            </p>\r\n            <div class=\"col-md-2\"></div>\r\n        </div>\r\n    </div>\r\n</div>",
+    "is_published": true,
+    "cat": 1,
+    "video": "",
+    "description": "Пришли на мероприятие 75 человек. \r\nВ «ОПТИМИСТЕ» люди с разными проблемами здоровья, в том числе и колясочники, но все они хотят общаться и жить полноценной жизнью: ездить на экскурсии, жарить шашлыки, любоваться природой, кататься на лодках, иметь единомышленников.\r\n Многие из них в обществе давно, но были на мероприятии несколько новых человек, которые только услышали про это общество и заинтересовались им.\r\n            Организовал общество «ОПТИМИСТ» в 2018 году Сергей Леонидович Мельников, который старался всегда заботиться о своих подопечных, стремился, чтобы общество «ОПТИМИСТ» было единой семьей. Он сам был тяжело болен, и тем не менее в его сердце находилось место для всех оптимистов. В феврале этого года Сергея Леонидовича не стало.",
     "tags": [
       1
     ]

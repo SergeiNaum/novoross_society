@@ -15,7 +15,6 @@ from decouple import config
 import logging.handlers
 
 
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -79,8 +78,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
-    # 'django_loguru.middleware.DjangoLoguruMiddleware',
+
 ]
+
 
 # for django_debug_toolbar
 INTERNAL_IPS = [
@@ -190,20 +190,19 @@ SITE_ID = 1
 
 # Email settings
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.yandex.ru'
-EMAIL_PORT = '465'
-EMAIL_USE_SSL = True
-EMAIL_USE_TLS = False
-EMAIL_HOST_USER = 'optimist-novo-allert@yandex.ru'
-EMAIL_HOST_PASSWORD = 'pjxuvlnjweqyzqjd'
-EMAIL_SERVER = EMAIL_HOST_USER
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-EMAIL_ADMIN = ['optimistnovoross2018@gmail.com']
+EMAIL_BACKEND = config('EMAIL_BACKEND')
+EMAIL_HOST = config('EMAIL_HOST')
+EMAIL_PORT = config('EMAIL_PORT', default=465, cast=int)
+EMAIL_USE_SSL = config('EMAIL_USE_SSL', default=True, cast=bool)
+EMAIL_USE_TLS = config('EMAIL_USE_TLS', default=False, cast=bool)
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+EMAIL_SERVER = config('EMAIL_SERVER')
+DEFAULT_FROM_EMAIL = config('DEFAULT_FROM_EMAIL')
+EMAIL_ADMIN = config('EMAIL_ADMIN', default='', cast=lambda v: [s.strip() for s in v.split(',')])
+raw_admins = config('ADMINS', default='', cast=str)
+ADMINS = [tuple(pair.split(':', 1)) for pair in raw_admins.split(',')] if raw_admins else []
 
-ADMINS = [
-    ('Sergey', 'optimistnovoross2018@gmail.com'),
-]
 
 # logging config
 
@@ -214,8 +213,14 @@ LOGGING = {
         'console': {
             'format': '%(name)-12s %(levelname)-8s %(message)s'
         },
+        # 'json_formatter': {
+        #     '()': 'pythonjsonlogger.jsonlogger.JsonFormatter',
+        #     'format': '%(asctime)s %(name)s %(levelname)s %(message)s',
+        # },
+
         'file': {
             'format': '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
+
         },
         'verbose': {
             'format': '%(asctime)s [%(levelname)s] %(name)s - %(message)s'
@@ -257,19 +262,18 @@ LOGGING = {
         },
         'django.request': {
             'level': 'WARNING',
-            'handlers': ['console', 'file', 'mail_admins', 'rotating_file'],
+            'handlers': ['file', 'mail_admins', 'rotating_file'],
             'propagate': True
         },
         'django.db.backends': {
             'level': 'WARNING',
-            'handlers': ['console', 'file', 'mail_admins', 'rotating_file'],
+            'handlers': ['file', 'mail_admins', 'rotating_file'],
             'propagate': True
         },
         'django.db.security': {
             'level': 'WARNING',
-            'handlers': ['console', 'file', 'mail_admins', 'rotating_file'],
+            'handlers': ['file', 'mail_admins', 'rotating_file'],
             'propagate': True
         }
     }
 }
-
