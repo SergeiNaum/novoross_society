@@ -2409,42 +2409,7 @@
     "codename": "view_tag"
   }
 },
-{
-  "model": "auth.permission",
-  "pk": 29,
-  "fields": {
-    "name": "Can add tagged item",
-    "content_type": 8,
-    "codename": "add_taggeditem"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 30,
-  "fields": {
-    "name": "Can change tagged item",
-    "content_type": 8,
-    "codename": "change_taggeditem"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 31,
-  "fields": {
-    "name": "Can delete tagged item",
-    "content_type": 8,
-    "codename": "delete_taggeditem"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 32,
-  "fields": {
-    "name": "Can view tagged item",
-    "content_type": 8,
-    "codename": "view_taggeditem"
-  }
-},
+
 {
   "model": "auth.permission",
   "pk": 33,
@@ -2871,22 +2836,7 @@
     "model": "session"
   }
 },
-{
-  "model": "contenttypes.contenttype",
-  "pk": 7,
-  "fields": {
-    "app_label": "taggit",
-    "model": "tag"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 8,
-  "fields": {
-    "app_label": "taggit",
-    "model": "taggeditem"
-  }
-},
+
 {
   "model": "contenttypes.contenttype",
   "pk": 9,

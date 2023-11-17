@@ -140,7 +140,17 @@ footer {
   .carousel {
     width: 100%;
   }
+
+  /* Новые стили изображений для масштабирования */
+  .carousel-item img {
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+  }
 }
+
+
 
 /* Подключаем шрифт Montserrat из папки fonts */
 @font-face {

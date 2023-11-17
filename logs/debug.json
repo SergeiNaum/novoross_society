@@ -2608,3 +2608,119 @@ redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connec
 2023-11-12 08:09:18,256 django.request WARNING  Not Found: /favicon.ico
 2023-11-12 08:09:17,622 [WARNING] django.request - Not Found: /favicon.ico
 2023-11-12 08:09:18,256 [WARNING] django.request - Not Found: /favicon.ico
+2023-11-17 08:38:05,632 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 264, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+           ^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 265, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 627, in _connect
+    raise err
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 615, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/utils/decorators.py", line 126, in _wrapper_view
+    result = middleware.process_request(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/middleware/cache.py", line 158, in process_request
+    cache_key = get_cache_key(request, self.key_prefix, "GET", cache=self.cache)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/utils/cache.py", line 391, in get_cache_key
+    headerlist = cache.get(cache_key)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/debug_toolbar/panels/cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/debug_toolbar/panels/cache.py", line 149, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/core/cache/backends/redis.py", line 187, in get
+    return self._cache.get(key, default)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/core/cache/backends/redis.py", line 99, in get
+    value = client.get(key)
+            ^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/commands/core.py", line 1829, in get
+    return self.execute_command("GET", name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/client.py", line 533, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 1086, in get_connection
+    connection.connect()
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 270, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+2023-11-17 08:38:05,632 [ERROR] django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 264, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+           ^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 265, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 627, in _connect
+    raise err
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 615, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/utils/decorators.py", line 126, in _wrapper_view
+    result = middleware.process_request(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/middleware/cache.py", line 158, in process_request
+    cache_key = get_cache_key(request, self.key_prefix, "GET", cache=self.cache)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/utils/cache.py", line 391, in get_cache_key
+    headerlist = cache.get(cache_key)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/debug_toolbar/panels/cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/debug_toolbar/panels/cache.py", line 149, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/core/cache/backends/redis.py", line 187, in get
+    return self._cache.get(key, default)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/django/core/cache/backends/redis.py", line 99, in get
+    value = client.get(key)
+            ^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/commands/core.py", line 1829, in get
+    return self.execute_command("GET", name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/client.py", line 533, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 1086, in get_connection
+    connection.connect()
+  File "/home/sergeynaum/work_projects/novoross_society/.venv/lib/python3.11/site-packages/redis/connection.py", line 270, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
