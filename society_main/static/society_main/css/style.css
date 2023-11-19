@@ -45,6 +45,7 @@ header {
 }
 
 .nav-link {
+
   transition: color 0.3s ease-in;
 }
 
@@ -67,7 +68,6 @@ header {
   font-weight: bold;
   word-spacing: 1px;
 
-
 }
 
 .nav-item.active .nav-link:hover {
@@ -75,6 +75,11 @@ header {
     transition: color 0.3s ease-out;
 }
 
+@media (max-width: 767px) {
+    .nav-item.active {
+    padding: 12px;
+    }
+}
 
 @keyframes gradient {
   0% {background-position: 0% 0%}

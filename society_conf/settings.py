@@ -213,10 +213,10 @@ LOGGING = {
         'console': {
             'format': '%(name)-12s %(levelname)-8s %(message)s'
         },
-        # 'json_formatter': {
-        #     '()': 'pythonjsonlogger.jsonlogger.JsonFormatter',
-        #     'format': '%(asctime)s %(name)s %(levelname)s %(message)s',
-        # },
+        'json_formatter': {
+            '()': 'pythonjsonlogger.jsonlogger.JsonFormatter',
+            'format': '%(asctime)s %(name)s %(levelname)s %(message)s',
+        },
 
         'file': {
             'format': '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
