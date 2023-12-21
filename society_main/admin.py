@@ -1,7 +1,7 @@
 from django.contrib import admin, messages
 from django.utils.html import mark_safe
 
-from .models import Post, Category, ContactFormModel
+from .models import Post, Category, ContactFormModel, TagPost
 
 
 @admin.register(Post)
@@ -28,9 +28,9 @@ class PostAdmin(admin.ModelAdmin):
         self.message_user(request, f"{count} записи(ей) сняты с публикации!", messages.WARNING)
 
     @admin.display(description="Изображение")
-    def post_photo(self, women: Post):
-        if women.photo:
-            return mark_safe(f"<img src='{women.photo.url}' width=50>")
+    def post_photo(self, post: Post):
+        if post.photo:
+            return mark_safe(f"<img src='{post.photo.url}' width=50>")
         return "Без фото"
 
 
@@ -42,6 +42,16 @@ class CategoryAdmin(admin.ModelAdmin):
     class Meta:
         verbose_name = 'Категория'
         verbose_name_plural = 'Категории'
+
+
+@admin.register(TagPost)
+class TagAdmin(admin.ModelAdmin):
+    list_display = ('id', 'tag')
+    list_display_links = ('id', 'tag')
+
+    class Meta:
+        verbose_name = 'Тег'
+        verbose_name_plural = 'Теги'
 
 
 @admin.register(ContactFormModel)

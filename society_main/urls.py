@@ -15,14 +15,14 @@ from society_main.views import (
     TemplateView,
 )
 urlpatterns = [
-    path('', cache_page(3000)(IndexView.as_view()), name='index'),
-    path('about/', cache_page(3000)(AboutView.as_view()), name='about'),
+    path('', cache_page(30000)(IndexView.as_view()), name='index'),
+    path('about/', cache_page(30000)(AboutView.as_view()), name='about'),
     path('contacts/', cache_page(6)(ContactsView.as_view()), name='contacts'),
-    path('news/', cache_page(350)(NewsView.as_view()), name='news'),
-    path('news/post/<slug:slug>/', cache_page(3000)(ShowPost.as_view()), name='post'),
+    path('news/', cache_page(1000)(NewsView.as_view()), name='news'),
+    path('news/post/<slug:slug>/', cache_page(30000)(ShowPost.as_view()), name='post'),
     path('category/<slug:cat_slug>/', cache_page(10)(NewsCatsView.as_view()), name='category'),
     path('tags/<slug:tag_slug>/', cache_page(10)(NewsTagsView.as_view()), name='tag'),
-    path('policy/', cache_page(3000)(PolicyView.as_view()), name='policy'),
+    path('policy/', cache_page(30000)(PolicyView.as_view()), name='policy'),
     re_path(
         r'^manifest\.json$', TemplateView.as_view(
             template_name='manifest.json', content_type='application/json')

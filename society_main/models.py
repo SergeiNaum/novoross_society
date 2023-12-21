@@ -104,6 +104,11 @@ class TagPost(models.Model):
     slug = models.SlugField(max_length=255, unique=True, db_index=True)
     icon = models.CharField(max_length=100)
 
+    class Meta:
+        verbose_name = " Теги"
+        verbose_name_plural = "Теги"
+
+
     def __str__(self):
         return self.tag
 

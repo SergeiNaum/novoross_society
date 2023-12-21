@@ -374,3 +374,10 @@ h5 {
     background-color: #ddd;
 }
 
+.custom-section {
+    background-color: inherit;
+}
+.custom-img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;

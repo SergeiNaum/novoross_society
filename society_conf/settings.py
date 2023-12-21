@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'captcha',
 
     'society_main.apps.SocietyMainConfig',
+    'file_storage.apps.FileStorageConfig'
 
 
 ]
@@ -128,12 +129,16 @@ DATABASES = {
 }
 
 # redis caches
-CACHES = {
-    "default": {
-        "BACKEND": "django.core.cache.backends.redis.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379",
-    }
-}
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+#         'LOCATION': os.path.join(BASE_DIR, 'novoross_society_cache'),
+#     }
+    # "default": {
+    #     "BACKEND": "django.core.cache.backends.redis.RedisCache",
+    #     "LOCATION": "redis://127.0.0.1:6379",
+    # }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -236,7 +241,7 @@ LOGGING = {
         'file': {
             'level': 'WARNING',
             'class': 'logging.FileHandler',
-            'formatter': 'file',
+            'formatter': 'json_formatter',
             'filename': 'logs/debug.json'
         },
         'mail_admins': {
@@ -249,7 +254,7 @@ LOGGING = {
             'filename': 'logs/debug.json',
             'maxBytes': 1024 * 1024 * 200,  # 10 Мб
             'backupCount': 5,  # Количество файлов ротации
-            'formatter': 'verbose',
+            'formatter': 'json_formatter',
             'level': 'DEBUG',
 
         },
