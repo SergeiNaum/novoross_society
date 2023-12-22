@@ -2,6 +2,7 @@ from django.shortcuts import get_object_or_404
 from django.http import HttpResponseNotFound
 from django.urls import reverse_lazy
 from django.views.generic import ListView, FormView, TemplateView, DetailView
+from django.utils import timezone
 
 
 from society_main.forms import ContactForm
@@ -12,11 +13,16 @@ from society_main.services.utils import get_client_ip
 
 class IndexView(TemplateView):
     template_name = 'society_main/index.html'
+    current_date = timezone.now().date()
+    show_announcement = False
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = 'Главная страница'
         context['active_page'] = 'index'
+        if self.current_date.month in [12, 1]:  # Показываем анонс только в декабре и январе
+            self.show_announcement = True
+        context['show_announcement'] = self.show_announcement
         return context
 
 

@@ -374,10 +374,9 @@ h5 {
     background-color: #ddd;
 }
 
-.custom-section {
-    background-color: inherit;
+.uppercase-text {
+    text-transform: uppercase;
+    font-variant: small-caps;
 }
-.custom-img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
+
+

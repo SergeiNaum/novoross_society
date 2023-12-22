@@ -29,7 +29,14 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1',
+                 'localhost',
+                 '45.80.70.90',
+                 'оптимист-новороссийск.рф',
+                 'www.оптимист-новороссийск.рф',
+                 'xn----dtbqacghklffbafxkhacee.xn--p1ai',
+                 'www.xn----dtbqacghklffbafxkhacee.xn--p1ai'
+                 ]
 
 
 # Application definition
