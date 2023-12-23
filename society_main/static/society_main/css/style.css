@@ -374,9 +374,21 @@ h5 {
     background-color: #ddd;
 }
 
+/* для формирования заглавных букв */
+
 .uppercase-text {
     text-transform: uppercase;
     font-variant: small-caps;
 }
 
+/* для формирования картинки годового отчёта */
 
+.image-report {
+  position: relative;
+}
+
+.image-report img {
+  max-width: 80%;
+  height: auto;
+  padding-left: 200px;
+}

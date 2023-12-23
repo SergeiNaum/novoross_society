@@ -1,5 +1,6 @@
 from django.db import models
 from django.urls import reverse
+from django_ckeditor_5.fields import CKEditor5Field
 
 
 class TimestampedModel(models.Model):
@@ -48,7 +49,8 @@ class Post(TimestampedModel):
     photo = models.ImageField(
         upload_to="photos/%Y/%m/%d/", default=None, blank=True, null=True, verbose_name="Фото"
     )
-    content = models.TextField(blank=True, verbose_name="Текст статьи")
+    content = CKEditor5Field(blank=True, verbose_name="Текст статьи", config_name='extends')
+        # models.TextField(blank=True, verbose_name="Текст статьи"))
     tags = models.ManyToManyField(
         'TagPost', blank=True, related_name='tags', verbose_name="Теги"
     )
